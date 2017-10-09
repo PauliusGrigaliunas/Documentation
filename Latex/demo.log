@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.9)  9 OCT 2017 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.7)  10 OCT 2017 00:05
 entering extended mode
 **./demo.tex
 (demo.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+(D:\Programs\MiKTeX\tex\latex\base\article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+(D:\Programs\MiKTeX\tex\latex\base\size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,35 +21,35 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(D:\Programs\MiKTeX\tex\latex\base\fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltfonts\l7xenc.def"
+(D:\Programs\MiKTeX\tex\latex\ltfonts\l7xenc.def
 File: l7xenc.def 2008/10/14 v1.96 LaTeX-LT file
 LaTeX Info: Redefining \selectfont on input line 30.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
+(D:\Programs\MiKTeX\tex\latex\cyrillic\t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 )
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+(D:\Programs\MiKTeX\tex\latex\cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(D:\Programs\MiKTeX\tex\latex\base\inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+(D:\Programs\MiKTeX\tex\latex\base\utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(D:\Programs\MiKTeX\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -290,7 +290,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(D:\Programs\MiKTeX\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -331,7 +331,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(D:\Programs\MiKTeX\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -347,7 +347,7 @@ Now handling font encoding U ...
 Now handling font encoding L7x ...
 ... processing UTF-8 mapping file for font encoding L7x
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\l7xenc.dfu"
+(D:\Programs\MiKTeX\tex\latex\base\l7xenc.dfu
 File: l7xenc.dfu 2006/09/21 v0.1b L7x support for inputenc
    defining Unicode char U+02C7 (decimal 711)
    defining Unicode char U+02D8 (decimal 728)
@@ -469,7 +469,7 @@ File: l7xenc.dfu 2006/09/21 v0.1b L7x support for inputenc
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
+(D:\Programs\MiKTeX\tex\latex\base\t2aenc.dfu
 File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
@@ -669,27 +669,27 @@ File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+(D:\Programs\MiKTeX\tex\generic\babel\babel.sty
 Package: babel 2017/05/19 3.10 The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+(D:\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\lithuanian.ldf"
+(D:\Programs\MiKTeX\tex\generic\babel\lithuanian.ldf
 Language: lithuanian 2006/09/20 v0.5 Lithuanian support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+(D:\Programs\MiKTeX\tex\generic\babel\babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 ))) (demo.aux
 LaTeX Font Info:    Try loading font information for L7x+lmr on input line 2.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\l7xlmr.fd"
+(D:\Programs\MiKTeX\tex\latex\lm\l7xlmr.fd
 File: l7xlmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 \openout1 = `demo.aux'.
@@ -720,24 +720,25 @@ LaTeX Warning: No \author given.
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (demo.aux) ) 
+{C:/Users/Karolis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2] (demo.aux) ) 
 Here is how much of TeX's memory you used:
- 1829 strings out of 493323
- 19418 string characters out of 3139060
+ 1833 strings out of 493323
+ 19101 string characters out of 3142965
  74965 words of memory out of 3000000
- 5395 multiletter control sequences out of 15000+200000
- 14903 words of font info for 25 fonts, out of 3000000 for 9000
+ 5397 multiletter control sequences out of 15000+200000
+ 16528 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,6n,23p,198b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Pa
-ulius\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk>{C:
-/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-l7x.enc}<C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.p
-fb>
-Output written on demo.pdf (1 page, 77839 bytes).
+ <C:\Users\Karolis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
+lh-t2a\dpi600\labx1728.pk> <C:\Users\Karolis\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\lh\lh-t2a\dpi600\larm1200.pk>{D:/Programs/MiKTeX/fonts/enc/dvips/lm/lm-l
+7x.enc}<D:/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/Programs/MiKTeX
+/fonts/type1/public/lm/lmr12.pfb><D:/Programs/MiKTeX/fonts/type1/public/lm/lmr1
+7.pfb>
+Output written on demo.pdf (2 pages, 82341 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
