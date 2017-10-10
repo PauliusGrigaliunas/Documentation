@@ -2,11 +2,13 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Įvadas}{3}
+\contentsline {section}{ANOTACIJA}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Medžiagos darbo tema dėstymo skyriai}{4}
+\contentsline {section}{Įvadas}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Poskyris}{4}
+\contentsline {section}{\numberline {1.}Medžiagos darbo tema dėstymo skyriai}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.}Poskyris}{5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.1.1.}Skirsnis}{5}
 \defcounter {refsection}{0}\relax 

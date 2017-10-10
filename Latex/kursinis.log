@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  10 OCT 2017 21:26
+This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  10 OCT 2017 22:06
  restricted system commands enabled.
 **kursinis.tex
 (./kursinis.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.650 seconds
+luaotfload | main : initialization completed in 0.622 seconds
 Babel <3.9t> and hyphenation patterns for 1 language(s) loaded.
 (./VUMIFPSkursinis.cls
 Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
@@ -1283,7 +1283,70 @@ Package grfext Info: Graphics extension search list:
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (./kursinis.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--91
+
+ []
+
+[2
+
+
+] (./kursinis.toc
 Language lithuanian already loaded; id is 4
 Language english already loaded; id is 8
 Language lithuanian already loaded; id is 4
@@ -1298,14 +1361,13 @@ Language lithuanian already loaded; id is 4)
 \tf@toc=\write5
 
 \openout5 = kursinis.toc
- [2
-
-
-] [3
+ [3
 
 ] [4
 
-] [5] [6
+] [5
+
+] [6
 
 ] [7
 
@@ -1328,7 +1390,7 @@ Language lithuanian already loaded; id is 4 [8
 <img/MLP.png, id=33, 481.8pt x 207.77625pt>
 File: img/MLP.png Graphic file (type png)
  <use img/MLP.png>
-Package luatex.def Info: img/MLP.png used on input line 129.
+Package luatex.def Info: img/MLP.png used on input line 162.
 (luatex.def)             Requested size: 240.8994pt x 103.88786pt.
  [10
 
@@ -1357,10 +1419,10 @@ Here is how much of LuaTeX's memory you used:
  677 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 95 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:654,3:148,4:37,5:283,6:3305,7:575,8:45,9:127,10:31,11:515
+   avail lists: 1:1,2:654,3:148,4:29,5:194,6:1967,7:373,8:45,9:132,10:19,11:308
  26974 multiletter control sequences out of 65536+200000
  99 fonts using 8170199 bytes
- 67i,12n,96p,904b,3913s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,904b,3913s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/program files/miktex 2.9/fonts/opentype/public/lm/lmmono12-regular.otf><c:/p
 rogram files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-italic.otf>
 <c:/program files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-bold.o
@@ -1368,7 +1430,7 @@ tf><c:/program files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-reg
 ular.otf><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on kursinis.pdf (11 pages, 94003 bytes).
+Output written on kursinis.pdf (11 pages, 92185 bytes).
 
 PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
