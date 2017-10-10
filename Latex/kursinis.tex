@@ -127,11 +127,13 @@ tekstas
 
 \section{Programų sistemos architektūra}
 %LOGINIS PJUVIS
-\subsection{Loginis pjūvis}
+\subsection{Struktūrinis programų sistemos modelis (angl. Logical view)}
 %KLASIU DIAGRAMA
 \subsubsection{Klasių diagrama}
 
-Žemiau pateikta
+Žemiau pateiktoje klasių diagromoje (1 pav.) yra išskirtos pagrindinės esybės, kurios yra naudojamos sistemoje. Klases siejantys ryšiai pasižymi kardinalumu, t.y. nustatytas konkretus ryšių skaičius, kuriuos turės klasės egzempliorius su kitomis klasės egzemplioriais.
+\newline
+\newline
 
 
 \begin{figure}[H]
@@ -140,8 +142,21 @@ tekstas
     \caption{Klasių diagrama}
     \label{img:Model}
 \end{figure}
+
+Pateiktoje diagramoje yra visos programos sistemos modelis. Programa galima suskirstyti i 3 dalis: programos paleidimas ir vartotojo prisijungimas/registracija prie aplikacijos, kaviniu registravimas bei registruotų kavinių sąrašas ir kavinių paieška bei rezervavimas. \\
+Klasių diagramoje nėra pavaizduoti klasių metodai ir kintamieji, nes jie bus parodomi ir aptariami tolimesnėse diagramose.
+\pagebreak
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/Program_LoginForm_Register_MainMenu} 
+    \caption{Klasių diagrama}
+    \label{img:Program_LoginForm_Register_MainMenu}
+\end{figure}
+
 %OBJEKTU DIAGRAMA
 \subsubsection{Objektų diagrama}
+
 
 \section{Medžiagos darbo tema dėstymo skyriai}
 Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
