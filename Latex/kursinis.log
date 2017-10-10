@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  10 OCT 2017 22:06
+This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  10 OCT 2017 22:13
  restricted system commands enabled.
 **kursinis.tex
 (./kursinis.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.622 seconds
+luaotfload | main : initialization completed in 0.611 seconds
 Babel <3.9t> and hyphenation patterns for 1 language(s) loaded.
 (./VUMIFPSkursinis.cls
 Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
@@ -1284,62 +1284,67 @@ Package grfext Info: Graphics extension search list:
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--91
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 
  []
 
@@ -1363,7 +1368,37 @@ Language lithuanian already loaded; id is 4)
 \openout5 = kursinis.toc
  [3
 
-] [4
+]
+Underfull \hbox (badness 10000) in paragraph at lines 101--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--127
+
+ []
+
+[4
 
 ] [5
 
@@ -1390,7 +1425,7 @@ Language lithuanian already loaded; id is 4 [8
 <img/MLP.png, id=33, 481.8pt x 207.77625pt>
 File: img/MLP.png Graphic file (type png)
  <use img/MLP.png>
-Package luatex.def Info: img/MLP.png used on input line 162.
+Package luatex.def Info: img/MLP.png used on input line 192.
 (luatex.def)             Requested size: 240.8994pt x 103.88786pt.
  [10
 
@@ -1430,7 +1465,7 @@ tf><c:/program files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-reg
 ular.otf><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on kursinis.pdf (11 pages, 92185 bytes).
+Output written on kursinis.pdf (11 pages, 92243 bytes).
 
 PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
