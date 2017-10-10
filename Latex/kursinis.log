@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  10 OCT 2017 22:13
+This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  10 OCT 2017 22:18
  restricted system commands enabled.
 **kursinis.tex
 (./kursinis.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.611 seconds
+luaotfload | main : initialization completed in 0.618 seconds
 Babel <3.9t> and hyphenation patterns for 1 language(s) loaded.
 (./VUMIFPSkursinis.cls
 Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
@@ -1406,6 +1406,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--127
 
 ] [7
 
+] [8
+
 ](load luc: C:/Users/KaSaras/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts
 /otl/lmmono12-regular.luc)
 Language english already loaded; id is 8
@@ -1417,19 +1419,19 @@ Language lithuanian already loaded; id is 4
 Language english already loaded; id is 8
 Language lithuanian already loaded; id is 4
 Language english already loaded; id is 8
-Language lithuanian already loaded; id is 4 [8
+Language lithuanian already loaded; id is 4 [9
 
-] [9
+] [10
 
 ]
-<img/MLP.png, id=33, 481.8pt x 207.77625pt>
+<img/MLP.png, id=36, 481.8pt x 207.77625pt>
 File: img/MLP.png Graphic file (type png)
  <use img/MLP.png>
-Package luatex.def Info: img/MLP.png used on input line 192.
+Package luatex.def Info: img/MLP.png used on input line 198.
 (luatex.def)             Requested size: 240.8994pt x 103.88786pt.
- [10
+ [11
 
-<./img/MLP.png>] [11
+<./img/MLP.png>] [12
 
 ] (./kursinis.aux
 Language lithuanian already loaded; id is 4
@@ -1454,7 +1456,7 @@ Here is how much of LuaTeX's memory you used:
  677 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 95 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:654,3:148,4:29,5:194,6:1967,7:373,8:45,9:132,10:19,11:308
+   avail lists: 1:1,2:654,3:148,4:33,5:194,6:1967,7:373,8:45,9:159,10:19,11:308
  26974 multiletter control sequences out of 65536+200000
  99 fonts using 8170199 bytes
  67i,11n,96p,904b,3913s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1465,9 +1467,9 @@ tf><c:/program files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-reg
 ular.otf><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on kursinis.pdf (11 pages, 92243 bytes).
+Output written on kursinis.pdf (12 pages, 93410 bytes).
 
-PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
