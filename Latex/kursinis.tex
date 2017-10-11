@@ -25,7 +25,7 @@
 \papertype{Programų sistemų inžinerijos I laboratorinis darbas Nr. 1}
 \title{Kavinės staliuko rezervavimo aplikacija}
 \titleineng{Cafe table rezervation app}
-\status{3 kurso 5 grupės studentai}
+\status{2 kurso 5 grupės studentai}
 \author{Paulius Grigaliūnas}
 \secondauthor{Karolis Staskevičius}
 \thirdauthor{Modestas Dulevičius}
@@ -83,7 +83,7 @@ modes paštas
 \newline
 Albert Jurkoit
 \newline
-alberto paštas
+albert.jurkoit@mif.stud.vu.lt
 \newline
 \newline
 \newline
@@ -99,29 +99,29 @@ sarunas.kazimieras.buteikis@gmail.com
 
 \sectionnonum{Įvadas}
 \noindent
-{\bfseries Programų sistemos pavadinimas}
-\newline
-tekstas
+{\bfseries "Book a Table" kavinės rezervavimo aplikacija}
 \newline
 \newline
 {\bfseries Dalykinė sritis}
 \newline
-tekstas
+Kavinės ir jų rezervacija
 \newline
 \newline
 {\bfseries Probleminė sritis}
 \newline
-tekstas
+ Lietuvoje staliuko rezervavimo galimybės yra mažai praplėstos
 \newline
 \newline
 {\bfseries Naudotojai}
 \newline
-tekstas
+Žmonės, norintys skaniai pavalgyt, bei iš anksto pasirūpint vietą restorane.
+\newline
+Kavynių savininkai, suteikiantys žmonėms galimybę rezervuoti staliuką jų restorane.
 \newline
 \newline
 {\bfseries Darbo pagrindas}
 \newline
-tekstas
+Dokumentas parengtas kaip programų sistemų inžinerios dalyko laboratorinis darbas Nr. 1, kuriame pateikiamas suprojektuotos sistemos aprašymas.
 \newline
 \newline
 
@@ -130,6 +130,8 @@ tekstas
 \subsection{Loginis pjūvis}
 %KLASIU DIAGRAMA
 \subsubsection{Klasių diagrama}
+
+
 
 Žemiau pateikta
 
@@ -142,6 +144,36 @@ tekstas
 \end{figure}
 %OBJEKTU DIAGRAMA
 \subsubsection{Objektų diagrama}
+
+\subsection{Dinaminis programų sistemos modelis (angl. Process view)}
+\subsubsection{Veiklos diagramos}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/rezerv} 
+    \caption{Kavinės rezervacijos veiklos diagrama}
+    \label{img:rezerv}
+\end{figure}
+% Vietoj x įrašyt real sk.
+x pav.   diagramoje nagrinėjami procesai, vykstantys tuo metu, kai vartotojas nori rezervuoti staliuką kavinėje. Rezervacija yra pasiekiama tik po prisijungimo arba užsiregistravimo sistemoje. Vartotojas pamato prisijungimo ir registracijos opcijas tik paleidęs aplikaciją. Būsimas sistemos narys privalo užpildyti registracijos formą, parinkti saugų slaptažodį, bei nurodyt egzistuojantį el. paštą. Užpildžius formą neteisingai, reikia pakeisti netinkamus laukus. Sėkmingai prisijungus prie sistemos, vartotojas gali peržiūrėti aplikacijoje užregistruotų kavinių sąrašą. Jeigu vartotojas randa jam patinkančią kavinę, jis užpildo rezervavimo formą. Jeigu formoje visi laukai yra nurodyti teisingai ir restorane yra laisvų staliukų - rezervacija yra sėkminga. Darbas yra baigiamas tuo metu, kai vartotojas sėkmingai užsirezervavo staliuką, arba nusprendė nutraukt rezervaciją.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/addcafe} 
+    \caption{Kavinės pridėjimo prie sistemos veiklos diagrama}
+    \label{img:addcafe}
+\end{figure}
+% Vietoj x įrašyt real sk.
+x pav.   diagramoje nagrinėjami procesai, vykstantys vartotojui į sistemą pridedant kavinę. Norint pridėt kavinę į kavinių sąrašą, vartotojui būtina prisijungti (o neturint prisijungimo - prisiregistruoti) prie sistemos. Prisijungus meniu spaudžiama ant "Add cafe" mygtuko ir užpildoma kavinės pridėjimo formą. Jeigu visi laukai pažymėti "*" (būtini) yra užpildyti - kavinė yra pridedama prie sąrašo. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/editcafe} 
+    \caption{Informacijos apie kavinę redagavimo veiklos diagrama}
+    \label{img:editcafe}
+\end{figure}
+% Vietoj x įrašyt real sk.
+x pav.   diagramoje nagrinėjami procesai, vykstantys vartotojui norint pakeist arba atnaujint informaciją apie kavinę. Norint redaguot kavinės informaciją, vartotojui būtina prisijungti prie sistemos. Vartotojas atidaro visų kavinių sąrašą ir pasirinkus savo kavinė ir paspaudus mygtuką "Show info" jis gauna informacija apie jo kavinę bei apačioje formą, kuria teisingai užpildžius ir paspaudus mygtuką "Change" galima atnaujint/pakeist egzistuojančią informaciją apie kavinę.
 
 \section{Medžiagos darbo tema dėstymo skyriai}
 Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
@@ -179,11 +211,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at mauris sit
 \subsection{Poskyris}
 
 \sectionnonum{Rezultatai ir išvados}
-Rezultatų ir išvadų dalyje turi būti aiškiai išdėstomi pagrindiniai darbo
-rezultatai (kažkas išanalizuota, kažkas sukurta, kažkas įdiegta) ir pateikiamos
-išvados (daromi nagrinėtų problemų sprendimo metodų palyginimai, teikiamos
-rekomendacijos, akcentuojamos naujovės).
-
+Šiame laboratoriniame darbe pasitelkiant skirtingus sistemos pjūvius aprašyta kavinių rezervavimo sistemos architektūra. Loginis pjūvis leido išskirti pagrindines esybes bei ryšius tarpjų. Kūrimo pjūvyje atlikta sistemos dekompozicija pradedant nuo bendro komponento toliaujį detalizuojant. Užduočių pjūvyje išsiaiškinti pagrindiniai agentų tikslai naudojantis sistema.Fiziniame pjūvyje apibrėžtas sistemos išdėstymas tinkle.  Galiausiai procesų pjūvyje išskirtiprocesai, jų komunikacija. Šis skirtingų požiūrių rinkinys leido iš ankstoaptikti sistemoje galimas klaidas bei sukurti tinkamą sistemos architektūrą.
 
 %% PAKEISTAS PAVADINIMAS Į 'Šaltiniai'
 \printbibliography[heading=bibintoc, title=Šaltiniai]  % Šaltinių sąraše nurodoma panaudota
