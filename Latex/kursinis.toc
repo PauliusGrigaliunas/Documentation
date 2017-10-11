@@ -12,31 +12,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.1.1.}Klasių diagrama}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.}Objektų diagrama}{6}
+\contentsline {subsection}{\numberline {1.2.}Dinaminis programų sistemos modelis (angl. Process view)}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.}Dinaminis programų sistemos modelis (angl. Process view)}{6}
+\contentsline {subsubsection}{\numberline {1.2.1.}Veiklos diagramos}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1.}Veiklos diagramos}{6}
+\contentsline {section}{\numberline {2.}Medžiagos darbo tema dėstymo skyriai}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Medžiagos darbo tema dėstymo skyriai}{9}
+\contentsline {subsection}{\numberline {2.1.}Poskyris}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Poskyris}{9}
+\contentsline {subsubsection}{\numberline {2.1.1.}Skirsnis}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.}Skirsnis}{9}
+\contentsline {paragraph}{\numberline {2.1.1.1.}Straipsnis}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {2.1.1.1.}Straipsnis}{9}
+\contentsline {subsubsection}{\numberline {2.1.2.}Skirsnis}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.}Skirsnis}{9}
+\contentsline {section}{\numberline {3.}Skyrius}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Skyrius}{10}
+\contentsline {subsection}{\numberline {3.1.}Poskyris}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Poskyris}{10}
+\contentsline {subsection}{\numberline {3.2.}Poskyris}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Poskyris}{10}
+\contentsline {section}{Rezultatai ir išvados}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{11}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{12}
+\contentsline {section}{Šaltiniai}{15}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -58,10 +56,10 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Santrumpos}{13}
+\contentsline {section}{Santrumpos}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{13}
+\contentsline {section}{\MakeUppercase {Priedai}}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{1 priedas.\nobreakspace {}Neuroninio tinklo struktūra}{14}
+\contentsline {subsection}{1 priedas.\nobreakspace {}Neuroninio tinklo struktūra}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{2 priedas.\nobreakspace {}Eksperimentinio palyginimo rezultatai}{15}
+\contentsline {subsection}{2 priedas.\nobreakspace {}Eksperimentinio palyginimo rezultatai}{18}
