@@ -245,6 +245,9 @@ x pav.   diagramoje nagrinėjami procesai, vykstantys vartotojui norint pakeist 
     \label{img:Model}
 \end{figure}
 
+
+
+
 Sistema susideda iš trijų pagrindinių dalių - Registracijos / Prisijungimo sitemos, kavinės pridėjimo sistemos bei kavinės staliuko rezervacijos sistemos. Visos kavinės programėlės pagrindas susideda iš trijų karkasų: Registracijos / Prisijungimo sistema, Kavinės pridėjimo sistema ir  Kavinės staliuko rezervacijos sistema.
 
 Registracijos / Prisijungimo sistema užtikina kiekvieno vartotojo (kliento ar kavinės vadovo) sklandų prisijungimą prie sistemos. Componentas Kantoleris užtikina sklandžią registraciją ir prisijungimą. Tai reiškia, kad kiekvieno prisiregistravusiojo duomenys būtų autentiški. Taip pat registracijoje yra galimybė užsiregistruoti kaip klientas arba kavinės savininkas.
@@ -269,7 +272,9 @@ Manifestacijos(angl. “Manifest”) ryšys - Nurodo, kad artefaktas negali egzi
 \end{figure}
 
 
+Sistema susideda iš dviejų pagrindinių mazgų Kavinės programėlės ir Azure SQL duomenų bazės. Kavinės programėlės visi duomenys yra saugomi serverinėje duomenų bazėje, taip ši programėlė išvengia papidomų duomenų failų, neeikvoja daug kompiuterio atminties ir paspartina procesų darbą. Programa pritaikyta veikti Windows platformoje. Vartotojui norint naudotis šia sistema, tereikia atsisiųsti Kavinės programėlę ir turėti prieigą prie Interneto. Taip kavinės programėlė pasiekia duomenis iš duomenų bazės, kurioje yra saugoma vartotojų prisijungimai, kavinės duominys, kavinių staliukų duomenys. Tuo pačiu metu naršyklė kreipiasi į Google serverius, siekiant gauti Google žemėlapius. Toks sprendimas pasirinktas todėl, kad neužimtų serverio vietos, bei dėl to, kad Google riboja prieigą prie savo žemėlapių serviso. 
 
+HTTP protokolas- Duomenų perdavimo protokolas, naudojamas visose naršyklėse komunikuojant su serveriu. API(angl. Application programming interface )- Interfeisas, pateikiamas trečiųjų šalių, leidžiantis naudotis išorinės programos servisais.
 
 
 
