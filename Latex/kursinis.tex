@@ -135,28 +135,70 @@ tekstas
 \newline
 \newline
 
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/Model} 
     \caption{Klasių diagrama}
     \label{img:Model}
 \end{figure}
-
-Pateiktoje diagramoje yra visos programos sistemos modelis. Programa galima suskirstyti i 3 dalis: programos paleidimas ir vartotojo prisijungimas/registracija prie aplikacijos, kaviniu registravimas bei registruotų kavinių sąrašas ir kavinių paieška bei rezervavimas. \\
+%1 PAV APRAŠYMAS
+Pateiktoje diagramoje yra visos programos sistemos modelis. Programa galima suskirstyti į 3 dalis: vartotojo prisijungimas/registracija prie aplikacijos, kavinių registravimas bei registruotų kavinių sąrašas ir kavinių paieška, rezervavimas ir kavinės informacijos modifikavimas. \\
 Šioje klasių diagramoje nėra pavaizduoti klasių metodai ir kintamieji, nes jie bus pavaizduoti tolimesnėse diagramose.
 \pagebreak
+%2 PAV APRAŠYMAS
 
+Paleidus programą (2 pav.) vartotojas gali prisijungti arba sukurti naują paskyrą. Mes nusprendemė, kad vartotojui, nuėjus į naujos paskyros langelį nedingtų pradinis langelis. Tokiu būdu vartotojui užsiregistravus bus galima iš karto prisijungti ir atsidurti mūsų programos pagrindiniame langelyje arba sukurti naują paskyrą, jeigu atsitiktų taip, jeigu jis būtų nepatenkintas esama paskyra. 
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/Program_LoginForm_Register_MainMenu} 
-    \caption{Klasių diagrama}
+    \caption{Programos paleidimo ir vartotojo prisijungimo ir registracijos  klasių diagrama}
     \label{img:Program_LoginForm_Register_MainMenu}
 \end{figure}
 
-%OBJEKTU DIAGRAMA
-\subsubsection{Objektų diagrama}
+Kuriant naują paskyrą, privaloma įvesti paštą ir slaptažodį. Bus patikrinama ar įvesti duomenys yra korektiški, taip pat bus patikrinama ar jau nėra tokios sukurtos paskyros su įvestais duomenimis.Prisijungimo metu tikrinama ar yra tokia sukurta paskyra.
 
+\pagebreak
+%3 PAV APRAŠMAS
+Žemiau pateiktoje klasių diagramoje (3 pav.) pavaizduotos klasės, susijusios su pagrindiniu programos langeliu. Šiame langelyje galima pridėti kavinę į kavinių sąrašą arba atsiverti kavinių sąrašą. Norint pridėti kavinę privaloma nurodyti kavinės pavadinimą, adresą, tvarkaraštį(nuo kada iki kada dirba darbo dienomis, savaitgaliais) ir vartotojo telefono numerį.
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/MainMenu_AddRestaurant_ListForm} 
+    \caption{kavinių registravimo ir registruotų kavinių sąrašo klasių diagrama}
+    \label{img:MainMenu_AddRestaurant_ListForm}
+\end{figure}
+
+Kavinės registravimo metu yra patikrinama ar kavinė, su tokia pačia informacija jau egzistuoja, kad nebūtų dubliuojamos kavinės.
+
+\pagebreak
+%4 PAV APRAŠYMAS
+4 pav. klasių diagramoje parodomas kavinių paieška ir kavinės rezervavimas. Mes nusprendėme leisti vartotojui ieškoti norimos kavinės pagal kavinės vardą arba pagal vartotojo esamą vietovę. Taip palengvinama kavinės paieška, jeigu vartotojas žino, jog yra šalia kavinės, bet nežino jos pavadinimo arba žino kavinės pavadinimą, bet nežino kur ji randasi. Jeigu vartotojas yra ir registruotos kavinės savininkas, jis  gali pakeisti jos vardą, adresą, staliukų skaičių, telefono numerį. Tokiu būdu pataisoma klaidinga registruotos kavinės informacija.
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/LoginForm_Address_Booking} 
+    \caption{kavinių paieškos ir kavininės rezervavimo klasių diagrama}
+    \label{img:LoginForm_Address_Booking}
+\end{figure}
 \section{Medžiagos darbo tema dėstymo skyriai}
 Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,

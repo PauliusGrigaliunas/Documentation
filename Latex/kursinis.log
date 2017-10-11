@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  11 OCT 2017 17:51
+This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  11 OCT 2017 21:13
  restricted system commands enabled.
 **kursinis.tex
 (./kursinis.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.672 seconds
+luaotfload | main : initialization completed in 0.616 seconds
 Babel <3.9t> and hyphenation patterns for 1 language(s) loaded.
 (./VUMIFPSkursinis.cls
 Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
@@ -1413,7 +1413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--137
 <img/Model.jpg, id=16, 1869.98625pt x 1034.86626pt>
 File: img/Model.jpg Graphic file (type jpg)
  <use img/Model.jpg>
-Package luatex.def Info: img/Model.jpg used on input line 141.
+Package luatex.def Info: img/Model.jpg used on input line 140.
 (luatex.def)             Requested size: 469.46423pt x 259.80548pt.
 
 [5
@@ -1424,13 +1424,128 @@ Package luatex.def Info: img/Model.jpg used on input line 141.
 File: img/Program_LoginForm_Register_MainMenu.jpg Graphic file (type jpg)
  <use img/Program_LoginForm_Register_MainMenu.jpg>
 Package luatex.def Info: img/Program_LoginForm_Register_MainMenu.jpg used on inp
-ut line 152.
+ut line 159.
 (luatex.def)             Requested size: 469.47589pt x 255.3439pt.
- [6<./img/Program_LoginForm_Register_MainMenu.jpg>] [7
 
-] [8
+Underfull \hbox (badness 10000) in paragraph at lines 150--162
 
-] [9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--162
+
+ []
+
+[6<./img/Program_LoginForm_Register_MainMenu.jpg>]
+<img/MainMenu_AddRestaurant_ListForm.jpg, id=24, 939.51pt x 536.0025pt>
+File: img/MainMenu_AddRestaurant_ListForm.jpg Graphic file (type jpg)
+
+<use img/MainMenu_AddRestaurant_ListForm.jpg>
+Package luatex.def Info: img/MainMenu_AddRestaurant_ListForm.jpg used on input l
+ine 177.
+(luatex.def)             Requested size: 469.46713pt x 267.837pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--180
+
+ []
+
+[7<./img/MainMenu_AddRestaurant_ListForm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--195
+
+ []
+
+<img/LoginForm_Address_Booking.jpg, id=28, 1112.155pt x 700.6175pt>
+File: img/LoginForm_Address_Booking.jpg Graphic file (type jpg)
+
+<use img/LoginForm_Address_Booking.jpg>
+Package luatex.def Info: img/LoginForm_Address_Booking.jpg used on input line 19
+8.
+(luatex.def)             Requested size: 469.47774pt x 295.75401pt.
+ [8<./img/LoginForm_Address_Booking.jpg>] [9
+
+] [10
+
+] [11
 
 ](load luc: C:/Users/KaSaras/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts
 /otl/lmmono12-regular.luc)
@@ -1443,19 +1558,19 @@ Language lithuanian already loaded; id is 4
 Language english already loaded; id is 8
 Language lithuanian already loaded; id is 4
 Language english already loaded; id is 8
-Language lithuanian already loaded; id is 4 [10
+Language lithuanian already loaded; id is 4 [12
 
-] [11
+] [13
 
 ]
-<img/MLP.png, id=42, 481.8pt x 207.77625pt>
+<img/MLP.png, id=50, 481.8pt x 207.77625pt>
 File: img/MLP.png Graphic file (type png)
  <use img/MLP.png>
-Package luatex.def Info: img/MLP.png used on input line 225.
+Package luatex.def Info: img/MLP.png used on input line 267.
 (luatex.def)             Requested size: 240.8994pt x 103.88786pt.
- [12
+ [14
 
-<./img/MLP.png>] [13
+<./img/MLP.png>] [15
 
 ] (./kursinis.aux
 Language lithuanian already loaded; id is 4
@@ -1475,13 +1590,13 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23651 strings out of 494483
+ 23685 strings out of 494483
  125171,1144653 words of node,token memory allocated
- 682 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 96 glue_spec, 7 attrib
+ 677 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 95 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:654,3:148,4:52,5:194,6:1967,7:373,8:45,9:159,10:35,11:308
- 26984 multiletter control sequences out of 65536+200000
+   avail lists: 1:1,2:654,3:148,4:61,5:194,6:1967,7:373,8:45,9:152,10:40,11:308
+ 26994 multiletter control sequences out of 65536+200000
  99 fonts using 8170199 bytes
  67i,11n,96p,904b,3913s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/program files/miktex 2.9/fonts/opentype/public/lm/lmmono12-regular.otf><c:/p
@@ -1491,9 +1606,9 @@ tf><c:/program files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-reg
 ular.otf><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on kursinis.pdf (13 pages, 513821 bytes).
+Output written on kursinis.pdf (15 pages, 960809 bytes).
 
-PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
