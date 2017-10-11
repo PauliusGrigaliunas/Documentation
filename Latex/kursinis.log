@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.10.10)  11 OCT 2017 20:14
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.10.10)  11 OCT 2017 21:49
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1388,20 +1388,20 @@ File: img/editcafe.png Graphic file (type QTm)
  <use  "img/editcafe.png" > [7]
 File: img/Deployment_diagram1.jpg Graphic file (type QTm)
 
-<use  "img/Deployment_diagram1.jpg" > [8]
+<use  "img/Deployment_diagram1.jpg" > [8] [9]
 File: img/Deployment_diagram2.jpg Graphic file (type QTm)
 
-<use  "img/Deployment_diagram2.jpg" > [9] [10
-
-] [11
+<use  "img/Deployment_diagram2.jpg" > [10] [11
 
 ] [12
 
+] [13
+
 ]
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1412,7 +1412,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1423,7 +1423,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1434,7 +1434,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1445,7 +1445,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1456,7 +1456,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1467,7 +1467,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1478,7 +1478,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.242 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.264 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1486,15 +1486,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[13
+[14
 
-] [14
+] [15
 
 ]
 File: img/MLP.png Graphic file (type QTm)
- <use  "img/MLP.png" > [15
+ <use  "img/MLP.png" > [16
 
-] [16
+] [17
 
 ] (kursinis.aux)
 
@@ -1507,10 +1507,10 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 Here is how much of TeX's memory you used:
  23525 strings out of 427834
  453998 string characters out of 3152469
- 945629 words of memory out of 3000000
+ 945630 words of memory out of 3000000
  27220 multiletter control sequences out of 15000+200000
  544783 words of font info for 97 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,12n,96p,10499b,7346s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (16 pages).
+Output written on kursinis.pdf (17 pages).

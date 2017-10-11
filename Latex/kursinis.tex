@@ -183,6 +183,9 @@ x pav.   diagramoje nagrinėjami procesai, vykstantys vartotojui norint pakeist 
 \subsection{Programų sistemos išskirstymas tinkle(angl. Deployment view)}
 \subsubsection{Komponentų ryšių su artefaktais diagrama}
 
+Žemiau pateiktoje komponentų ryšių su artefaktais diagramoje yra išskirti pagrindiniai sistemos artefaktai. Artefaktus (angl. “artifact”) ir komponentus (angl. “component”) tarpusavyje sieja manifestacijos (angl. “Manifest”) ryšys. Tai reiškia, kad artefakto sudaromoji dalis yra konkretus komponentas.
+
+
 %Komponentų ryšių su artefaktais diagrama
 \begin{figure}[H]
     \centering
@@ -190,6 +193,25 @@ x pav.   diagramoje nagrinėjami procesai, vykstantys vartotojui norint pakeist 
     \caption{Komponentų ryšių su artefaktais diagrama}
     \label{img:Model}
 \end{figure}
+
+Sistema susideda iš trijų pagrindinių dalių - Registracijos / Prisijungimo sitemos, kavinės pridėjimo sistemos bei kavinės staliuko rezervacijos sistemos. Visos kavinės programėlės pagrindas susideda iš trijų karkasų: Registracijos / Prisijungimo sistema, Kavinės pridėjimo sistema ir  Kavinės staliuko rezervacijos sistema.
+
+
+Registracijos / Prisijungimo sistema užtikina kiekvieno vartotojo (kliento ar kavinės vadovo) sklandų prisijungimą prie sistemos. Componentas Kantoleris užtikina, kad kiekvieno prisiregistravusiojo duomenys būtų autentiški. Taip pat registracijoje yra galimybė užsiregistruoti kaip klientas arba kavinės savininkas.
+
+Kavinės pridėjimo Sistema - aktuali programėlės vartotojams prisiregistravusiems kaip kavinės savininkas. Ši Sistema užtikina turimų duomenų apie užregistruotas kavinies saugumą. 
+
+Klientams yra prienama Kavinės staliuko rezervacijos sistema. Šis karkasas yra nesudėtingas, gali būti laisvai naudojamas, skirtas užtikinti klientų konfortą ir garantuotų rezervacijos stabilumą. Jį sudaro trys pagrindiniai komponentai - kontroleris, Informacija apie kavinę, staliuko rezervacija. Staliuko rezervacija yra esminis komponentas šioje sistemoje. Jis leidžia klientui užsirezervuoti norimą staliuką, pasirinktu laiku. Kontroleris užtikina, kad nebūtų suteikiama užsisakyti staliuko tuo pačiu metu kelis kartus skirtingiems klientams. Detalią informaciją apie kavinių sąrašą, jų buvimo vietą, contaktus bei detalesnę informaciją pateikia komponentas pavadinimu - "Informacija apie kavinę".
+ 
+ Naudojantis “Symfony” teikiamomis bibliotekomis ir interfeisais, buvo sukurta pati knygų dalinimosi sistema. Ją sudaro keturi pagrindiniai komponentai - kontroleriai, vartotojo autentifikavimo modulis, prašymų modulis bei knygų peržiūros ir modifikavimo modulis. Kad galėtumėme išsaugoti prašymus dėl knygų atidavimoarbapaieškos,pasirinktaMySQLduomenųbazė.
+ 
+ 
+ 
+Artefaktas - Failas arba failų rinkinys,atsakingas už kurią nors sistemos veikimo dalį. 
+Manifestacijos(angl. “Manifest”)ryšys- Nurodo,kad artefaktas negali egzistuoti be komponento, su kuriuo jis yra susietas šiuo ryšiu.
+
+
+\subsubsection{Mazgų diagrama}
 
 %Mazgų diagrama
 \begin{figure}[H]
