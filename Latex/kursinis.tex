@@ -77,7 +77,7 @@ karolio paštas
 \newline
 Modestas Dulevičius
 \newline
-modes paštas
+modux9@gmail.com
 \newline
 \newline
 \newline
@@ -200,6 +200,70 @@ Kavinės registravimo metu yra patikrinama ar yra kavinė su tokia pačia inform
     \caption{kavinių paieškos ir kavininės rezervavimo klasių diagrama}
     \label{img:LoginForm_Address_Booking}
 \end{figure}
+
+%Modes use-cases
+\subsection{Užduotys ir jų vykdymo scenarijai (angl. Use-cases)}
+\subsubsection{Sistemos vykdomos užduotys}
+
+%first figure text
+Sistema besinaudojantis vartotojas gali atlikti žemiau pateiktas užduotis. Nusprendėme užduotis išskirstyti į „Paprasto vartotojo“ ir „Restorano savininko“, nes šie agentai turi galimybę atlikti skirtingas užduotis. Restorano savininkas taip pat yra paprastas vartotojas, tačiau savininko statusas leidžia jam tvarkyti tik savo pridėtus restoranus (pvz.: pakeisti restorano informaciją). Paprastas vartotojas taip pat gali tapti restorano savininku, jei prideda savo restoraną. Tai atsispindi žemiau pateiktoje sistemos užduočių diagramoje.
+
+%first picture SystemTasks
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/SystemTasks}
+	\caption{Sistemos užduočių diagrama}
+	\label{img:SystemTasks}
+\end{figure}
+
+%second section
+\subsubsection{Užduoties „Prisiregistruoti prie sistemos“ vykdymas}
+Užduoties „Prisiregistruoti prie sistemos“ sekų diagrama. Vartotojas, naudodamasis GUI, paspaudžia mygtuką „Registruotis“ ir juo iškviečia registracijos formą, kurioje užpildo reikalingus laukus. Duomenys siunčiami kontroleriui, kuris patikrina ar jie tvarkingi (pvz.: ar egzistuoja toks elektroninio pašto adresas), ir iš kontrolerio siunčiama komanda sukurti duomenų bazėje naują įrašą apie vartotoją.
+
+%second figure
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/Register}
+	\caption{Užduoties „Prisiregistruoti prie sistemos" sekų diagrama}
+	\label{img:RegisterTask}
+\end{figure}
+
+%third section
+\subsubsection{Užduoties „Pridėti naują restoraną“ vykdymas}
+Žemiau pateiktoje sekų diagramoje pavaizduotas užduoties „Pridėti naują restoraną“ vykdymas. Vartotojas spaudžia mygtuką „Add a Cafe“ taip iškviesdamas GUI formą, kurią užpildo. Tada paspaudžia mygtuką „Add“ ir duomenys yra validuojami kontroleryje. Jeigu jie neatitinka nustatytų reikalavimų (pvz.: trūksta būtinų užpildyti laukų), vartotojui pranešama ir prašoma pataisyti duomenis. Priešingu atveju, siunčiama užklausa į duomenų bazę, kuri sukuria  naują įrašą, apie pridėtą restoraną, o vartotojas automatiškai tampa restorano savininku.
+
+%third picture
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/AddRestaurant}
+	\caption{Užduoties „Pridėti naują restoraną" sekų diagrama}
+	\label{img:AddRestaurant}
+\end{figure}
+
+%next section
+\subsubsection{Užduoties „Ieškoti restoranų“ vykdymas}
+Užduoties „Ieškoti restoranų“ sekų diagrama. Vartotojas paspaudžia mygtuką „Search Cafes“ ir iškviečia naują duomenų formą, kurioje užpildo paieškos kriterijus. Yra numatyti trys kriterijai: pagal esamą vietą, pagal miestą/adresą ir pagal restorano pavadinimą. Duomenys siunčiami kontroleriui, kuris patikrina pateiktus kriterijus, jeigu reikia, nustato esamą vietą, paprašydamas įjungti įrenginio lokaciją. Jeigu viskas yra gerai, siunčiama paieškos užklausa į duomenų bazę ir ji, naudodamasi GUI, pateikia restoranus pagal pasirinktus paieškos laukus. Tai atsispindi žemiau pavaizduotoje sekų diagramoje.
+
+%fourth picture
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/SearchCafes}
+	\caption{Užduoties „Ieškoti restoranų" sekų diagrama}
+	\label{img:SearchCafes}
+\end{figure}
+
+%last section
+\subsubsection{Užduoties „Pakeisti restorano informaciją“ vykdymo scenarijus}
+Žemiau pavaizduota užduoties „Pakeisti restorano informaciją“ sekų diagrama. Restorano savininkas paspaudžia mygtuką „Search Cafes“ ir juo GUI kreipiasi į duomenų bazę, kuri pateikia visus užregistruotus restoranus. Vykdydamas užduotį „Ieškoti restoranų“ savininkas susiranda savo restoraną, jį pažymėdamas kairiuoju pelės klavišu. Tada paspaudžia mygtuką „Show Info“ ir GUI iškviečia naują formą, kuri kreipiasi į duomenų bazę pagal restorano „ID“ ir parodo informaciją apie restoraną. Joje yra tušti laukai, kuriuos užpildydamas vartotojas gali pakeisti tam tikrą restorano informaciją. Mygtuku „Change“ vartotojas kreipiasi į kontrolerį, kuris siunčia užklausą į duomenų bazę, patikriną, ar būtent šis vartotojas sukūrė įrašą apie restoraną, ir jeigu tai tiesa, vėl kreipiamasi į duomenų bazę - atnaujinti pakeistus duomenis. Jeigu vartotojas neturi teisės keisti informacijai, jam apie tai pranešama.
+
+%last picture
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ChangeInfo}
+	\caption{Užduoties „Pakeisti restorano informaciją" sekų diagrama}
+	\label{img:ChangeInfo}
+\end{figure}
+%Baigias Modes failai
 
 \subsection{Dinaminis programų sistemos modelis (angl. Process view)}
 \subsubsection{Veiklos diagramos}
