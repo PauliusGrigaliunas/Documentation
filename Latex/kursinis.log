@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.10.10)  11 OCT 2017 22:53
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.10.10)  11 OCT 2017 23:01
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1516,7 +1516,7 @@ File: img/Deployment_diagram2.jpg Graphic file (type QTm)
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1527,7 +1527,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1538,7 +1538,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1549,7 +1549,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1560,7 +1560,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1571,7 +1571,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1582,7 +1582,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1593,7 +1593,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \LaTeX3 error: 
                            Erroneous variable \c__fontspec_shape_n_it_tl used!
-l.314 ...raphy[heading=bibintoc, title=Šaltiniai]
+l.315 ...raphy[heading=bibintoc, title=Šaltiniai]
                                                     % Šaltinių sąraše nu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
