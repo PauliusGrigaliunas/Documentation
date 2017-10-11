@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  11 OCT 2017 17:44
+This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  11 OCT 2017 17:51
  restricted system commands enabled.
 **kursinis.tex
 (./kursinis.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.720 seconds
+luaotfload | main : initialization completed in 0.672 seconds
 Babel <3.9t> and hyphenation patterns for 1 language(s) loaded.
 (./VUMIFPSkursinis.cls
 Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
@@ -1469,22 +1469,19 @@ Language english already loaded; id is 8
 Language lithuanian already loaded; id is 4
 Language english already loaded; id is 8
 Language lithuanian already loaded; id is 4)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
 \openout1 = kursinis.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 23652 strings out of 494483
+ 23651 strings out of 494483
  125171,1144653 words of node,token memory allocated
  682 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 96 glue_spec, 7 attrib
 ute_list, 1 write nodes
    avail lists: 1:1,2:654,3:148,4:52,5:194,6:1967,7:373,8:45,9:159,10:35,11:308
- 26985 multiletter control sequences out of 65536+200000
+ 26984 multiletter control sequences out of 65536+200000
  99 fonts using 8170199 bytes
  67i,11n,96p,904b,3913s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/program files/miktex 2.9/fonts/opentype/public/lm/lmmono12-regular.otf><c:/p
@@ -1494,7 +1491,7 @@ tf><c:/program files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-reg
 ular.otf><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on kursinis.pdf (13 pages, 513830 bytes).
+Output written on kursinis.pdf (13 pages, 513821 bytes).
 
 PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
