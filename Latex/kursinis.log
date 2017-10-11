@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.10.10)  12 OCT 2017 00:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.10.10)  12 OCT 2017 02:17
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1521,7 +1521,7 @@ File: img/Deployment_diagram2.jpg Graphic file (type QTm)
  <use  "img/Deployment_diagram2.jpg" > [18] [19] [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 351--359
+Underfull \hbox (badness 10000) in paragraph at lines 354--362
 
  []
 
@@ -1538,7 +1538,7 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 Here is how much of TeX's memory you used:
  23336 strings out of 427834
  450247 string characters out of 3152469
- 946319 words of memory out of 3000000
+ 947319 words of memory out of 3000000
  27033 multiletter control sequences out of 15000+200000
  543198 words of font info for 88 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
