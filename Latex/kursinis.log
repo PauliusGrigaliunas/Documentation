@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  11 OCT 2017 21:15
+This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6300 64-bit)  (format=lualatex 2017.10.9)  11 OCT 2017 21:34
  restricted system commands enabled.
 **kursinis.tex
 (./kursinis.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.599 seconds
+luaotfload | main : initialization completed in 0.612 seconds
 Babel <3.9t> and hyphenation patterns for 1 language(s) loaded.
 (./VUMIFPSkursinis.cls
 Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
@@ -1424,35 +1424,41 @@ Package luatex.def Info: img/Model.jpg used on input line 142.
 File: img/Program_LoginForm_Register_MainMenu.jpg Graphic file (type jpg)
  <use img/Program_LoginForm_Register_MainMenu.jpg>
 Package luatex.def Info: img/Program_LoginForm_Register_MainMenu.jpg used on inp
-ut line 161.
+ut line 160.
 (luatex.def)             Requested size: 469.47589pt x 255.3439pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--164
+Underfull \hbox (badness 1286) in paragraph at lines 151--163
+\TU/texgyretermes(0)/m/n/12 bū-du var-to-to-jui už-si-re-gist-ra-vus bus ga-l
+i-ma iš kar-to pri-si-jung-ti ir at-si-dur-ti mū-sų prog-ra-mos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--164
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--164
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--164
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--164
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--164
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
  []
 
@@ -1462,75 +1468,75 @@ File: img/MainMenu_AddRestaurant_ListForm.jpg Graphic file (type jpg)
 
 <use img/MainMenu_AddRestaurant_ListForm.jpg>
 Package luatex.def Info: img/MainMenu_AddRestaurant_ListForm.jpg used on input l
-ine 179.
+ine 178.
 (luatex.def)             Requested size: 469.46713pt x 267.837pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--182
+Underfull \hbox (badness 10000) in paragraph at lines 169--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--182
+Underfull \hbox (badness 10000) in paragraph at lines 169--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--182
+Underfull \hbox (badness 10000) in paragraph at lines 169--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--182
+Underfull \hbox (badness 10000) in paragraph at lines 169--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--182
+Underfull \hbox (badness 10000) in paragraph at lines 169--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--182
+Underfull \hbox (badness 10000) in paragraph at lines 169--181
 
  []
 
 [7<./img/MainMenu_AddRestaurant_ListForm.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
@@ -1538,28 +1544,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--197
 File: img/LoginForm_Address_Booking.jpg Graphic file (type jpg)
 
 <use img/LoginForm_Address_Booking.jpg>
-Package luatex.def Info: img/LoginForm_Address_Booking.jpg used on input line 20
-0.
+Package luatex.def Info: img/LoginForm_Address_Booking.jpg used on input line 19
+9.
 (luatex.def)             Requested size: 469.47774pt x 295.75401pt.
 
 <img/rezerv.png, id=29, 707.64375pt x 639.13782pt>
 File: img/rezerv.png Graphic file (type png)
  <use img/rezerv.png>
-Package luatex.def Info: img/rezerv.png used on input line 209.
+Package luatex.def Info: img/rezerv.png used on input line 208.
 (luatex.def)             Requested size: 469.47581pt x 424.02657pt.
 
 [8<./img/LoginForm_Address_Booking.jpg>]
 <img/addcafe.png, id=33, 533.74406pt x 427.5975pt>
 File: img/addcafe.png Graphic file (type png)
  <use img/addcafe.png>
-Package luatex.def Info: img/addcafe.png used on input line 219.
+Package luatex.def Info: img/addcafe.png used on input line 218.
 (luatex.def)             Requested size: 469.48447pt x 376.11732pt.
 
 [9<./img/rezerv.png>] <img/editcafe.png, id=38, 761.09344pt x 434.37282pt>
 File: img/editcafe.png Graphic file (type png)
 
 <use img/editcafe.png>
-Package luatex.def Info: img/editcafe.png used on input line 228.
+Package luatex.def Info: img/editcafe.png used on input line 227.
 (luatex.def)             Requested size: 469.48071pt x 267.943pt.
  [10<./img/addcafe.png>] [11<./img/editcafe.png>]
 [12
@@ -1587,7 +1593,7 @@ Language lithuanian already loaded; id is 4 [15
 <img/MLP.png, id=65, 481.8pt x 207.77625pt>
 File: img/MLP.png Graphic file (type png)
  <use img/MLP.png>
-Package luatex.def Info: img/MLP.png used on input line 296.
+Package luatex.def Info: img/MLP.png used on input line 295.
 (luatex.def)             Requested size: 240.8994pt x 103.88786pt.
  [17
 
@@ -1605,22 +1611,19 @@ Language english already loaded; id is 8
 Language lithuanian already loaded; id is 4
 Language english already loaded; id is 8
 Language lithuanian already loaded; id is 4)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
 \openout1 = kursinis.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 23719 strings out of 494483
+ 23718 strings out of 494483
  125171,1144653 words of node,token memory allocated
  682 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 96 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:654,3:148,4:61,5:194,6:1968,7:373,8:45,9:173,10:40,11:308
- 27010 multiletter control sequences out of 65536+200000
+   avail lists: 1:1,2:654,3:148,4:64,5:194,6:1968,7:373,8:45,9:166,10:40,11:308
+ 27009 multiletter control sequences out of 65536+200000
  99 fonts using 8170199 bytes
  67i,12n,96p,952b,3913s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/program files/miktex 2.9/fonts/opentype/public/lm/lmmono12-regular.otf><c:/p
@@ -1630,7 +1633,7 @@ tf><c:/program files/miktex 2.9/fonts/opentype/public/tex-gyre/texgyretermes-reg
 ular.otf><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on kursinis.pdf (18 pages, 1064092 bytes).
+Output written on kursinis.pdf (18 pages, 1063949 bytes).
 
 PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
