@@ -34,6 +34,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.2.}Mazgų diagrama}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{20}
+\contentsline {subsection}{\numberline {1.5.}Programų sistemos kūrimo pjūvis (angl. Developement view)}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Terminų žodynas}{21}
+\contentsline {subsubsection}{\numberline {1.5.1.}Konteksto diagrama}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.5.2.}Subsistemų dekompozicija}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {1.5.2.1.}Vartotojo aplikacija (angl. Customer Application)}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {1.5.2.2.}Kavinės valdymas (angl. Cafe Management)}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {1.5.2.3.}Duomenų bazė (angl. Databases)}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Rezultatai ir išvados}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Terminų žodynas}{24}
