@@ -24,7 +24,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.5.}Užduoties „Pakeisti restorano informaciją“ vykdymo scenarijus}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.}Dinaminis programų sistemos modelis (angl. Process view)}{14}
+\contentsline {subsection}{\numberline {1.3.}Dinaminis programų sistemos modelis (angl. Process view)}{13}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.3.1.}Veiklos diagramos}{14}
 \defcounter {refsection}{0}\relax 
@@ -34,6 +34,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.2.}Mazgų diagrama}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{19}
+\contentsline {subsection}{\numberline {1.5.}Programų sistemos kūrimo pjūvis (angl. Developement view)}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Terminų žodynas}{20}
+\contentsline {subsubsection}{\numberline {1.5.1.}Konteksto diagrama}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.5.2.}Subsistemų dekompozicija}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {1.5.2.1.}Vartotojo aplikacija (angl. Customer Application)}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {1.5.2.2.}Kavinės valdymas (angl. Cafe Management)}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {1.5.2.3.}Duomenų bazė (angl. Databases)}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Rezultatai}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Išvados}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Terminų žodynas}{25}
