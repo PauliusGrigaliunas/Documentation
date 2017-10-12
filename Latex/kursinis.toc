@@ -34,6 +34,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.2.}Mazgų diagrama}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{20}
+\contentsline {section}{Rezultatai ir išvados}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Terminų žodynas}{21}
+\contentsline {section}{Terminų žodynas}{20}
