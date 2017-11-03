@@ -40,7 +40,6 @@
 
 % Nustatymai
 % \setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
-\bibliography{bibliografija}
 
 \begin{document}
 	
@@ -347,7 +346,7 @@ Sistema susideda iš dviejų pagrindinių mazgų Kavinės programėlės ir "Azur
 
 
 %KAROLIS KURIMO PJUVIS START
-\subsection {Programų sistemos kūrimo pjūvis (angl. Developement view)}
+\subsection{Programų sistemos kūrimo pjūvis (angl. Developement view)}
 Kūrimo pjūvis išdėstytas “top-down” būdu, t.y. nuo bendresnių
 diagramų pereinant iki detalesnių.
 
@@ -359,15 +358,15 @@ diagramų pereinant iki detalesnių.
 	\label{fig:Context}
 \end{figure}
 
-\ref {fig:Context} pav. diagramoje parodomas aukščiausias komponentų struktūros lygis. Klientas (angl. Customer) naudoja Kliento Vartotojo Sąsaja (angl. CustomerUI) kurią gauna iš staliukų paieškos ir rezervacijos sistemos (angl. Table Search and Reservation system) kuri pati naudoja Google Maps API, padedanti atfiltruoti netoliese esančias kavines. \\
-Kavinės sąvininkas/vadovas/darbuotojas (diagramoje angl. Cafe Manager) naudoja Vadovo Vartotojo Sąsają (angl. ManagerUI) kurią gauna iš kavinės planavimo ir lokalios rezervacijos sistemos (angl. Cafe Planning and Local Reservation system).\\
-Tiek staliukų paieškos ir rezervacijos sistema, tiek kavinės planavimo ir lokalios rezervacijos sistema naudoja duomenis, kuriuos gauna iš Kavinių Duomenų Bazės (angl. Database of Cafes).
+\ref {fig:Context} pav. diagramoje parodomas aukščiausias komponentų struktūros lygis. Klientas naudoja Kliento Vartotojo Sąsaja (diagramoje pavaizduota kaip KlientoUI) kurią gauna iš staliukų paieškos ir rezervacijos sistemos kuri pati naudoja Google Maps API, padedantį atfiltruoti netoliese esančias kavines. \\
+Kavinės sąvininkas/vadovas/darbuotojas naudoja Vadovo Vartotojo Sąsają (diagramoje pavaizduota kaip ValdytojoUI) kurią gauna iš Kavinės plano ir vietinės rezervacijos sistemos.\\
+Tiek Staliukų paieškos ir rezervacijos sistema, tiek Kavinės plano ir vietinės rezervacijos sistema naudoja duomenis, kuriuos gauna iš Kavinių duomenų bazės.
 
 
 \begin{landscape}
 \subsubsection{Subsistemų dekompozicija}
 	\begin {figure}[H]
-		\includegraphics[width=1.67\textwidth,height=1.67\textheight,keepaspectratio]{img/SystemCore}
+		\includegraphics[width=1.65\textwidth,height=1.65\textheight,keepaspectratio]{img/SystemCore}
 		\caption{Subsistemų dekompozicijos diagrama}
 		\label{fig:System Core}
 	\end{figure}
@@ -375,39 +374,39 @@ Tiek staliukų paieškos ir rezervacijos sistema, tiek kavinės planavimo ir lok
 
 \ref {fig:System Core} pav. diagrama atvaizduoja detalų sistemos komponentų struktūros lygį. \ref {fig:System Core} pav. pavaizduotos mėlynai apipavidalintos subsistemos (angl. subsystem) yra \ref {fig:Context} pav. pavaizduoti komponentai:
 \begin{itemize}
-  \item Vartotojo aplikacija (angl. Customer Application) yra kavinų paieškos ir staliukų rezervacijos sistema;
-  \item Kavinės valdymas (angl. Cafe Management) yra kavinės planavimo ir lokalios rezervacijos sistema;
-  \item Duomenų bazės (angl. Databases) yra kavinių duomenų bazės.
+  \item Kliento aplikacija yra Kavinų paieškos ir staliukų rezervacijos sistema;
+  \item Kavinės valdymas yra Kavinės plano ir vietinės rezervacijos sistema;
+  \item Duomenų bazės yra Kavinių duomenų bazės.
 \end{itemize}
 Toliau yra detaliau nagrinėjami šių subsistemų komponentai.\\
 
-\subsubsubsection{Vartotojo aplikacija (angl. Customer Application)}
+\subsubsubsection{Kliento aplikacija}
 \begin{itemize}
-  \item \textbf{Autentifikacija (angl. Authentication).} Vartotojui sėkmingai prisijungus, iš duomenų bazės klientų sąrašo (angl. Customer List) gaunami įvairūs vartotojo duomenys. Pasinaudojus tais duomenimis pradedama vartotojo sesija (angl. User Session), kurios dėka vartotojas gali naudotis tolesniu programos funkcionalumu.
-  \item \textbf{Kavinės(-ių) paieška (angl. Cafe Search).} Kreipiasi į duomenų bazės kavinių sąrašą (angl. Cafe List) ir gauna, pagal vartotojo nurodytą filtrą, kavinių sąrašą su pagrindiniais kavinės duomenimis.
-  \item \textbf{Staliuko(-ių) pasirinkimas (angl. Table choices).}  Iš kavinės(-ių) paieškos vartotojui išsirinkus kavinę vykdoma kavinės duomenų (staliuko užimtumo/rezervacijos laiko, kavinės išplanavimo) užklausa į duombazės kavinės plano (angl. Cafe Plan komponentą. Gavus duomenis, vartotojas gali patogiai išsirinkti kurį nors laisvą staliuką konkrečioje kavinės vietoje.
-  \item \textbf{Rezervavimas (angl. Reservation).} Iš staliuko pasirinkimo komponento gaunamas norimas rezervuoti staliukas (angl. Table). Vartotojas nurodo rezervavimo laiką-datą. Turint visus rezervacijos duomenis, išsiunčiama rezervavimo užklausa (diagramoje pavaizduota kaip IRequestable) į duomenų bazę, kurioje atsinaujina staliuko būsena iš laisvo į rezervuotą.
+  \item \textbf{Autentifikacija.} Vartotojui sėkmingai prisijungus, iš duomenų bazės klientų sąrašo gaunami įvairūs vartotojo duomenys. Pasinaudojus tais duomenimis pradedama vartotojo sesija (angl. User Session), kurios dėka klientas gali naudotis tolesniu aplikacijos funkcionalumu.
+  \item \textbf{Kavinės paieška.} Kreipiasi į duomenų bazės kavinių sąrašo komponentą ir gauna, pagal vartotojo nurodytą filtrą, kavinių sąrašą su pagrindiniais kavinės duomenimis.
+  \item \textbf{Staliuko pasirinkimas.} Iš kavinės paieškos vartotojui išsirinkus kavinę vykdoma kavinės duomenų (staliuko užimtumo/rezervacijos laiko, kavinės išplanavimo) užklausa į duombazės kavinės plano komponentą. Gavus duomenis, vartotojas gali patogiai išsirinkti kurį nors laisvą staliuką konkrečioje kavinės vietoje.
+  \item \textbf{Rezervacija.} Iš staliuko pasirinkimo komponento gaunamas norimas rezervuoti staliukas. Vartotojas nurodo rezervavimo laiką-datą. Turint visus rezervacijos duomenis, išsiunčiama rezervavimo užklausa (diagramoje pavaizduota kaip IUžklausa) į duomenų bazę, kurioje atsinaujina staliuko būsena iš laisvo į rezervuotą.
 \end{itemize}
 
-\subsubsubsection{Kavinės valdymas (angl. Cafe Management)}
+\subsubsubsection{Kavinės valdymas}
 \begin{itemize}
-  \item \textbf{Autentifikacija (angl. Authentication).} Suvedus teisingus prisijungimo duomenis iš duomenų bazės gaunamas leidimas dirbti su konkrečios kavinės duomenimis.
-  \item \textbf{Kavinės topografas (angl. Cafe Planner).} Iš autentikacijos komponento gavus prieinamos kavinės duomenis, leidžia keisti kavinės išplanavimą (tuo pačiu ir staliukų skaičių, išsidėstymą). Išplanavimo duomenys vėliau siunčiami į duomenų bazės kavinės plano (angl. Cafe Plan) komponentą; naudojami vietos užimtumo valdyme.
-  \item \textbf{Vietos užimtumo valdymas (angl. Local Vacancy Manager).} Po sėkmingos autentikacijos leidžia stebėti kurie staliukai yra laisvi, kurie užimti, kurie rezervuoti per aplikaciją iš kliento pusės. Taip pat suteikia galimybę rezervuoti arba pažymeti kaip užimtą staliuką iš kavinės pusės.
-  \item \textbf{Rezervavimas (angl. Reservation).} Iš Vietos užimtumo valdymo komponentų pasiima duomenis apie staliukų būseną (užimtas, laisvas, rezervuotas, bus-rezervuotas) ir siunčia pasikeitusius duomenis į duomenų bazės kavinės plano (angl. Cafe Plan) komponentą.
+  \item \textbf{Autentifikacija.} Suvedus teisingus prisijungimo duomenis iš duomenų bazės gaunamas leidimas (diagramoje atvaizduotas kaip IVartotojoSesija) dirbti su konkrečios kavinės duomenimis.
+  \item \textbf{Kavinės planuotojas.} Iš autentifikacijos komponento gavus valdomos kavinės duomenis, leidžia keisti kavinės išplanavimą (tuo pačiu ir staliukų skaičių, išsidėstymą). Išplanavimo duomenys vėliau siunčiami į duomenų bazės kavinės plano komponentą; naudojami vietinės rezervacijos valdyme.
+  \item \textbf{Vietinės rezervacijos valdytojas.} Po sėkmingos autentifikacijos leidžia stebėti kurie staliukai yra laisvi, kurie užimti, kurie rezervuoti per aplikaciją iš kliento pusės. Taip pat suteikia galimybę rezervuoti, arba pažymeti kaip užimtą, staliuką iš kavinės pusės.
+  \item \textbf{Rezervacija.} Iš Vietinės rezervacijos valdytojo komponento pasiima duomenis apie staliukų būseną (užimtas, laisvas, rezervuotas) ir siunčia duomenų pakeitimo užklausą į duomenų bazės kavinės plano komponentą.
 \end{itemize}
 
-\subsubsubsection{Duomenų bazė (angl. Databases)}
+\subsubsubsection{Duomenų bazė}
 \begin{itemize}
-  \item \textbf{Klientų sąrašas (angl. Customer List).} Suteikia galimybę autentifikuoti vartotoją, laiko papildomus duomenis apie jį.
-  \item \textbf{Kavinės valdytojų (angl. Cafe Manager List).} Suteikia galimybę autentifikuoti sąvininką/vadovą/darbuotoją, taip pat pateikia duomenis kokiai kavinei dirba šis asmuo (vėliau ši informacija reikalinga žinoti kurios kavinės duomenys modifikuojami).
-  \item \textbf{Kavinių sąrašas (angl. Cafe List).} Klientui ieškant kavinės, pateikia atfiltruotą kavinių sąrašą, kartu su kavinės reprezentacine informacija (užimtumas, darbo valandos, reitingas ir pan.).
-  \item \textbf{Kavinės(-ių) planas (angl. Cafe Plan).} Laiko visa svarbiausią informaciją apie kavines:
+  \item \textbf{Klientų sąrašas.} Suteikia galimybę autentifikuoti vartotoją, laiko papildomus duomenis apie jį.
+  \item \textbf{Kavinės Valdytojų sąrašas.} Suteikia galimybę autentifikuoti kavinės sąvininką/vadovą/darbuotoją, taip pat pateikia duomenis kokiai kavinei dirba šis asmuo (vėliau ši informacija reikalinga žinoti kurios kavinės duomenys modifikuojami).
+  \item \textbf{Kavinių sąrašas.} Klientui ieškant kavinės, pateikia atfiltruotą kavinių sąrašą, kartu su kavinės reprezentacine informacija (užimtumas, darbo valandos, reitingas ir pan.).
+  \item \textbf{Kavinės planas.} Laiko visa svarbiausią informaciją apie kavines:
   	\begin{itemize}
-  	\item Išplanavimas, staliukų išsidėstymas ir kiti tos srities duomenys ir jų pakeitimai gaunami iš kavinės valdymo (angl. Cafe Management) subsistemos kavinės topografo (angl. Cafe Planner) komponento.
-  	\item Staliukų būsena - laisva/rezervuota - pakeičiama gavus prašymą (angl. Request) iš kliento aplikacijos (angl. Customer Application) subsistemos. Įvairesnius pakeitimus gali atlikti prašymai iš kavinės valdymo (angl. Cafe Management) subsistemos: atlaisvinti, užimti, rezervuoti, atšaukti rezervaciją.
-  	\item Kavinės išplanavimas, staliukų būsena ir išdėstymo duomenys perduodami gavus prašymą (angl. Request) iš kliento aplikacijos (angl. Customer Application) subsistemos staliuko(-ių) pasirinkimo (angl. Table choices) komponento.
-  	\item Konkrečios kavinės staliukų užimtumui pasikeitus nauji duomenys yra siunčiami į tos kavinės kavinės valdymo (angl. Cafe Management) subsistemos vietos užimtumo valdymo (angl. Local Vacancy Manager) komponentą, kurio dėka sąvininkas/vadovas/darbuotojas mato, jog klientas užsirezervavo staliuką.
+  	\item Išplanavimas, staliukų išsidėstymas ir kiti tos srities duomenys ir jų pakeitimai gaunami iš Kavinės valdymo subsistemos Kavinės planuotojo komponento.
+  	\item Staliukų būsena - laisva/rezervuota - pakeičiama gavus prašymą (diagramoje pavaizduota kaip IUžklausa) iš Kliento aplikacijos subsistemos. Įvairesnius pakeitimus gali atlikti užklausos iš Kavinės valdymo subsistemos: atlaisvinti, užimti, rezervuoti, atšaukti rezervaciją.
+  	\item Kavinės išplanavimas, staliukų būsena ir išdėstymo duomenys perduodami gavus užklausą iš Kliento aplikacijos subsistemos Staliuko pasirinkimo komponento.
+  	\item Konkrečios kavinės staliukų užimtumui pasikeitus, nauji duomenys yra siunčiami į tos konkrečios kavinės Kavinės valdymo subsistemos Vietinės rezervacijos valdytojo komponentą, kurio dėka sąvininkas/vadovas/darbuotojas mato, jog klientas užsirezervavo staliuką.
   	\end{itemize}
 \end{itemize}
 

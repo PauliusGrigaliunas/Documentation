@@ -81,8 +81,5 @@
     <requires type="dynamic">
       <file>kursinis.bcf</file>
     </requires>
-    <requires type="editable">
-      <file>bibliografija.bib</file>
-    </requires>
   </external>
 </requests>
