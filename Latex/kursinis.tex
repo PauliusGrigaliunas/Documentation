@@ -359,7 +359,7 @@ diagramų pereinant iki detalesnių.
 \end{figure}
 
 \ref {fig:Context} pav. diagramoje parodomas aukščiausias komponentų struktūros lygis. Klientas naudoja Kliento Vartotojo Sąsaja (diagramoje pavaizduota kaip KlientoUI) kurią gauna iš staliukų paieškos ir rezervacijos sistemos kuri pati naudoja Google Maps API, padedantį atfiltruoti netoliese esančias kavines. \\
-Kavinės sąvininkas/vadovas/darbuotojas naudoja Vadovo Vartotojo Sąsają (diagramoje pavaizduota kaip ValdytojoUI) kurią gauna iš Kavinės plano ir vietinės rezervacijos sistemos.\\
+Kavinės savininkas/vadovas/darbuotojas naudoja Vadovo Vartotojo Sąsają (diagramoje pavaizduota kaip ValdytojoUI) kurią gauna iš Kavinės plano ir vietinės rezervacijos sistemos.\\
 Tiek Staliukų paieškos ir rezervacijos sistema, tiek Kavinės plano ir vietinės rezervacijos sistema naudoja duomenis, kuriuos gauna iš Kavinių duomenų bazės.
 
 
@@ -399,30 +399,33 @@ Toliau yra detaliau nagrinėjami šių subsistemų komponentai.\\
 \subsubsubsection{Duomenų bazė}
 \begin{itemize}
   \item \textbf{Klientų sąrašas.} Suteikia galimybę autentifikuoti vartotoją, laiko papildomus duomenis apie jį.
-  \item \textbf{Kavinės Valdytojų sąrašas.} Suteikia galimybę autentifikuoti kavinės sąvininką/vadovą/darbuotoją, taip pat pateikia duomenis kokiai kavinei dirba šis asmuo (vėliau ši informacija reikalinga žinoti kurios kavinės duomenys modifikuojami).
+  \item \textbf{Kavinės Valdytojų sąrašas.} Suteikia galimybę autentifikuoti kavinės savininką/vadovą/darbuotoją, taip pat pateikia duomenis kokiai kavinei dirba šis asmuo (vėliau ši informacija reikalinga žinoti kurios kavinės duomenys modifikuojami).
   \item \textbf{Kavinių sąrašas.} Klientui ieškant kavinės, pateikia atfiltruotą kavinių sąrašą, kartu su kavinės reprezentacine informacija (užimtumas, darbo valandos, reitingas ir pan.).
   \item \textbf{Kavinės planas.} Laiko visa svarbiausią informaciją apie kavines:
   	\begin{itemize}
   	\item Išplanavimas, staliukų išsidėstymas ir kiti tos srities duomenys ir jų pakeitimai gaunami iš Kavinės valdymo subsistemos Kavinės planuotojo komponento.
   	\item Staliukų būsena - laisva/rezervuota - pakeičiama gavus prašymą (diagramoje pavaizduota kaip IUžklausa) iš Kliento aplikacijos subsistemos. Įvairesnius pakeitimus gali atlikti užklausos iš Kavinės valdymo subsistemos: atlaisvinti, užimti, rezervuoti, atšaukti rezervaciją.
   	\item Kavinės išplanavimas, staliukų būsena ir išdėstymo duomenys perduodami gavus užklausą iš Kliento aplikacijos subsistemos Staliuko pasirinkimo komponento.
-  	\item Konkrečios kavinės staliukų užimtumui pasikeitus, nauji duomenys yra siunčiami į tos konkrečios kavinės Kavinės valdymo subsistemos Vietinės rezervacijos valdytojo komponentą, kurio dėka sąvininkas/vadovas/darbuotojas mato, jog klientas užsirezervavo staliuką.
+  	\item Konkrečios kavinės staliukų užimtumui pasikeitus, nauji duomenys yra siunčiami į tos konkrečios kavinės Kavinės valdymo subsistemos Vietinės rezervacijos valdytojo komponentą, kurio dėka savininkas/vadovas/darbuotojas mato, jog klientas užsirezervavo staliuką.
   	\end{itemize}
 \end{itemize}
 
 %KAROLIS KURIMO PJUVIS END
 
-\sectionnonum{Rezultatai ir išvados}
+\sectionnonum{Išvados}
 Šiame laboratoriniame darbe pasitelkiant skirtingus sistemos pjūvius aprašyta kavinių rezervavimo sistemos architektūrą. Loginis pjūvis leido išskirti pagrindines esybes bei ryšius tarp jų. Kūrimo pjūvyje atlikta sistemos dekompozicija pradedant nuo bendro komponento toliau jį detalizuojant. Užduočių pjūvyje išsiaiškinti pagrindiniai agentų tikslai naudojantis sistema. Fiziniame pjūvyje apibrėžtas sistemos išdėstymas tinkle.  Galiausiai procesų pjūvyje išskirti procesai, jų komunikacija. Šis skirtingų požiūrių rinkinys leido iš anksto aptikti sistemoje galimas klaidas bei sukurti tinkamą sistemos architektūrą.
 
 \sectionnonum{Terminų žodynas}
 \noindent
-\textbf{Vartotojas -}prie sistemos prisijungęs žmogus, kuriam suteiktos teisės naudotis sistemos
+\textbf{Vartotojas} - prie sistemos prisijungęs žmogus, kuriam suteiktos teisės naudotis sistemos
 paslaugomis.
 \newline
-\textbf{Kavinės savininkas -} vartotojas, kuris yra užregistravęs jam priklausančią kavinę sistemoje.
+\textbf{Kavinė} - kavinės savininko fizinė nuosavybė. Kavinė turi pavadinimą, adresą, staliukų skaičių ir tvarkaraštį (nuo kada iki kada dirba kavinė).
 \newline
-\textbf{Kavinė -} kavinės savininko fizinė nuosavybė. Kavinė turi pavadinimą, adresą, staliukų skaičių ir tvarkaraštį (nuo kada iki kada dirba kavinė).
+\textbf{Kavinės savininkas} - vartotojas, kuris yra užregistravęs jam priklausančią kavinę sistemoje.
 \newline
+\textbf{Kavinės darbuotojas} - vartotojas, kuriam suteiktos teisės naudotis kavinės valdymo subsistema.
+\newline
+\textbf{Vietinė rezervacija} - Kavinės darbuotojo atliekama rezervacija.
 
 \end{document}

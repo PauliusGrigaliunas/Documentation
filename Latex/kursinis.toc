@@ -46,6 +46,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {1.5.2.3.}Duomenų bazė}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{23}
+\contentsline {section}{Išvados}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Terminų žodynas}{24}
