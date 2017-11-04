@@ -32,7 +32,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.1.}Komponentų ryšių su artefaktais diagrama}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.2.}Mazgų diagrama}{17}
+\contentsline {subsubsection}{\numberline {1.4.2.}Mazgų ir artifaktų ryšių diagrama}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.4.3.}Mazgų ryšių diagrama}{18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.}Programų sistemos kūrimo pjūvis (angl. Developement view)}{18}
 \defcounter {refsection}{0}\relax 
