@@ -300,7 +300,7 @@ Užduoties „Ieškoti restoranų“ sekų diagrama. Vartotojas paspaudžia mygt
 \subsection{Programų sistemos išskirstymas tinkle(angl. Deployment view)}
 \subsubsection{Komponentų ryšių su artefaktais diagrama}
 
-Žemiau pateiktoje komponentų ryšių su artefaktais diagramoje yra išskirti pagrindiniai sistemos artefaktai. Artefaktus (angl. “artifact”) ir komponentus (angl. “component”) tarpusavyje sieja manifestacijos (angl. “Manifest”) ryšys. Tai reiškia, kad artefakto sudaromoji dalis yra konkretus komponentas.
+Žemiau pateiktoje komponentų ryšių su artefaktais diagramoje yra išskirti pagrindiniai sistemos artefaktai. Artefaktus (angl. “artifact”) ir komponentus (angl. “component”) tarpusavyje sieja manifestacijos (angl. “Manifest”) ryšys. Tai reiškia, kad artefakto sudaromoji dalys yra konkretus komponentai.
 
 
 %Komponentų ryšių su artefaktais diagrama
@@ -311,20 +311,9 @@ Užduoties „Ieškoti restoranų“ sekų diagrama. Vartotojas paspaudžia mygt
     \label{img:Model}
 \end{figure}
 
+Kompenentų ryšių su artifaktais diagramoje (13 pav.) pavaizduoti keturi Kavinės programėlės artifaktai: tai Vartotojo aplikacija, Kavinės valdymas, Duomenų bazės, Google maps. Vartotojo aplikacija įgyvendina Autentifikacijos, Rezervacijos, Kavinės paieškos, Staliuko pasisirkimo komponentus. Kavinės valdymas - 
+Autentifikacijos, Kavinės planutojo, Vietinės rezervacijos valdymo, Rezervacijos komponentus. Duomenų Bazės - Klientų sąrašo, Kavinės valdytojų sąrašo, Kavinės plano, Kavinių sąrašo, komponentus. Google Maps turi savus komponentus, kurių detaliau neanalizuosim.
 
-
-
-Visos kavinės programėlės pagrindas susideda iš trijų karkasų: „Registracijos / Prisijungimo sistemos“, „Kavinės pridėjimo sistemos“ ir „Kavinės staliuko rezervacijos sistemos“.
-
-„Registracijos / Prisijungimo sistema“ užtikina kiekvieno vartotojo (kliento ar kavinės savininko) sklandų prisijungimą prie sistemos. Komponentas - „Kontoleris“ užtikina sklandžią registraciją ir prisijungimą prie sistemos. Tai reiškia, kad kiekvieno prisiregistravusiojo duomenys jo deka yra autentiški. Taip pat registracija suteikia galimybę užsiregistruoti kaip klientas arba kavinės savininkas.
-
-„Kavinės pridėjimo Sistema“ - aktuali programėlės vartotojams prisiregistravusiems kaip kavinės savininkas. Ši Sistema užtikina turimų duomenų apie užregistruotas kavinines saugumą. Komponentas - „Kavinės pridėjimas“ leidžia programos vartotojui pridėti kavinę bei detalę jos informaciją. Kavinės informacija dalis yra labai lanksti, ji teikia galimybę pakeisti užregistruotų kavinių pateiktą informaciją: modifikuoti staliukų skaičių, pakeisti kavinės vietą. Sistemos kontroleris patikina, kad nubūtų užregistruojama pasikartojanti inforamcija apie kavines.
-
-Klientams yra prienama „Kavinės staliuko rezervacijos sistema“. Šis karkasas yra nesudėtingas, gali būti laisvai naudojamas, skirtas užtikinti klientų konfortą ir garantuotų rezervacijos stabilumą. Jį sudaro trys pagrindiniai komponentai - kontroleris, Informacija apie kavinę, staliuko rezervacija. Staliuko rezervacija yra esminis komponentas šioje sistemoje. Jis leidžia klientui užsirezervuoti norimą staliuką pasirinktu laiku. Kontroleris užtikina, kad nebūtų suteikiama užsisakyti staliuko tuo pačiu metu kelis kartus skirtingiems klientams. Detalią informaciją apie kavinių sąrašą, jų buvimo vietą, contaktus bei detalesnę informaciją pateikia komponentas pavadinimu - „Informacija apie kavinę“.  
-
-\textbf{Artefaktas} - Failas arba failų rinkinys, atsakingas už kurią nors sistemos veikimo dalį. 
-
-\textbf{Manifestacijos} (angl. “Manifest”) ryšys - nurodo, kad artefaktas negali egzistuoti be komponento, su kuriuo jis yra susietas šiuo ryšiu.
 
 
 \subsubsection{Mazgų diagrama}
@@ -339,11 +328,7 @@ Klientams yra prienama „Kavinės staliuko rezervacijos sistema“. Šis karkas
 \end{figure}
 
 
-Sistema susideda iš dviejų pagrindinių mazgų Kavinės programėlės ir "Azure" SQL duomenų bazės. Kavinės programėlės visi duomenys yra saugomi serverinėje duomenų bazėje, taip ši programėlė išvengia papidomų duomenų failų, neeikvoja daug kompiuterio atminties ir paspartina procesų darbą. Programa pritaikyta veikti "Windows" platformoje. Vartotojui norint naudotis šia sistema, tereikia atsisiųsti ir įdiegti "Kavinės programėlę" ir turėti prieigą prie Interneto. Taip „Kavinės aplikacija“ pasiekia duomenis iš duomenų bazės, kurioje yra saugoma vartotojų prisijungimai, kavinės duomenys, kavinių staliukų duomenys. Tuo pačiu metu naršyklė kreipiasi į "Google" serverius, siekiant gauti "Google" žemėlapius. Toks sprendimas pasirinktas todėl, kad neužimtų serverio vietos, bei dėl to, kad "Google" riboja prieigą prie savo žemėlapių serviso. 
-
-\textbf{HTTP} protokolas- Duomenų perdavimo protokolas, naudojamas visose naršyklėse komunikuojant su serveriu.
-
-\textbf{API}(angl. Application programming interface )- Interfeisas, pateikiamas trečiųjų šalių, leidžiantis naudotis išorinės programos servisais.
+Sistema susideda iš dviejų pagrindinių mazgų Kavinės programėlės "Covfefe" ir "Azure" SQL duomenų bazės. Kavinės programėlės visi duomenys yra saugomi serverinėje duomenų bazėje, taip ši programėlė išvengia papidomų duomenų failų, neeikvoja daug kompiuterio atminties ir paspartina procesų darbą. Programa pritaikyta veikti "Windows" platformoje. Vartotojui norint naudotis šia sistema, tereikia atsisiųsti ir įdiegti "Kavinės programėlę" ir turėti prieigą prie Interneto. Taip „Kavinės aplikacija“ pasiekia duomenis iš duomenų bazės, kurioje yra saugoma vartotojų prisijungimai, kavinės duomenys, kavinių staliukų duomenys. Tuo pačiu metu naršyklė kreipiasi į "Google" serverius, siekiant gauti "Google" žemėlapius. Toks sprendimas pasirinktas todėl, kad neužimtų serverio vietos, bei dėl to, kad "Google" riboja prieigą prie savo žemėlapių serviso. 
 
 
 %KAROLIS KURIMO PJUVIS START
