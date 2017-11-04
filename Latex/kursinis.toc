@@ -40,12 +40,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.2.}Subsistemų dekompozicija}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {1.5.2.1.}Vartotojo aplikacija (angl. Customer Application)}{21}
+\contentsline {paragraph}{\numberline {1.5.2.1.}Kliento aplikacija}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {1.5.2.2.}Kavinės valdymas (angl. Cafe Management)}{21}
+\contentsline {paragraph}{\numberline {1.5.2.2.}Kavinės valdymas}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {1.5.2.3.}Duomenų bazė (angl. Databases)}{22}
+\contentsline {paragraph}{\numberline {1.5.2.3.}Duomenų bazė}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{23}
+\contentsline {section}{Išvados}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Terminų žodynas}{24}

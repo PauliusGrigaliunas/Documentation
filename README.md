@@ -11,13 +11,16 @@
 - kavinės pridejimo
  
 ### Kitos esybės:
-- vartotojas *(bus išplėsta vėliau)*
-- duomenų bazė *(bus išplėsta vėliau)*
 - Google Maps API
 
 ### Klasės:
 - 
 
 ### Kita:
-- Vietinė rezervacija *(angl. local reservation)*
+- Vartotojas - prie sistemos prisijungęs žmogus, kuriam suteiktos teisės naudotis sistemos
+paslaugomis.
+- Kavinė - kavinės savininko fizinė nuosavybė. Kavinė turi pavadinimą, adresą, staliukų skaičių ir tvarkaraštį (nuo kada iki kada dirba kavinė). *(to be updated)*
+- Kavinės savininkas - vartotojas, kuris yra užregistravęs jam priklausančią kavinę sistemoje.
+- Kavinės darbuotojas - vartotojas, kuriam suteiktos teisės naudotis kavinės valdymo subsistema.
+- Vietinė rezervacija - Kavinės darbuotojo atliekama rezervacija.
 - Vartotojo sąsaja *(angl. User interface)*
