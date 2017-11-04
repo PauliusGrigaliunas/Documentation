@@ -297,6 +297,9 @@ Užduoties „Ieškoti restoranų“ sekų diagrama. Vartotojas paspaudžia mygt
 
 
 \subsection{Programų sistemos išskirstymas tinkle(angl. Deployment view)}
+
+Fizinis pjūvis sudarytas iš Komponentų ir atrefaktų ryšių ir mazgų diagramų. Šiose diagramose vaizduojamas programos komponentų išdėstymas tinkle bei komunikacijos protokolai tarp jų. Tuo pačiu diagramose parodoma, kokia programinė įranga turi būti įdiegta fiziniuose sistemos komponentuose.
+
 \subsubsection{Komponentų ryšių su artefaktais diagrama}
 
 Žemiau pateiktoje komponentų ryšių su artefaktais diagramoje yra išskirti pagrindiniai sistemos artefaktai. Artefaktus (angl. “artifact”) ir komponentus (angl. “component”) tarpusavyje sieja manifestacijos (angl. “Manifest”) ryšys. Tai reiškia, kad artefakto sudaromoji dalys yra konkretus komponentai.
@@ -315,19 +318,30 @@ Autentifikacijos, Kavinės planutojo, Vietinės rezervacijos valdymo, Rezervacij
 
 
 
-\subsubsection{Mazgų diagrama}
+\subsubsection{Mazgų ir artifaktų ryšių diagrama}
 
 Žemiau pateiktoje mazgų diagramoje yra išskirti fiziniai įrenginiai, reikalingi sistemos darbo palaikymui bei artefaktų pasiskirstymui tarp jų.
 %Mazgų diagrama
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/Deployment_diagram2} 
-    \caption{Mazgų diagrama}
+    \caption{Mazgų ir artifaktų ryšių diagrama}
     \label{img:Model}
 \end{figure}
 
 
 Sistema susideda iš dviejų pagrindinių mazgų Kavinės programėlės "Covfefe" ir "Azure" SQL duomenų bazės. Kavinės programėlės visi duomenys yra saugomi serverinėje duomenų bazėje, taip ši programėlė išvengia papidomų duomenų failų, neeikvoja daug kompiuterio atminties ir paspartina procesų darbą. Programa pritaikyta veikti "Windows" platformoje. Vartotojui norint naudotis šia sistema, tereikia atsisiųsti ir įdiegti "Kavinės programėlę" ir turėti prieigą prie Interneto. Taip „Kavinės aplikacija“ pasiekia duomenis iš duomenų bazės, kurioje yra saugoma vartotojų prisijungimai, kavinės duomenys, kavinių staliukų duomenys. Tuo pačiu metu naršyklė kreipiasi į "Google" serverius, siekiant gauti "Google" žemėlapius. Toks sprendimas pasirinktas todėl, kad neužimtų serverio vietos, bei dėl to, kad "Google" riboja prieigą prie savo žemėlapių serviso. 
+
+\subsubsection{Mazgų ryšių diagrama}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/Deployment_diagram3} 
+    \caption{Mazgų ryšių diagrama}
+    \label{img:Model}
+\end{figure}
+
+Šiame paveikslėlį pavaizduotas įrenginių (mazgų) išsidėstymas tinkle. Kavinės programėlė turi tiesioginį ryšį su duomenų baze ir Google serveriu, o vartotojai gali prisijungti prie programėlės. Tačiau klientai negali tiesiogiai pasiekti duomenų bazės bei Google serverio ir jose saugomų duomenų.
 
 
 %KAROLIS KURIMO PJUVIS START
