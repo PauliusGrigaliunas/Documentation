@@ -199,7 +199,7 @@ sarunas.kazimieras.buteikis@gmail.com
 			\item Vardą.
 			\item Pavardę.
 			\item Slaptažodį.
-			\item Telefono numerį.
+			\item Telefono numerį (neprivaloma).
 			\item Elektroninį paštą.
 		\end{itemize}}&		
 	\multicolumn{1}{|c|}{BŪTINA}\\
@@ -295,7 +295,7 @@ sarunas.kazimieras.buteikis@gmail.com
 
 \subsection{Kavinės pasirinkimas}
 
-Šiame posyryje pateikti reikalavimai, susiję su kavinės pasirinkimu (žr.~\ref{table:KavinėsPasirinkimas} ).
+Šiame posyryje pateikti reikalavimai, susiję su kavinės pasirinkimu (žr.~\ref{table:KavinėsPasirinkimas} lentelę ).
 
 \begin{center}
 	\begin{table}[H]
@@ -313,13 +313,11 @@ sarunas.kazimieras.buteikis@gmail.com
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 4.1}&
-		{Klientui pateikiamas sąrašas arčiausiai jo esančių kavinių kartu su jų duomenimis:
+		{Klientui pateikiamas sąrašas arčiausiai jo esančių kavinių kartu su jų duomenimis (ne visais):
 		\begin{itemize}
 			\item Pavadinimas.
 			\item Adresas.
-			\item Laivų vietų skaičius.
 			\item Reitingas.
-			\item Darbo valandos.
 		\end{itemize}}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 		
@@ -332,13 +330,20 @@ sarunas.kazimieras.buteikis@gmail.com
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 4.4}&
-		{Vartotojui pasirinkus kavinę, parodoma visa jos informacija}&
+		{Vartotojui pasirinkus kavinę, parodoma visa jos informacija:
+		\begin{itemize}
+			\item Pavadinimas.
+			\item Adresas.
+			\item Laivų vietų skaičius.
+			\item Reitingas.
+			\item Darbo valandos.
+		\end{itemize}}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 		
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 4.5}&
-		{Vartotojas, pasirinkęs kavinę(turinčią laisvų vietų), gali užsisakyti staliuką.}&
+		{Vartotojas, pasirinkęs kavinę (turinčią laisvų vietų), gali užsisakyti staliuką.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
 	
@@ -359,7 +364,7 @@ sarunas.kazimieras.buteikis@gmail.com
 
 
 \subsection{Staliuko užsakymas}
-Šiame poskyryje pateikti reikalavimai, susiję su staliuko užsakymais(žr.).
+Šiame poskyryje pateikti reikalavimai, susiję su staliuko užsakymais(žr.~\ref{table:StaliukoUžsakymas} lentelę).
 \begin{center}
 	\begin{table}[H]
 	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
@@ -373,10 +378,42 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 
-	\hline	
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 5.1}&
+		{Vartotojui pateikiamas kavinės išplanavimas su staliukais.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 5.2}&
+		{Vartotojui pasirinkęs vieną iš laisvų staliukų nukreipiamas į langą, kuriame prašo įvesti rezervacijos datą ir laiką.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 5.3}&
+		{Jei vartotojas nėra Premium ir kavinėje likęs tik vienas laisvas staliukas - klientas neturi galimybės jo rezervuoti, gauna pranešimą, kad neturi Premium privilegijų.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 5.4}&
+		{Vartotojas norėdamas rezervuoti vietą restorane privalo nurodyti:
+			\begin{itemize}
+				\item Rezervavimo datą (YYYY-MM-DD hh:mm).
+				\item Rezervavimo laiką.
+			\end{itemize}}&
+			\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 5.3}&
+		{Duomenų bazėje patikrinus ar staliukas vis dar laisvas į ją siunčiamas rezervacijos data ir laikas, kartu su užsisakiusio vartotojo vardu, paštu ir telefono numeriu (jei yra įvestas)}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+			
 	
 	\end{tabular}		
-
+	\caption{Staliuko užsakymo funkciniai reikalavimai.}
+	\label{table:StaliukoUžsakymas}
 	\end{table}
 
 
@@ -384,8 +421,8 @@ sarunas.kazimieras.buteikis@gmail.com
 
 \pagebreak
 
-\subsection{Rezervacijų priežiūra}
-Šiame poskyryje pateikti reikalavimai, susiję su rezervacijų priežiūra.
+\subsection{Rezervacijų peržiūra}
+Šiame poskyryje pateikti reikalavimai, susiję su rezervacijų priežiūra (žr.~\ref{tabel:RezervacijosPeržiūra} lentelę).
 \begin{center}
 	\begin{table}[H]
 	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
@@ -399,19 +436,45 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 
-	\hline	
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 6.1}&
+		{Vartotojas mato savo rezervacijų sąrašą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 6.2}&
+		{Vartotojas mato savo rezervacijų sąrašą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 6.3}&
+		{Vartotojas gali atšaukti savo rezervaciją}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 6.4}&
+		{Vykdant rezervacijos atšaukimą į duomenų bazę siunčiama užklausa atlaisvinti staliuką. Rezervacijos įrašas pašalinamas iš kliento rezervacijos sąrašo.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 6.5}&
+		{Vartotojas gali peržiūrėti kavinės rezervaciją. Peržiūrint kavinės informaciją pateikiamas kavinės duomenų langas.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline		
 	
 	\end{tabular}		
-
+	\caption{Rezervacijos peržiūros funkciniai reikalavimai.}
+	\label{tabel:RezervacijosPeržiūra}
 	\end{table}
 
 
 \end{center}
 
-\pagebreak
+
 
 \subsection{Kavinės įvertinimas}
-Šiame poskyryje pateikiami reikalavimai, susiję su kavinės įvertinimu.
+Šiame poskyryje pateikiami reikalavimai, susiję su kavinės įvertinimu (žr. ~\ref{table:KavinėsĮvertinimas} lentelę).
 \begin{center}
 	\begin{table}[H]
 	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
@@ -425,13 +488,114 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 7.1}&
+		{Kavinės valdytojui pažymėjus, kad prieš tai vartotojo rezervuotas staliukas atsilaisvino, klientas gauna langą, kuriame prašoma įvertinti kavinę.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 7.2}&
+		{Vartotojas gali atsisakyti įvertinti kavinę.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 7.3}&
+		{Atsisakius įvertinti kavinę, automatiškai išeinama iš kavinės įvertinimo lango.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 7.4}&
+		{Vartotojas gali įvertinti kavinę nuo 1 iki 5}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 7.5}&
+		{Įvertinus kavinę, rezultatas yra siunčiamas į duomenų bazę ir kavinės reitingas yra atnaujinamas. Išeinama iš kavinės vertinimo lango.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline	
 	
 	\end{tabular}		
-
+	\caption{Kavinės įvertinimo funkciniai reikalavimai}
+	\label{table:KavinėsĮvertinimas}
 	\end{table}
 
 
+\end{center}
+\pagebreak
+
+\subsection{Kavinės planavimas}
+Šiame poskyryje pateikti reikalavimai, susiję su kavinės planavimu (žr.~\ref{table:KavinėsPlanavimas} lentelę ).
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Kavinės įvertinimas}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+
+	\hline
+		\multicolumn{1}{|c|}{FR 8.1}&
+		{Kavinės valdytojas gali vilkti toliau nurodytas figūras ant pateikto standartinio kavinės plano:
+		\begin{itemize}
+			\item Įvairūs stalai.
+			\item Baro/Kasos stalas.
+			\item Kėdės.
+			\item Suolai/Sofos.
+			\item Iėjimas.
+			\item Langai
+			\item Dekoratyviniai objektai.
+		\end{itemize}}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 8.2}&
+		{Nuvilkus stalą - paprašoma įvesti kiek žmonių gali susėsti prie to stalo.Po to nurodoma pridėti pakankamai kėdžių arba suolų sofų, kol patenkinamas vietų skaičius.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 8.3}&
+		{Įvedus kiekmonių gali sedėti prie stalo nurodoma kiek reikia pridėti kėdžių arba suolų sofų, kol patenkinamas vietų skaičius.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 8.4}&
+		{Privaloma pridėti įėjimą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 8.5}&
+		{Privaloma pridėti barą arba kasos stalą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 8.6}&
+		{Valdytojas gali išsaugoti kavinės planą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 8.7}&
+		{Valdytojas gali išsaugoti kavinės planą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 8.8}&
+		{Valdytojo išsaugotas kavinės planas patalpinamas į duomenų bazę.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\				
+	\hline
+	
+	\end{tabular}
+	\caption{Kavinės planavimo funkciniai reikalavimai}
+	\label{table:KavinėsPlanavimas}
+	\end{table}
+	
+	
 \end{center}
 
 \pagebreak
