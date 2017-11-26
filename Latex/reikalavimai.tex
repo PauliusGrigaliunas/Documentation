@@ -103,12 +103,143 @@ sarunas.kazimieras.buteikis@gmail.com
 Čionais bus mūsų įvadas. Vėliau jį užpildysime.
 \newline
 
-\section{Reikalavimų specifikacija}
 %FUNKCINIAI REIKALAVIMAI
-\subsection{Funkciniai reikalavimai}
+\section{Funkciniai reikalavimai}
 %PRADEDAME RASYTI LENTELES WOHOO
 
-Žemiau pateikta, kaip turėtų atrodyti mūsų lentelė :) Viskas bus ez, nėr ką čia veikt :Dąąąąąąąąąąąąąąąąąąąąą
+Šiame skyriuje bus nurodomi aplikacijos funkciniai reikalavimai ir jų įgyvendinimo svarba.
+
+\subsection{Aplikacijos langai}
+
+ Šiame poskyryje pateikti funkciniai reikalavimai, susiję su aplikacijos langais (žr.~\ref{table:AplikacijosLangai} lentelę).
+ %APLIKACIJOS LANGAI
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Aplikacijos langai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+
+	\hline
+		\multicolumn{1}{|c|}{FR 1.1} &
+		Iš visų aplikacijos langų galima grįžti į prisijungimo langą &
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+		\multicolumn{1}{|c|}{FR 1.2} &
+		{Visi langai po prisijungimo turi turėti galimybę parodyti vartotojo \newline prisijungimo vardą/paštą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 1.3}&
+		{Jeigu vartotojas turi rezervavęs staliuką - iš visų langų, išskyrus \newline prisijungimo, galima patekti į langą rodantį rezervacijos informaciją.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+		\multicolumn{1}{|c|}{FR 1.4}&
+		{š prisijungimo lango galima patekti į registracijos ir meniu langą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+		\multicolumn{1}{|c|}{FR 1.5}&
+		{Iš meniu lango galima patekti į:\newline
+		\begin{enumerate}
+			\item Jei prisijungia kavinės administratorius:
+				\begin{enumerate}
+					\item “Keisti kavinės informaciją” langą.
+					\item “Keisti kavinės išplanavimą” langą.
+				\end{enumerate}
+			\item Jei prisijungia kavinės darbuotojas:
+				\begin{enumerate}
+					\item “Lokali rezervacija” langą.
+				\end{enumerate}
+			\item Jei prisijungia klientas:
+				\begin{enumerate}
+					\item “Kavinės paieška” langas.
+				\end{enumerate}
+			\item Visi prisijungę vartotojai turi galimybę patekti į “Keisti vartotojo duomenis” langą.
+			\item Visi langai turi turėti galimybę grįžti į ankstesnį langą.
+		\end{enumerate}
+		}&
+		\multicolumn{1}{|c|}{BŪTINA}\\		
+	\hline
+	
+	\end{tabular}
+	\caption{Aplikacijos langų funkciniai reikalavimai.}
+	\label{table:AplikacijosLangai}
+	\end{table}
+	
+\end{center}
+
+\pagebreak
+
+\subsection{Vartotojo registracija}
+
+Šiame poskyryje pateikti funkciniai reikalavimai, susiję su vartotojo registracija (žr.~\ref{table:VartotojoRegistracija} lentelę).
+%Vartotojo prisijungimas
+\begin{center}
+
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Vartotojo registracija}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+
+	\hline
+	\multicolumn{1}{|c|}{FR 2.1}&
+	{Vartotojas, norintis registruotis prie aplikacijos, turi nurodyti:
+		\begin{itemize}
+			\item Vardą.
+			\item Pavardę.
+			\item Slaptažodį.
+			\item Telefono numerį.
+			\item Elektroninį paštą.
+		\end{itemize}}&		
+	\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|c|}{FR 2.2}&
+		{Informuoti vartotoją apie sėkmingą registraciją}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	\hline
+		\multicolumn{1}{|c|}{FR 2.3}&
+		{Vartotojo duomenys išsaugomi duomenų bazėje}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	\hline	
+		\multicolumn{1}{|c|}{FR 2.4}&
+		{Tam, kad įvestas vartotojo el. pašto adresas būtų tinkamos formos, jis turi būti sudarytas iš abonento vardo, „@“ simbolio bei domeno adreso.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	\hline
+		\multicolumn{1}{|c|}{FR 2.5}&
+		{Slaptažodis privalo būti sudarytas bent iš 8 simbolių, turi bent vieną skaitmenį.
+}&
+		\multicolumn{1}{|c|}{BŪTINA}\\		
+	\hline
+		\multicolumn{1}{|c|}{FR 2.6}&
+		{Duomenų bazėje išsaugomi vartotojo duomenys turi būti string tipo }&
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\		
+	\hline
+	
+	\end{tabular}
+	\caption{Vartotojo registracijos funkciniai reikalavimai}
+	\label{table:VartotojoRegistracija}
+	\end{table}
+
+
+\end{center}
+
+%NEFUNKCINIAI REIKALAVIMAI
+\section{Nefunkciniai reikalavimai}
+
+
+
 \begin{center}
 \begin{tabular}{|p{2cm}|p{3cm}|p{7cm}|p{3cm}|}
 \hline
@@ -131,8 +262,8 @@ bcd\\
 \hline
 \end{tabular}
 \end{center}
-%NEFUNKCINIAI REIKALAVIMAI
-\subsection{Nefunkciniai reikalavimai}
+
+
 
 %?SITO REIKIA?
 \section{Literatūros sąrašas}
