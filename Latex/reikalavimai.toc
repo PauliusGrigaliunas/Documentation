@@ -14,84 +14,86 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.1.2.}Kavinės savininko užduotys}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.}Užduočių formulavimo kalbos reikalavimai}{7}
+\contentsline {subsection}{\numberline {1.2.}Užduočių formulavimo kalbos reikalavimai}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.4.}Interfeiso darnos ir standartizavimo reikalavimai}{8}
+\contentsline {subsection}{\numberline {1.3.}Interfeiso darnos ir standartizavimo reikalavimai}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.5.}Pranešimų formulavimo reikalavimai}{9}
+\contentsline {subsection}{\numberline {1.4.}Pranešimų formulavimo reikalavimai}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Funkciniai reikalavimai}{10}
+\contentsline {subsection}{\numberline {1.5.}Interfeiso individualizavimo reikalavimai}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Aplikacijos langai}{10}
+\contentsline {section}{\numberline {2.}Funkciniai reikalavimai}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Vartotojo registracija}{11}
+\contentsline {subsection}{\numberline {2.1.}Aplikacijos langai}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Vartotojo prisijungimas}{12}
+\contentsline {subsection}{\numberline {2.2.}Vartotojo registracija}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Kavinės pasirinkimas}{13}
+\contentsline {subsection}{\numberline {2.3.}Vartotojo prisijungimas}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.}Staliuko užsakymas}{14}
+\contentsline {subsection}{\numberline {2.4.}Kavinės pasirinkimas}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.}Rezervacijų peržiūra}{15}
+\contentsline {subsection}{\numberline {2.5.}Staliuko užsakymas}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.}Kavinės įvertinimas}{15}
+\contentsline {subsection}{\numberline {2.6.}Rezervacijų peržiūra}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.}Kavinės planavimas}{16}
+\contentsline {subsection}{\numberline {2.7.}Kavinės įvertinimas}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9.}Kavinės pridėjimas}{17}
+\contentsline {subsection}{\numberline {2.8.}Kavinės planavimas}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.10.}Kavinės informacijos keitimas}{18}
+\contentsline {subsection}{\numberline {2.9.}Kavinės pridėjimas}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.11.}Premium kliento galimybės}{18}
+\contentsline {subsection}{\numberline {2.10.}Kavinės informacijos keitimas}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Nefunkciniai reikalavimai}{19}
+\contentsline {subsection}{\numberline {2.11.}Premium kliento galimybės}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Vidiniu interfeisų reikalavimai}{19}
+\contentsline {section}{\numberline {3.}Nefunkciniai reikalavimai}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1.}OS naudojimo reikalavimai}{19}
+\contentsline {subsection}{\numberline {3.1.}Vidiniu interfeisų reikalavimai}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.}Sąveikos su DB reikalavimai}{19}
+\contentsline {subsubsection}{\numberline {3.1.1.}OS naudojimo reikalavimai}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3.}Dokumentų mainų reikalavimai}{19}
+\contentsline {subsubsection}{\numberline {3.1.2.}Sąveikos su DB reikalavimai}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.4.}Sąveikos su kitomis programomis reikalavimai}{20}
+\contentsline {subsubsection}{\numberline {3.1.3.}Dokumentų mainų reikalavimai}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.5.}Programavimo aplinkos reikalavimai}{20}
+\contentsline {subsubsection}{\numberline {3.1.4.}Sąveikos su kitomis programomis reikalavimai}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Veikimo reikalavimai}{20}
+\contentsline {subsubsection}{\numberline {3.1.5.}Programavimo aplinkos reikalavimai}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1.}Vaizdavimo reikalavimai}{20}
+\contentsline {subsection}{\numberline {3.2.}Veikimo reikalavimai}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2.}Skaičiavimo tikslumo reikalavimai}{21}
+\contentsline {subsubsection}{\numberline {3.2.1.}Vaizdavimo reikalavimai}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.}Patikimumo reikalavimai}{21}
+\contentsline {subsubsection}{\numberline {3.2.2.}Skaičiavimo tikslumo reikalavimai}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.}Robatiškimo reikalavimai}{21}
+\contentsline {subsubsection}{\numberline {3.2.3.}Patikimumo reikalavimai}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.5.}Laikas, reikalingas atstatyti programos veikimą}{21}
+\contentsline {subsubsection}{\numberline {3.2.4.}Robatiškimo reikalavimai}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6.}Našumo reikalavimai}{22}
+\contentsline {subsubsection}{\numberline {3.2.5.}Laikas, reikalingas atstatyti programos veikimą}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Diegimo reikalavimai}{23}
+\contentsline {subsubsection}{\numberline {3.2.6.}Našumo reikalavimai}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.}Ruošinio reikalavimai}{23}
+\contentsline {subsection}{\numberline {3.3.}Diegimo reikalavimai}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.}Instaliavimo reikalavimai }{23}
+\contentsline {subsubsection}{\numberline {3.3.1.}Ruošinio reikalavimai}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.3.}Pradinio DB kaupimo reikalavimai}{23}
+\contentsline {subsubsection}{\numberline {3.3.2.}Instaliavimo reikalavimai }{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.4.}Sistemos įsisavinamumo reikalavimai}{24}
+\contentsline {subsubsection}{\numberline {3.3.3.}Pradinio DB kaupimo reikalavimai}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.}Ekonominiai ribojimai}{24}
+\contentsline {subsubsection}{\numberline {3.3.4.}Sistemos įsisavinamumo reikalavimai}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.}Aptarnavimo ir priežiūros reikalavimai}{25}
+\contentsline {subsection}{\numberline {3.4.}Ekonominiai ribojimai}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.}Tiražuojamumo reikalavimai}{25}
+\contentsline {subsection}{\numberline {3.5.}Aptarnavimo ir priežiūros reikalavimai}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.}Apsaugos reikalavimai}{25}
+\contentsline {subsection}{\numberline {3.6.}Tiražuojamumo reikalavimai}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.}Juridiniai reikalavimai}{26}
+\contentsline {subsection}{\numberline {3.7.}Apsaugos reikalavimai}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Literatūros sąrašas}{27}
+\contentsline {subsection}{\numberline {3.8.}Juridiniai reikalavimai}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Priedai}{28}
+\contentsline {section}{\numberline {4.}Literatūros sąrašas}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.}Priedai}{29}
