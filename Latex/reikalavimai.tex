@@ -334,6 +334,7 @@ sarunas.kazimieras.buteikis@gmail.com
 		\begin{itemize}
 			\item Pavadinimas.
 			\item Adresas.
+			\item Vietų skaičius.
 			\item Laivų vietų skaičius.
 			\item Reitingas.
 			\item Darbo valandos.
@@ -601,6 +602,251 @@ sarunas.kazimieras.buteikis@gmail.com
 \pagebreak
 %NEFUNKCINIAI REIKALAVIMAI
 \section{Nefunkciniai reikalavimai}
+
+\subsection{Vidiniu interfeisų reikalavimai}
+
+\subsubsection{OS naudojimo reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Apsaugos reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.1.1}&
+		{Išmanusis prietaisas turi įdiegtą Windows OS.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.1.2}&
+		{Išmanusis prietaisas privalo turėti interneto prieigą darbui su duomenų baze.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.1.3}&
+		{Išmanusis prietaisas privalo turėti GPS modulį.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Sąveikos su DB reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Sąveikos su DB reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.2.1}&
+		{Duomenų bazėje turi būti saugomi vartotojų prisijungimo duomenys, informacija apie kavinės (pavadinimas, adresas, vietų skaičius, laisvų vietų skaičius, reitingas , darbo valandos).}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.2.2}&
+		{Duomenys saugomi realiciniu būdu, naudojant MySQL duomenų bazių valdymo sistemą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline  	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Dokumentų mainų reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Dokumentų mainų reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.3.1}&
+		{Aplikacija su serveriu siunčia bei pateikia duomenis vienu iš šių formatų:
+			\begin{itemize}
+			\item JSON.
+			\item String.
+			\end{itemize}}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\pagebreak
+
+\subsubsection{Sąveikos su kitomis programomis reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Sąveikos su kitomis programomis reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.4.1}&
+		{Programa naudosis prietaiso navigacine GPS Sistema.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.4.2}&
+		{Programoje yra integruoti Google Maps žemėlapiai}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Programavimo aplinkos reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Programavimo aplinkos reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.5.1}&
+		{Programa kuriama naudojant C\# programavimo kalbą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.5.2}&
+		{Naudojama Github repozitorija }&
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\		
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 1.5.3}&
+		{Naudojama Visual Studio programavimo aplinka.}&
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\		
+	
+	\hline 	 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsection{Veikimo reikalavimai}
+
+\subsubsection{Vaizdavimo reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Vaizdavimo reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 2.1.1}&
+		{Programa yra vaizduojama naudojant standartinį .NET vaizdavimo šabloną Windows Forms.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 2.1.2}&
+		{Data yra vaizduojama YYYY-MM-DD hh:mm formatu, kur YY – metai, MM – mėnuo, DD – diena, hh – valandos, mm - minutės.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 2.1.3}&
+		{Kavinės pavadinimas – ne ilgiau nei 30 simbolių.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline  	
+		\multicolumn{1}{|c|}{NFR 2.1.4}&
+		{Visos sistemoje registruotos kavinės yra pateiktos lentelėje.}&
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\		
+	
+	\hline 	 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Skaičiavimo tikslumo reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Skaičiavimo tikslumo reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 2.2.1}&
+		{Skaičiuojant vartotojo esamas koordinatės paklaida negali būti didesnė nei 30m.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	\hline 	 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Patikimumo reikalavimai}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Patikimumo reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 2.2.1}&
+		{Sistema turi veikti 95\ planuoto veikimo laiko. }&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	\hline 	 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
 
 \subsection{Robatiškimo reikalavimai}
 
