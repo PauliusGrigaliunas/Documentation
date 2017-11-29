@@ -56,44 +56,26 @@
 %ANOTACIJA
 
 \sectionnonum{ANOTACIJA}
-{\bfseries Darbo tikslas:} Reikalavimų anotacija Plz kažkas parašykite :). 
-\newline
-\newline
-\newline
-
-%DARBO ATLIKO
 \noindent
-{\bfseries Darbą atliko:}
-\newline
-\newline
-\newline
-Paulius Grigaliūnas
-\newline
-paulius.grigaliunas.pg@gmail.com
-\newline
-\newline
-\newline
-Karolis Staskevičius
-\newline
-satelistas@gmail.com
-\newline
-\newline
-\newline
-Modestas Dulevičius
-\newline
-modux9@gmail.com
-\newline
-\newline
-\newline
-Albert Jurkoit
-\newline
-albert.jurkoit@mif.stud.vu.lt
-\newline
-\newline
-\newline
-Šarūnas Kazimieras Buteikis
-\newline
-sarunas.kazimieras.buteikis@gmail.com
+Šiame dokumente detaliai išdėstomi pagrindiniai kavinės rezervavimo sistemos reikalavimai. Remiantis dalykinės srities analize pateikiama vartotojo interfeiso, funkcinių ir nefunkcinių programų sistemos reikalavimų specifikacija, kuria siekiama užtikrinti standartartizuotos bei funkcionalios sistemos sukūrimą.\\\\
+
+{\bfseries Įvadas}\\\\
+Dokumente aprašomi ir analizuoji įmonės, gaminančios ir parduodančios lipdukus telefonams, sistemos skirtos naudotis įmonės paslaugomis vartotojo sąsajos reikalavimai. Pateikiami vartotojo sąsajos funkciniai bei nefunkciniai reikalavimai, pateikiamos sekų diagramos iliustruojančios, kaip sistema turi veikti bei paveikslėliai, kaip sistema turi atrodyti.\\\\
+{\bfseries Programų sistemos pavadinimas}\\\\
+Pilnas programų sistemos pavadinimas – kavinės rezervavimo „Covfefe“ aplikacija. Trumpas sistemos pavadinimas – "Covfefe“.\\\\
+{\bfseries Dalykinė sritis}\\\\
+Kavinės ir jų rezervacija.\\\\
+\noindent
+{\bfseries Probleminė sritis}\\\\
+Programelė̇ suteikia galimybę užsirezervuoti staliuką pasirinktoje kavinėje internetu. "Covfefe" sprendžia problemą, kad šiandieninėje rinkoje žmogus neturi galimybės vienoje aplikacijoje užsirezvuoti staliuką skirtingose kavinėse.\\\\
+{\bfseries Naudotojai}\\\\
+Klientas. Reikalingos bazinės naudojimosi kompiuteriu bei internetu žinios (kompiuterinis raštingumas).\\\
+Kavinės savininkas. Reikalingas kompiuterinis raštingumas, gebėjimas tinkamai užpildyti formos laukus.\\\\
+{\bfseries Darbo pagrindas}\\\\
+Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis laboratorinis darbas.
+
+
+
 
 %TURINYS(TOC)
 \tableofcontents
@@ -109,20 +91,22 @@ sarunas.kazimieras.buteikis@gmail.com
 \section{Vartotojo sąsaja}
 
 \subsection{Formuluojamos užduotys}
-\subsubsection{Vartotojo užduotys}
+\subsubsection{Kliento užduotys}
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{|p{2cm}|p{16cm}|}
+	\begin{tabular}{|p{2cm}|p{2,5cm}|p{9,6cm}|}
 	\hline
 	    \rowcolor{lightgray}
-		\multicolumn{2}{|c|}{Kliento užduotys}\\
+		\multicolumn{3}{|c|}{Kliento užduotys}\\
 		
 	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
 		\multicolumn{1}{|c|}{{\bfseries Užduotis}}&
 		\multicolumn{1}{|c|}{{\bfseries Formulavimo būdas}}\\		
-	\hline 	
+	\hline
+		\multicolumn{1}{|c|}{VS 1.1.1}& 	
 		\multicolumn{1}{|c|}{Autentifikavimo užduotys}&
-		\multicolumn{1}{|p{11,6cm}|}{
+		{
 			\begin{enumerate}
 				\item Registruotis sistemoje
 				(privalomi duomenys:vardas, pavardė, el. paštas, telefono numeris, slaptažodis).
@@ -130,9 +114,10 @@ sarunas.kazimieras.buteikis@gmail.com
 				\item “Premium” prisijungimas (aktyvuojamas klientui, kuris nupirko tam tikrą paslaugą) leidžiantis prisijungti prie sistemos vienu mygtuko paspaudimu.
 			\end{enumerate}}\\
 	
-	\hline 	
+	\hline
+		\multicolumn{1}{|c|}{VS 1.1.2}&  	
 		\multicolumn{1}{|c|}{Pagalbinės užduotys}&
-		\multicolumn{1}{|p{11,6cm}|}{
+		{
 			\begin{enumerate}
 				\item Peržiūrėti visas sistemoje registruotas kavinės, informaciją apie jas.
 				\item Ieškoti kavinę pagal vardą.
@@ -152,28 +137,27 @@ sarunas.kazimieras.buteikis@gmail.com
 \subsubsection{Kavinės savininko užduotys}
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{|p{2cm}|p{16cm}|}
+	\begin{tabular}{|p{2cm}|p{2,5cm}|p{9,6cm}|}
 	\hline
 	    \rowcolor{lightgray}
-		\multicolumn{2}{|c|}{Kavinės savininko užduotys}\\
+		\multicolumn{3}{|c|}{Kavinės savininko užduotys}\\
 		
 	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
 		\multicolumn{1}{|c|}{{\bfseries Užduotis}}&
 		\multicolumn{1}{|c|}{{\bfseries Formulavimo būdas}}\\		
-	\hline 	
+	\hline
+		\multicolumn{1}{|c|}{VS 1.2.1}&  	
 		\multicolumn{1}{|c|}{Autentifikavimo užduotys}&
-		\multicolumn{1}{|p{11,6cm}|}{
+		{
 			\begin{enumerate}
 				\item Registruotis sistemoje (privalomi duomenys:vardas, pavardė, el. paštas, telefono numeris, slaptažodis).
 				\item Prisijungti prie sistemos (privalomi duomenys: el. paštas, slaptažodis).
 			\end{enumerate}}\\
 	\hline
-		\multicolumn{1}{|c|}{Pagalbinės užduotys}\\
-		
-
-	\hline 	
-		\multicolumn{1}{|c|}{Autentifikavimo užduotys}&
-		\multicolumn{1}{|p{11,6cm}|}{
+		\multicolumn{1}{|c|}{VS 1.2.2}&
+		\multicolumn{1}{|c|}{Pagalbinės užduotys}&
+		{
 			\begin{enumerate}
 				\item Pridėti kavinę (privalomi duomenys: kavinės vardas, adresas, staliukų skaičius, darbo grafikas. Papildomi: kavinės telefono numeris).
 				\item Peržiūrėti sistemoje registruotų kavinių sąrašą.
@@ -191,24 +175,27 @@ sarunas.kazimieras.buteikis@gmail.com
 \subsection{Užduočių formulavimo kalbos reikalavimai}
 \begin{center}
 
-	\begin{longtable}{|p{2cm}|p{16cm}|}
+	\begin{longtable}{|p{2cm}|p{4,1cm}|p{9,6cm}|}
 	\hline
 	    \rowcolor{lightgray}
-		\multicolumn{2}{|c|}{Užduočių formulavimo kalbos reikalavimai}\\
+		\multicolumn{3}{|c|}{Užduočių formulavimo kalbos reikalavimai}\\
 		
 	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
 		\multicolumn{1}{|c|}{{\bfseries Užduotis}}&
 		\multicolumn{1}{|c|}{{\bfseries Formulavimo būdas}}\\		
-	\hline 	
-		\multicolumn{1}{|c|}{Registruotis}&
+	\hline
+		\multicolumn{1}{|c|}{VS 2.1}& 	
+		{Registruotis}&
 		\multicolumn{1}{|p{8,6cm}|}{
 			\begin{enumerate}
 				\item Duomenų įvedimo laukeliai.
 				\item Registracijos mygtukas.
 			\end{enumerate}}\\
 	
-	\hline 	
-		\multicolumn{1}{|c|}{Prisijungti}&
+	\hline
+		\multicolumn{1}{|c|}{VS 2.2}& 	
+		{Prisijungti}&
 		\multicolumn{1}{|p{8,6cm}|}{
 			\begin{enumerate}
 				\item Piktrograma. 
@@ -216,15 +203,17 @@ sarunas.kazimieras.buteikis@gmail.com
 				\item Prisijungimo  mygtukas.
 			\end{enumerate}}\\
 	
-	\hline 	
-		\multicolumn{1}{|c|}{Premium prisijungimas}&
+	\hline
+		\multicolumn{1}{|c|}{VS 2.3}& 	
+		{Premium prisijungimas}&
 		\multicolumn{1}{|p{8,6cm}|}{
 			\begin{enumerate}
 				\item Premium prisijungimo mygtukas.
 			\end{enumerate}}\\
 	
-	\hline 	
-		\multicolumn{1}{|c|}{Kavinės pridėjimas}&
+	\hline
+		\multicolumn{1}{|c|}{VS 2.4}& 	
+		{Kavinės pridėjimas}&
 		\multicolumn{1}{|p{8,6cm}|}{
 			\begin{enumerate}
 				\item Duomenų įvedimo laukeliai.
@@ -232,6 +221,7 @@ sarunas.kazimieras.buteikis@gmail.com
 			\end{enumerate}}\\
 	
 	\hline 	
+		\multicolumn{1}{|c|}{VS 2.5}&
 		\multicolumn{1}{|c|}{Išeiti}&
 		\multicolumn{1}{|p{8,6cm}|}{
 			\begin{enumerate}
@@ -239,8 +229,8 @@ sarunas.kazimieras.buteikis@gmail.com
 			\end{enumerate}}\\
 	
 	\hline	
-		
-		\multicolumn{1}{|c|}{Kavinės paieška}&
+		\multicolumn{1}{|c|}{VS 2.6}&
+		{Kavinės paieška}&
 		\multicolumn{1}{|p{10,2cm}|}{
 			\begin{enumerate}
 				\item Lentelė su sistemoje registruotomis kavinėmis.
@@ -252,7 +242,8 @@ sarunas.kazimieras.buteikis@gmail.com
 			\end{enumerate}}\\
 	
 	\hline 	
-		\multicolumn{1}{|c|}{Kavinės rezervacija}&
+		\multicolumn{1}{|c|}{VS 2.7}&
+		{Kavinės rezervacija}&
 		\multicolumn{1}{|p{10,2cm}|}{
 			\begin{enumerate}
 				\item Datos (metai, mėnuo, diena) nustatymo laukelis
@@ -261,8 +252,9 @@ sarunas.kazimieras.buteikis@gmail.com
 				\item Rezervacijos mygtukas.
 			\end{enumerate}}\\
 	
-	\hline 	
-		\multicolumn{1}{|c|}{Kavinės informacijos atnaujinimas}&
+	\hline
+		\multicolumn{1}{|c|}{VS 2.8}& 	
+		{Kavinės informacijos atnaujinimas}&
 		\multicolumn{1}{|p{8,6cm}|}{
 			\begin{enumerate}
 				\item Duomenų įvedimo laukeliai.
@@ -279,19 +271,25 @@ sarunas.kazimieras.buteikis@gmail.com
 \subsection{Interfeiso darnos ir standartizavimo reikalavimai}
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{|p{16cm}|p{2cm}|}
+	\begin{tabular}{|p{2cm}|p{14cm}|p{2cm}|}
 	\hline
 	    \rowcolor{lightgray}
+	    \multicolumn{3}{|c|}{Interfeiso darnos ir standartizavimo reikalavimai}\\
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
 		\multicolumn{1}{|c|}{ {\bfseries Užduotis}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\		
 	\hline
-		\multicolumn{1}{|p{14,5cm}|}{Pagrindinis meniu visuomet pasiekiamas paspaudus ant programėlės logotipo esančio kairiajame viršutiniame kampe.}& 
+		\multicolumn{1}{|c|}{VS 3.1}&
+		\multicolumn{1}{|p{12,9cm}|}{Pagrindinis meniu visuomet pasiekiamas paspaudus ant programėlės logotipo esančio kairiajame viršutiniame kampe.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-		\multicolumn{1}{|p{14,5cm}|}{Languose dominuoja „Royal Jewels“ spalvų paletė.}& 
+		\multicolumn{1}{|c|}{VS 3.2}&
+		\multicolumn{1}{|p{12cm}|}{Languose dominuoja „Royal Jewels“ spalvų paletė.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-		\multicolumn{1}{|p{14,5cm}|}{Tekstui naudojami ‚Times New Roman“ šriftas}& 
+		\multicolumn{1}{|c|}{VS 3.3}&
+		\multicolumn{1}{|p{12cm}|}{Tekstui naudojami ‚Times New Roman“ šriftas}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline  	 	
 	
@@ -305,57 +303,61 @@ sarunas.kazimieras.buteikis@gmail.com
 \subsection{Pranešimų formulavimo reikalavimai}
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{|p{16cm}|p{2cm}|}
+	\begin{tabular}{|p{2cm}|p{11cm}|p{2cm}|}
 	\hline
+	    \rowcolor{lightgray}
+	    \multicolumn{3}{|c|}{Pranešimų formulavimo reikalavimai}\\
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
 		\multicolumn{1}{|c|}{ {\bfseries Užduotis}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\		
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešimų tekstas turi būti parašytas laikantis gramatikos ir skyrybos taisyklių.}& 
+		\multicolumn{1}{|c|}{VS 4.1}&
+		\multicolumn{1}{|p{12,6cm}|}{Pranešimų tekstas turi būti parašytas laikantis gramatikos ir skyrybos taisyklių.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešime vartojami tik interfeiso naudotojams žinomi terminai, vengiama žargonų ir svetimybių, tačiau leistina vartoti dalykinės srities metaforas.}& 
+		\multicolumn{1}{|c|}{VS 4.2}&
+		\multicolumn{1}{|p{12,5cm}|}{Pranešime vartojami tik interfeiso naudotojams žinomi terminai, vengiama žargonų ir svetimybių, tačiau leistina vartoti dalykinės srities metaforas.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Informacinio tipo pranešimai aprašys domenų įvedimo kriterijus.}& 
+		\multicolumn{1}{|c|}{VS 4.3}&
+		\multicolumn{1}{|p{12,5cm}|}{Informacinio tipo pranešimai aprašys domenų įvedimo kriterijus.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešimų langai įspės apie blogai įvestus duomenis, pavyzdžiui, per trumpą įvestą slaptažodį arba jau užregistruotą el. paštą.}& 
+		\multicolumn{1}{|c|}{VS 4.4}&
+		\multicolumn{1}{|p{12,5cm}|}{Pranešimų langai įspės apie blogai įvestus duomenis, pavyzdžiui, per trumpą įvestą slaptažodį arba jau užregistruotą el. paštą.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešimas turi pateikti informaciją apie sėkmingai atliktą veiksmą arba informuoti apie klaidą.}& 
+		\multicolumn{1}{|c|}{VS 4.5}&
+		\multicolumn{1}{|p{12,5cm}|}{Pranešimas turi pateikti informaciją apie sėkmingai atliktą veiksmą arba informuoti apie klaidą.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešimo tekstas turi būti suprantamas vienareikšmiškai.}& 
+		\multicolumn{1}{|c|}{VS 4.6}&
+		\multicolumn{1}{|p{12,5cm}|}{Pranešimo tekstas turi būti suprantamas vienareikšmiškai.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešimas apie klaidą turi būti detalus.}& 
+		\multicolumn{1}{|c|}{VS 4.7}&
+		\multicolumn{1}{|p{12,5cm}|}{Pranešimas apie klaidą turi būti detalus.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Informacinis pranešimas turi būti žalios arba mėlynos spalvos, o klaidos pranešimas - raudonos.}& 
+		\multicolumn{1}{|c|}{VS 4.8}&
+		\multicolumn{1}{|p{12,5cm}|}{Informacinis pranešimas turi būti žalios arba mėlynos spalvos, o klaidos pranešimas - raudonos.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pradinis pranešimo langas negali užimti daugiau nei 50\% ekrano pločio ir aukščio.}& 
+		\multicolumn{1}{|c|}{VS 4.9}&
+		\multicolumn{1}{|p{12,5cm}|}{Pradinis pranešimo langas negali užimti daugiau nei 50\% ekrano pločio ir aukščio.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešimo teksto ilgis negali viršyti 100 simbolių limito.}& 
+		\multicolumn{1}{|c|}{VS 4.10}&
+		\multicolumn{1}{|p{12,5cm}|}{Pranešimo teksto ilgis negali viršyti 100 simbolių limito.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Pranešimas turi turėti antraštę.}& 
+		\multicolumn{1}{|c|}{VS 4.11}&
+		\multicolumn{1}{|p{12,5cm}|}{Pranešimas turi turėti antraštę.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Turi būti galimybė išjungti pranešimo langą.}& 
+		\multicolumn{1}{|c|}{VS 4.12}&
+		\multicolumn{1}{|p{12,5cm}|}{Turi būti galimybė išjungti pranešimo langą.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline	 	
 	
@@ -372,18 +374,21 @@ sarunas.kazimieras.buteikis@gmail.com
 
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{|p{16cm}|p{2cm}|}
+	\begin{tabular}{|p{2cm}|p{13cm}|p{2cm}|}
 	\hline
 	    \rowcolor{lightgray}
+	    \multicolumn{3}{|c|}{Interfeiso individualizavimo reikalavimai}\\
+	\hline
+		\multicolumn{1}{|c|}{ {\bfseries Kodas}}&
 		\multicolumn{1}{|c|}{ {\bfseries Užduotis}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\		
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Ekrano temos pasirinkimas (minimalūs dizaino pakeitimai: spalva, šriftas)}& 
+		\multicolumn{1}{|c|}{VS 5.1}&
+		\multicolumn{1}{|p{12,9cm}|}{Ekrano temos pasirinkimas (minimalūs dizaino pakeitimai: spalva, šriftas)}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
-	
-		\multicolumn{1}{|p{14,5cm}|}{Kalbos pasirinkimas.}& 
+		\multicolumn{1}{|c|}{VS 5.1}&
+		\multicolumn{1}{|p{12,9cm}|}{Kalbos pasirinkimas.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
 	
@@ -519,8 +524,6 @@ sarunas.kazimieras.buteikis@gmail.com
 	\end{table}
 
 \end{center}
-
-\pagebreak
 
 \subsection{Kliento prisijungimas}
 
