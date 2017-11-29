@@ -17,6 +17,7 @@
 \usepackage[table]{xcolor}
 \usepackage{multirow}
 \usepackage[usestackEOL]{stackengine}
+\usepackage{longtable}
 
 \usepackage{enumitem}
 %PAKEISTA, tarpai tarp sąrašo elementų
@@ -104,6 +105,262 @@ sarunas.kazimieras.buteikis@gmail.com
 \newline
 
 %FUNKCINIAI REIKALAVIMAI
+
+\section{Vartotojo sąsaja}
+
+\subsection{Formuluojamos užduotys}
+\subsubsection{Vartotojo užduotys}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{16cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{2}{|c|}{Vartotojo užduotys}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Užduotis}}&
+		\multicolumn{1}{|c|}{{\bfseries Formulavimo būdas}}\\		
+	\hline 	
+		\multicolumn{1}{|c|}{Autentifikavimo užduotys}&
+		\multicolumn{1}{|p{11,6cm}|}{
+			\begin{enumerate}
+				\item Registruotis sistemoje
+				(privalomi duomenys:vardas, pavardė, el. paštas, telefono numeris, slaptažodis).
+				\item Prisijungti prie sistemos (privalomi duomenys: el. paštas, slaptažodis).
+				\item “Premium” prisijungimas (aktyvuojamas vartotojui, kuris nupirko tam tikrą paslaugą) leidžiantis prisijungti prie sistemos vienu mygtuko paspaudimu.
+			\end{enumerate}}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{Pagalbinės užduotys}&
+		\multicolumn{1}{|p{11,6cm}|}{
+			\begin{enumerate}
+				\item Peržiūrėti visas sistemoje registruotas kavinės, informaciją apie jas.
+				\item Ieškoti kavinę pagal vardą.
+				\item Ieškoti kavinę pagal vietą.
+				\item Peržiūrėti pasirinktos kavinės detaliąją informaciją (Vardas, adresas, staliukų skaičius, darbo grafikas).
+				\item Rezervuoti staliuką pasirinktoje kavinėje.
+			\end{enumerate}}\\
+	
+	\hline 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Kavinės savininko užduotys}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{16cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{2}{|c|}{Kavinės savininko užduotys}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Užduotis}}&
+		\multicolumn{1}{|c|}{{\bfseries Formulavimo būdas}}\\		
+	\hline 	
+		\multicolumn{1}{|c|}{Autentifikavimo užduotys}&
+		\multicolumn{1}{|p{11,6cm}|}{
+			\begin{enumerate}
+				\item Registruotis sistemoje (privalomi duomenys:vardas, pavardė, el. paštas, telefono numeris, slaptažodis).
+				\item Prisijungti prie sistemos (privalomi duomenys: el. paštas, slaptažodis).
+			\end{enumerate}}\\
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{1}{|c|}{Pagalbinės užduotys}\\
+		
+
+	\hline 	
+		\multicolumn{1}{|c|}{Autentifikavimo užduotys}&
+		\multicolumn{1}{|p{11,6cm}|}{
+			\begin{enumerate}
+				\item Pridėti kavinę (privalomi duomenys: kavinės vardas, adresas, staliukų skaičius, darbo grafikas. Papildomi: kavinės telefono numeris).
+				\item Peržiūrėti sistemoje registruotų kavinių sąrašą.
+				\item Atnaujinti informaciją apie savo registruotą kavinę.
+			\end{enumerate}}\\
+	
+	\hline 	 	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Užduočių formulavimo kalbos reikalavimai}
+\begin{center}
+
+	\begin{longtable}{|p{2cm}|p{16cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{2}{|c|}{Užduočių formulavimo kalbos reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Užduotis}}&
+		\multicolumn{1}{|c|}{{\bfseries Formulavimo būdas}}\\		
+	\hline 	
+		\multicolumn{1}{|c|}{Registruotis}&
+		\multicolumn{1}{|p{8,6cm}|}{
+			\begin{enumerate}
+				\item Duomenų įvedimo laukeliai.
+				\item Registracijos mygtukas.
+			\end{enumerate}}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{Prisijungti}&
+		\multicolumn{1}{|p{8,6cm}|}{
+			\begin{enumerate}
+				\item Piktrograma. 
+				\item Duomenų įvedimo laukeliai.
+				\item Prisijungimo  mygtukas.
+			\end{enumerate}}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{Premium prisijungimas}&
+		\multicolumn{1}{|p{8,6cm}|}{
+			\begin{enumerate}
+				\item Premium prisijungimo mygtukas.
+			\end{enumerate}}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{Kavinės pridėjimas}&
+		\multicolumn{1}{|p{8,6cm}|}{
+			\begin{enumerate}
+				\item Duomenų įvedimo laukeliai.
+				\item Pridėjimo mygtukas.
+			\end{enumerate}}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{Išeiti}&
+		\multicolumn{1}{|p{8,6cm}|}{
+			\begin{enumerate}
+				\item Išėjimo mygtukas.
+			\end{enumerate}}\\
+	
+	\hline	
+		
+		\multicolumn{1}{|c|}{Kavinės paieška}&
+		\multicolumn{1}{|p{10,2cm}|}{
+			\begin{enumerate}
+				\item Lentelė su sistemoje registruotomis kavinėmis.
+				\item Kavinės rezervacijos mygtukas.
+				\item Paieškos duomenų įvedimo laukelis.
+				\item Paieškos pagal vardą mygtukas.
+				\item Paieškos pagal vietą mygtukas.
+				\item Parodyti daugiau informacijos mygtukas.
+			\end{enumerate}}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{Kavinės rezervacija}&
+		\multicolumn{1}{|p{10,2cm}|}{
+			\begin{enumerate}
+				\item Datos (metai, mėnuo, diena) nustatymo laukelis
+				\item Laiko (valandos, minutės) nustatymo laukelis.
+				\item Lango uždarymo mygtukas.
+				\item Rezervacijos mygtukas.
+			\end{enumerate}}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{Kavinės informacijos atnaujinimas}&
+		\multicolumn{1}{|p{8,6cm}|}{
+			\begin{enumerate}
+				\item Duomenų įvedimo laukeliai.
+				\item Patvirtinimo mygtukas.
+			\end{enumerate}}\\
+	
+	\hline
+		
+	\end{longtable}
+
+\end{center}
+
+\subsubsection{Interfeiso darnos ir standartizavimo reikalavimai}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{16cm}|p{2cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{1}{|c|}{ {\bfseries Užduotis}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\		
+	\hline
+		\multicolumn{1}{|p{14,5cm}|}{Pagrindinis meniu visuomet pasiekiamas paspaudus ant programėlės logotipo esančio kairiajame viršutiniame kampe.}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline
+		\multicolumn{1}{|p{14,5cm}|}{Languose dominuoja „Royal Jewels“ spalvų paletė.}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline
+		\multicolumn{1}{|p{14,5cm}|}{Tekstui naudojami ‚Times New Roman“ šriftas}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline  	 	
+	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Pranešimų formulavimo reikalavimai}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{16cm}|p{2cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{1}{|c|}{ {\bfseries Užduotis}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\		
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešimų tekstas turi būti parašytas laikantis gramatikos ir skyrybos taisyklių.}& 
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešime vartojami tik interfeiso naudotojams žinomi terminai, vengiama žargonų ir svetimybių, tačiau leistina vartoti dalykinės srities metaforas.}& 
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Informacinio tipo pranešimai aprašys domenų įvedimo kriterijus.}& 
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešimų langai įspės apie blogai įvestus duomenis, pavyzdžiui, per trumpą įvestą slaptažodį arba jau užregistruotą el. paštą.}& 
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešimas turi pateikti informaciją apie sėkmingai atliktą veiksmą arba informuoti apie klaidą.}& 
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešimo tekstas turi būti suprantamas vienareikšmiškai.}& 
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešimas apie klaidą turi būti detalus.}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Informacinis pranešimas turi būti žalios arba mėlynos spalvos, o klaidos pranešimas - raudonos.}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pradinis pranešimo langas negali užimti daugiau nei 50\% ekrano pločio ir aukščio.}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešimo teksto ilgis negali viršyti 100 simbolių limito.}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Pranešimas turi turėti antraštę.}& 
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
+	\hline
+	
+		\multicolumn{1}{|p{14,5cm}|}{Turi būti galimybė išjungti pranešimo langą.}& 
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	\hline	 	
+	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\pagebreak
+
 \section{Funkciniai reikalavimai}
 %PRADEDAME RASYTI LENTELES WOHOO
 
@@ -399,7 +656,7 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{FR 5.4}&
 		{Vartotojas norėdamas rezervuoti vietą restorane privalo nurodyti:
 			\begin{itemize}
-				\item Rezervavimo datą (YYYY-MM-DD hh:mm).
+				\item Rezervavimo datą.
 				\item Rezervavimo laiką.
 			\end{itemize}}&
 			\multicolumn{1}{|c|}{BŪTINA}\\				
@@ -450,16 +707,11 @@ sarunas.kazimieras.buteikis@gmail.com
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 6.3}&
-		{Vartotojas gali atšaukti savo rezervaciją}&
-		\multicolumn{1}{|c|}{BŪTINA}\\				
-	\hline
-	
-		\multicolumn{1}{|c|}{FR 6.4}&
 		{Vykdant rezervacijos atšaukimą į duomenų bazę siunčiama užklausa atlaisvinti staliuką. Rezervacijos įrašas pašalinamas iš kliento rezervacijos sąrašo.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
-		\multicolumn{1}{|c|}{FR 6.5}&
+		\multicolumn{1}{|c|}{FR 6.4}&
 		{Vartotojas gali peržiūrėti kavinės rezervaciją. Peržiūrint kavinės informaciją pateikiamas kavinės duomenų langas.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline		
@@ -533,7 +785,7 @@ sarunas.kazimieras.buteikis@gmail.com
 	
 	\hline
 	    \rowcolor{lightgray}
-		\multicolumn{3}{|c|}{Kavinės įvertinimas}\\
+		\multicolumn{3}{|c|}{Kavinės planavimas}\\
 		
 	\hline
 		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
@@ -562,7 +814,7 @@ sarunas.kazimieras.buteikis@gmail.com
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 8.3}&
-		{Įvedus kiekmonių gali sedėti prie stalo nurodoma kiek reikia pridėti kėdžių arba suolų sofų, kol patenkinamas vietų skaičius.}&
+		{Įvedus kiek žmonių gali sedėti prie stalo nurodoma kiek reikia pridėti kėdžių arba suolų sofų, kol patenkinamas vietų skaičius.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
@@ -582,11 +834,6 @@ sarunas.kazimieras.buteikis@gmail.com
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 8.7}&
-		{Valdytojas gali išsaugoti kavinės planą.}&
-		\multicolumn{1}{|c|}{BŪTINA}\\				
-	\hline
-	
-		\multicolumn{1}{|c|}{FR 8.8}&
 		{Valdytojo išsaugotas kavinės planas patalpinamas į duomenų bazę.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
@@ -597,6 +844,175 @@ sarunas.kazimieras.buteikis@gmail.com
 	\end{table}
 	
 	
+\end{center}
+
+\pagebreak
+
+\subsection{Kavinės pridėjimas}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Kavinės pridėjimas}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+
+	\hline
+		\multicolumn{1}{|c|}{FR 9.1}&
+		{Jeigu vartotojas dar nėra sukūręs nei vienos kavinės, pridėdamas naują kavinę, jis automatiškai tampa valdytojų.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+
+	\hline
+		\multicolumn{1}{|c|}{FR 9.2}&
+		{Vartotojas arba valdytojas gali pridėti naują kavinę, įvesdamas tam tikrus duomenis:
+			\begin{itemize}
+				\item Privaloma įvesti kavinės pavadinimą.
+				\item Privaloma nurodyti kavinės adresą.
+				\item Būtina įvesti staliukų skaičių. (bent 1 staliukas).
+				\item Privaloma nurodyti kavinės darbo laiką darbo dienomis ir savaitgaliais.
+				\item Galima papildomai pridėti savininko telefono numerį.
+			\end{itemize}}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+
+	\hline
+		\multicolumn{1}{|c|}{FR 9.3}&
+		{Kavinės įvedamų duomenų formatai
+			\begin{itemize}
+				\item Kavinės pavadinimas (String).
+				\item Kavinės adresas (String).
+				\item Staliukų skaičius (Int, $>$0).
+				\item Darbo dienomis (String).
+				\item Šeštadieniais (String).
+				\item Sekmadieniais (String).
+			\end{itemize}}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+
+	\hline
+		\multicolumn{1}{|c|}{FR 9.4}&
+		{Sėkmingai pridėjus kavinę pranešama informacija apie sėkmingai pridėtą kavinę.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+
+	\hline
+		\multicolumn{1}{|c|}{FR 9.5}&
+		{Sėkmingai pridėjus kavinę, jos duomenys išsaugomi duomenų bazėje.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+
+	\hline
+		\multicolumn{1}{|c|}{FR 9.6}&
+		{Valdytojas gali atšaukti kavinės pridėjimą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+
+	\hline
+		\multicolumn{1}{|c|}{FR 9.7}&
+		{Sėkmingai atšaukus kavinės pridėjimą, automatiškai išeinama iš kavinės pridėjimo lango.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+
+	\hline
+	
+	
+	
+	\end{tabular}
+	
+	\end{table}
+
+\end{center}
+
+
+\subsection{Kavinės informacijos keitimas}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Kavinės informacijos keitimas}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{FR 10.1}&
+		{Tik valdytojas turi galimybę pakeisti savo pridėtų kavinių informaciją.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{FR 10.2}&
+		{Kavinės duomenys, kuriuos gali valdytojas pakeisti:
+		\begin{itemize}
+			\item Kavinės pavadinimas.
+			\item Kavinės adresas.
+			\item Staliukų skaičius.
+			\item Telefono numeris
+		\end{itemize}}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{FR 10.3}&
+		{Sėkmingai pakeitus kavinės informacija, pranešama apie sėkmingai išsaugotus kavinės duomenis.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	
+	\hline 	
+		\multicolumn{1}{|c|}{FR 10.4}&
+		{Sėkmingai pakeitus kavinės informacija, seni kavinės duomenys duomenų bazėje pakeičiami naujais.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+	
+	\hline  
+	
+	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsection{Premium kliento galimybės}
+
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Premium kliento galimybės}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{FR 11.1}&
+		{Kiekvienas vartotojas turi galimybę užsisakyti Premium klientą.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+				
+	\hline 	
+		\multicolumn{1}{|c|}{FR 11.2}&
+		{Premium vartotojas turi greitas staliuko rezervavimą}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+				
+	\hline 	
+		\multicolumn{1}{|c|}{FR 11.3}&
+		{Premium vartotojui parodomos arčiausiai esamos kavinės su laisvų staliukų skaičiais ir galima pasirinkti, kurioje kavinėje rezervuoti staliuką.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+				
+	\hline 	
+		\multicolumn{1}{|c|}{FR 11.4}&
+		{Premium vartotojui parodomos arčiausiai esamos kavinės su laisvų staliukų skaičiais ir galima pasirinkti, kurioje kavinėje rezervuoti staliuką.Jeigu šiuo metu nėra laisvų staliukų, apie tai pranešama.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+				
+	\hline 	
+		\multicolumn{1}{|c|}{FR 11.5}&
+		{Tik „Premium“ vartotojas gali rezervuoti paskutinį kavinės staliuką.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\
+				
+	\hline
+
+	\end{tabular}
+	
+	\end{table}
+
 \end{center}
 
 \pagebreak
@@ -839,8 +1255,8 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 2.2.1}&
-		{Sistema turi veikti 95\ planuoto veikimo laiko. }&
+		\multicolumn{1}{|c|}{NFR 2.3.1}&
+		{Sistema turi veikti 95\% planuoto veikimo laiko. }&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	\hline 	 	 	
 	\end{tabular}
@@ -848,7 +1264,9 @@ sarunas.kazimieras.buteikis@gmail.com
 
 \end{center}
 
-\subsection{Robatiškimo reikalavimai}
+
+
+\subsubsection{Robatiškimo reikalavimai}
 
 \begin{center}
 	\begin{table}[H]
@@ -862,17 +1280,17 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 1.1}&
+		\multicolumn{1}{|c|}{NFR 2.4.1}&
 		{Keičiant ar pildant programėlės įvestis. Yra nedelsiant modifikuojama programėlės duomenų bazė.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 		
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 1.2}&
+		\multicolumn{1}{|c|}{NFR 2.4.2}&
 		{Įvykus sistemos klaidai susijusiai su užsakymais, užsakymas yra nutraukiamas ir apie tai pranešama užsakovui.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 		
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 1.3}&
+		\multicolumn{1}{|c|}{NFR 2.4.3}&
 		{Bandant pildyti laukus ne pagal pateiktus reikalavimus, užklausa negali būti įvykdyta.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 		
@@ -885,7 +1303,7 @@ sarunas.kazimieras.buteikis@gmail.com
 \end{center}
 
 
-\subsection{Laikas, reikalingas atstatyti programos veikimą}
+\subsubsection{Laikas, reikalingas atstatyti programos veikimą}
 \begin{center}
 	\begin{table}[H]
 	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
@@ -898,7 +1316,7 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 2.1}&
+		\multicolumn{1}{|c|}{NFR 2.5.1}&
 		{Atsiradę programėlės trikdžiai turi būti sutvarkyti per 3 darbo dienas, komandos atsakingos už šios programėlės veikimą.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\		
 	\hline
@@ -910,7 +1328,7 @@ sarunas.kazimieras.buteikis@gmail.com
 \end{center}
 
 
-\subsection{Našumo reikalavimai}
+\subsubsection{Našumo reikalavimai}
 \begin{center}
 	\begin{table}[H]
 	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
@@ -923,15 +1341,15 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 3.1}&
+		\multicolumn{1}{|c|}{NFR 2.6.1}&
 		{Programa neturi naudoti daugiau nei 50 proc. procesoriaus pajėgumo.}&
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\	
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 3.2}&
+		\multicolumn{1}{|c|}{NFR 2.6.2}&
 		{Konkrečiai kavinės staliuko paieškai ir rezervacijai duomenų Bazėje turi būti sugaišta ne ilgiau nei 7 sekundės.}&
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\	
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 3.3}&
+		\multicolumn{1}{|c|}{NFR 2.6.3}&
 		{Kiekviena užklausa turi būti aptarnauta per ne ilgiau kaip 10 sekundžių.}&
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\		
 	\hline
@@ -943,6 +1361,129 @@ sarunas.kazimieras.buteikis@gmail.com
 \end{center}
 
 \pagebreak
+
+\subsection{Diegimo reikalavimai}
+
+\subsubsection{Ruošinio reikalavimai}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Ruošinio reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 3.1.1}&
+		{Programėlė pilnai veikia prisijungiant prie interneto iš bet kurio IP adreso.}&
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\	
+	
+	\hline
+	
+	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Instaliavimo reikalavimai }
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Instaliavimo reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 3.2.1}&
+		{Norėdamas įdiegti aplikaciją vartotojas privalo duoti sutikimą dėl duomenų gavimo internetu.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 3.2.2}&
+		{Sklandžiam aplikacijos diegimui ir veikimui reikia 1MB ROM. 2GB RAM.}&
+		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\	
+	
+	\hline
+	
+	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Pradinio DB kaupimo reikalavimai}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Pradinio DB kaupimo reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 3.3.1}&
+		{Sistemos duomenų bazė turi turėti:
+			\begin{itemize}
+				\item Kavinių lentelė turi bent 10 pradinių užpildytų eilučių su informacija apie Kavines. Juos įveda įgaliotas įmonės darbuotojas naudodamasis administratoriaus interfeisu.
+				\item Kavinių staliukų lentelė turi saugoti visų esančių staliukų sąrašą.
+				\item Vartotojų lentelė turi saugoti klientų sąrašą.
+				\item Administratorių lentelė turi turėti bent po vieną administratorių kiekvienai kavinei.
+			\end{itemize}}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+	
+	\end{tabular}
+	\end{table}
+
+\end{center}
+
+\subsubsection{Sistemos įsisavinamumo reikalavimai}
+\begin{center}
+	\begin{table}[H]
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+	    \rowcolor{lightgray}
+		\multicolumn{3}{|c|}{Sistemos įsisavinamumo reikalavimai}\\
+		
+	\hline
+		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 3.4.1}&
+		{Negali būti klaidinančių nuorodų.}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+		\multicolumn{1}{|c|}{NFR 3.4.2}&
+		{Pirmą kartą paleidus programą reikia susikurti vartotojo paskirą, tam reikia įvesti:
+			\begin{itemize}
+				\item Slapyvardį.
+				\item Slaptažodį.
+				\item Telefono numerį.
+				\item Pašto adresą.
+				\item Nurodyti ar naudotojas yra klientas, ar kavinės savininkas.
+			\end{itemize}}&
+		\multicolumn{1}{|c|}{BŪTINA}\\	
+	
+	\hline 	
+	
+	\end{tabular}
+	\end{table}
+
+\end{center}
 
 \subsection{Ekonominiai ribojimai}
 \begin{center}
@@ -969,130 +1510,7 @@ sarunas.kazimieras.buteikis@gmail.com
 
 \end{center}
 
-
-\subsection{Ruošinio reikalavimai}
-\begin{center}
-	\begin{table}[H]
-	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
-	\hline
-	    \rowcolor{lightgray}
-		\multicolumn{3}{|c|}{Ruošinio reikalavimai}\\
-		
-	\hline
-		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
-		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
-		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
-	\hline 	
-		\multicolumn{1}{|c|}{NFR 5.1}&
-		{Programėlė pilnai veikia prisijungiant prie interneto iš bet kurio IP adreso.}&
-		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\	
-	
-	\hline
-	
-	
-	\end{tabular}
-	\end{table}
-
-\end{center}
-
-\subsection{Instaliavimo reikalavimai }
-\begin{center}
-	\begin{table}[H]
-	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
-	\hline
-	    \rowcolor{lightgray}
-		\multicolumn{3}{|c|}{Instaliavimo reikalavimai}\\
-		
-	\hline
-		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
-		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
-		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
-	\hline 	
-		\multicolumn{1}{|c|}{NFR 6.1}&
-		{Norėdamas įdiegti aplikaciją vartotojas privalo duoti sutikimą dėl duomenų gavimo internetu.}&
-		\multicolumn{1}{|c|}{BŪTINA}\\	
-	
-	\hline 	
-		\multicolumn{1}{|c|}{NFR 6.2}&
-		{Sklandžiam aplikacijos diegimui ir veikimui reikia 1MB ROM. 2GB RAM.}&
-		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\	
-	
-	\hline
-	
-	
-	\end{tabular}
-	\end{table}
-
-\end{center}
-
 \pagebreak
-
-\subsection{Pradinio DB kaupimo reikalavimai}
-\begin{center}
-	\begin{table}[H]
-	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
-	\hline
-	    \rowcolor{lightgray}
-		\multicolumn{3}{|c|}{Pradinio DB kaupimo reikalavimai}\\
-		
-	\hline
-		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
-		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
-		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
-	\hline 	
-		\multicolumn{1}{|c|}{NFR 7.1}&
-		{Sistemos duomenų bazė turi turėti:
-			\begin{itemize}
-				\item Kavinių lentelė turi bent 10 pradinių užpildytų eilučių su informacija apie Kavines. Juos įveda įgaliotas įmonės darbuotojas naudodamasis administratoriaus interfeisu.
-				\item Kavinių staliukų lentelė turi saugoti visų esančių staliukų sąrašą.
-				\item Vartotojų lentelė turi saugoti klientų sąrašą.
-				\item Administratorių lentelė turi turėti bent po vieną administratorių kiekvienai kavinei.
-			\end{itemize}}&
-		\multicolumn{1}{|c|}{BŪTINA}\\	
-	
-	\hline 	
-	
-	\end{tabular}
-	\end{table}
-
-\end{center}
-
-\subsection{Sistemos įsisavinamumo reikalavimai}
-\begin{center}
-	\begin{table}[H]
-	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
-	\hline
-	    \rowcolor{lightgray}
-		\multicolumn{3}{|c|}{Sistemos įsisavinamumo reikalavimai}\\
-		
-	\hline
-		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
-		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
-		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
-	\hline 	
-		\multicolumn{1}{|c|}{NFR 8.1}&
-		{Negali būti klaidinančių nuorodų.}&
-		\multicolumn{1}{|c|}{BŪTINA}\\	
-	
-	\hline 	
-		\multicolumn{1}{|c|}{NFR 8.2}&
-		{Pirmą kartą paleidus programą reikia susikurti vartotojo paskirą, tam reikia įvesti:
-			\begin{itemize}
-				\item Slapyvardį.
-				\item Slaptažodį.
-				\item Telefono numerį.
-				\item Pašto adresą.
-				\item Nurodyti ar naudotojas yra klientas, ar kavinės savininkas.
-			\end{itemize}}&
-		\multicolumn{1}{|c|}{BŪTINA}\\	
-	
-	\hline 	
-	
-	\end{tabular}
-	\end{table}
-
-\end{center}
-
 
 \subsection{Aptarnavimo ir priežiūros reikalavimai}
 \begin{center}
@@ -1107,17 +1525,17 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 9.1}&
+		\multicolumn{1}{|c|}{NFR 5.1}&
 		{Aplikacijoje atsiradusi klaida turi būti ištaisyta per 3 darbo dienas.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 9.2}&
+		\multicolumn{1}{|c|}{NFR 5.2}&
 		{Visi vartotojo atliekami veiksmai programėlėje turi būti sekami ir saugomi laikinojoje duomenų bazėje tam, kad jei vartotojas esamos prisijungimo sesijos metu atrastų tinklapio spragą, visi jo atlikti veiksmai, kurie galėjo tai sukelti, būtų išsiųsti kaip klaidos pranešimas ir darbuotojai, atsakingi už tinklapio sklandų veikimą galėtų išanalizuoti spragą ir ją panaikinti.}&
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 9.3}&
+		\multicolumn{1}{|c|}{NFR 5.3}&
 		{Prieš praplečiant vartotojų galimybes būtina atlikti automatinius testus, kurie susimuliuoja vartotoją bandantį atlikti visas naujas jam pasiekiamas funkcijas tam, kad būtų išlaikytas programėlės funkcionalumas. Susidūrus su klaidomis, plėtimas turi būti atidėtas iki kol bus ištaisytos klaidos.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 		
@@ -1141,7 +1559,7 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 10.1}&
+		\multicolumn{1}{|c|}{NFR 6.1}&
 		{Programa turi veikti Windows operacinėje sistemoje.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
@@ -1164,7 +1582,7 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 11.1}&
+		\multicolumn{1}{|c|}{NFR 7.1}&
 		{Yra saugomi ir šifruojami kliento prisijungimo duomenys.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
@@ -1187,12 +1605,12 @@ sarunas.kazimieras.buteikis@gmail.com
 		\multicolumn{1}{|c|}{{\bfseries Reikalavimas}}&
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 12.1}&
+		\multicolumn{1}{|c|}{NFR 8.1}&
 		{Aplikacija turi nepažeisti Lietuvos respublikos asmens duomenų teisinės apsaugos įstatymo.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
 	\hline 	
-		\multicolumn{1}{|c|}{NFR 12.2}&
+		\multicolumn{1}{|c|}{NFR 8.2}&
 		{Vartotojas registracijos metu turi susipažinti ir su tikti su aplikacijos naudojimo sąlygomis.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
@@ -1203,32 +1621,6 @@ sarunas.kazimieras.buteikis@gmail.com
 \end{center}
 
 \pagebreak
-
-
-\begin{center}
-\begin{tabular}{|p{2cm}|p{3cm}|p{7cm}|p{3cm}|}
-\hline
-\multicolumn{1}{|c|}{{\bfseries Kodas}}&
-\multicolumn{2}{|c|}{{\bfseries Reikalavimas}}&
-\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
-\hline
-\rowcolor{lightgray} 
-\multicolumn{4}{|c|}{\textit{Funkciniai reikalavimai, skirti aplikacijos vartotojams}}\\
-\hline
-\multirow{3}[30]{*}{FR 1} &
-\multicolumn{2}{|l|}{BBB  AAA} &
-bcd\\
-\cline{2-4}
- & \multicolumn{2}{|l|}{\Centerstack[l]{\underline{Aplikacijos langai}\\ \\ 
- Čia apibrėžti pagrindiniai aplikacijoje esantys langai, į kuriuos \\
- gali patekti vartotojas. }} & \multirow{3}[3]{*}{SVARBU}\\\cline{2-3}%cline, nuo kurio column iki kurio brezti horizontalia linija
- & FR 1.1 & \Centerstack[l]{Pradinis aplikacijos langas - šiame lange \\vartotojas gali
- prisiregistruoti arba \\prisijungti prie aplikacijos.}&\\
-\hline
-\end{tabular}
-\end{center}
-
-
 
 %?SITO REIKIA?
 \section{Literatūros sąrašas}
