@@ -26,9 +26,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.}Aplikacijos langai}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Vartotojo registracija}{12}
+\contentsline {subsection}{\numberline {2.2.}Kliento registracija}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Vartotojo prisijungimas}{13}
+\contentsline {subsection}{\numberline {2.3.}Kliento prisijungimas}{13}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.}Kavinės pasirinkimas}{14}
 \defcounter {refsection}{0}\relax 
