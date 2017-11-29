@@ -94,6 +94,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.8.}Juridiniai reikalavimai}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Literatūros sąrašas}{27}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Priedai}{28}
+\contentsline {section}{\numberline {4.}Priedai}{27}
