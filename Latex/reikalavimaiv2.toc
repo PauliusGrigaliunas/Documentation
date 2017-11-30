@@ -56,44 +56,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.2.}Sąveikos su DB reikalavimai}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3.}Dokumentų mainų reikalavimai}{22}
+\contentsline {subsubsection}{\numberline {3.1.3.}Dokumentų mainų reikalavimai}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.4.}Sąveikos su kitomis programomis reikalavimai}{23}
+\contentsline {subsubsection}{\numberline {3.1.4.}Sąveikos su kitomis programomis reikalavimai}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.5.}Programavimo aplinkos reikalavimai}{23}
+\contentsline {subsubsection}{\numberline {3.1.5.}Programavimo aplinkos reikalavimai}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Veikimo reikalavimai}{23}
+\contentsline {subsection}{\numberline {3.2.}Veikimo reikalavimai}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1.}Vaizdavimo reikalavimai}{23}
+\contentsline {subsubsection}{\numberline {3.2.1.}Vaizdavimo reikalavimai}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2.}Skaičiavimo tikslumo reikalavimai}{24}
+\contentsline {subsubsection}{\numberline {3.2.2.}Skaičiavimo tikslumo reikalavimai}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.}Patikimumo reikalavimai}{24}
+\contentsline {subsubsection}{\numberline {3.2.3.}Patikimumo reikalavimai}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.}Robatiškimo reikalavimai}{24}
+\contentsline {subsubsection}{\numberline {3.2.4.}Robatiškimo reikalavimai}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.5.}Laikas, reikalingas atstatyti programos veikimą}{25}
+\contentsline {subsubsection}{\numberline {3.2.5.}Laikas, reikalingas atstatyti programos veikimą}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6.}Našumo reikalavimai}{25}
+\contentsline {subsubsection}{\numberline {3.2.6.}Našumo reikalavimai}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Diegimo reikalavimai}{26}
+\contentsline {subsection}{\numberline {3.3.}Diegimo reikalavimai}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.}Ruošinio reikalavimai}{26}
+\contentsline {subsubsection}{\numberline {3.3.1.}Ruošinio reikalavimai}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.}Instaliavimo reikalavimai }{26}
+\contentsline {subsubsection}{\numberline {3.3.2.}Instaliavimo reikalavimai }{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.3.}Pradinio DB kaupimo reikalavimai}{26}
+\contentsline {subsubsection}{\numberline {3.3.3.}Pradinio DB kaupimo reikalavimai}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.4.}Sistemos įsisavinamumo reikalavimai}{27}
+\contentsline {subsubsection}{\numberline {3.3.4.}Sistemos įsisavinamumo reikalavimai}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.}Ekonominiai ribojimai}{27}
+\contentsline {subsection}{\numberline {3.4.}Ekonominiai ribojimai}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.}Aptarnavimo ir priežiūros reikalavimai}{28}
+\contentsline {subsection}{\numberline {3.5.}Aptarnavimo ir priežiūros reikalavimai}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.}Tiražuojamumo reikalavimai}{28}
+\contentsline {subsection}{\numberline {3.6.}Tiražuojamumo reikalavimai}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.}Apsaugos reikalavimai}{28}
+\contentsline {subsection}{\numberline {3.7.}Apsaugos reikalavimai}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.}Juridiniai reikalavimai}{29}
+\contentsline {subsection}{\numberline {3.8.}Juridiniai reikalavimai}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Priedai}{30}
+\contentsline {section}{\numberline {4.}Priedai}{31}
