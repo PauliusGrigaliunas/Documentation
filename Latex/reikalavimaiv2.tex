@@ -31,7 +31,7 @@
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
 \department{Programų sistemų katedra}
-\papertype{Programų sistemų inžinerijos I laboratorinis darbas Nr. 2}
+\papertype{Programų sistemų inžinerijos laboratorinis darbas Nr. 2}
 \title{Kavinės staliuko rezervavimo aplikacija}
 \titleineng{Cafe table rezervation app}
 \status{2 kurso 5 grupės studentai}
@@ -60,7 +60,7 @@
 
 \sectionnonum{ANOTACIJA}
 \noindent
-Šiame dokumente detaliai išdėstomi kavinės rezervavimo sistemos reikalavimai. Remiantis dalykinės srities analize pateikiama vartotojo interfeiso, funkcinių ir nefunkcinių programų sistemos reikalavimų specifikacija, kuria siekiama užtikrinti standartartizuotos bei funkcionalios sistemos sukūrimą.\\\\
+Šiame dokumente detaliai išdėstomi kavinės rezervavimo sistemos reikalavimai. Remiantis dalykinės srities analize, pateikiama vartotojo interfeiso, funkcinių ir nefunkcinių programų sistemos reikalavimų specifikacija, kuria siekiama užtikrinti standartartizuotos bei funkcionalios sistemos sukūrimą.\\\\
 
 
 
@@ -91,7 +91,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 %FUNKCINIAI REIKALAVIMAI
 
 \section{Vartotojo sąsaja}
-Šiame skyriuje pateikiamos formuluojamos užduotys, užduočių formulavimo kalbos reilkalavimai, užduočių formulavimo protokolo reikalavimai, interfeiso darnos ir standartizavimo reikalavimai, pranešimų formulavimo reikalavimai ir interfeiso individualizavimo reikalavimai.
+Šiame skyriuje pateikiamos formuluojamos užduotys, jų formulavimo kalbos ir protokolo reikalavimai, taip pat interfeiso darnos ir standartizavimo, pranešimų formulavimo bei interfeiso individualizavimo reikalavimai.
  
 \subsection{Formuluojamos užduotys}
 Šiame poskyryje pateikiamos kliento ir kavinės savininko užduotys.
@@ -116,7 +116,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 				\item Registruotis sistemoje
 				(privalomi duomenys:vardas, pavardė, el. paštas, telefono numeris, slaptažodis).
 				\item Prisijungti prie sistemos (privalomi duomenys: el. paštas, slaptažodis).
-				\item “Premium” prisijungimas (aktyvuojamas klientui, kuris nupirko tam tikrą paslaugą) leidžiantis prisijungti prie sistemos vienu mygtuko paspaudimu.
+				\item “Premium” prisijungimas (aktyvuojamas klientui, kuris nupirko tam tikrą paslaugą), leidžiantis prisijungti prie sistemos vienu mygtuko paspaudimu.
 			\end{enumerate}}\\
 	
 	\hline
@@ -125,9 +125,9 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 		{
 			\begin{enumerate}
 				\item Peržiūrėti visas sistemoje registruotas kavinės, informaciją apie jas.
-				\item Ieškoti kavinę pagal vardą.
-				\item Ieškoti kavinę pagal vietą.
-				\item Peržiūrėti pasirinktos kavinės detaliąją informaciją (Vardas, adresas, staliukų skaičius, darbo grafikas).
+				\item Ieškoti kavinės pagal vardą.
+				\item Ieškoti kavinės pagal vietą.
+				\item Peržiūrėti pasirinktos kavinės detalią informaciją (Vardas, adresas, staliukų skaičius, darbo grafikas).
 				\item Rezervuoti staliuką pasirinktoje kavinėje.
 			\end{enumerate}}\\
 	
@@ -157,7 +157,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 		\multicolumn{1}{|c|}{Autentifikavimo užduotys}&
 		{
 			\begin{enumerate}
-				\item Registruotis sistemoje (privalomi duomenys:vardas, pavardė, el. paštas, telefono numeris, slaptažodis).
+				\item Registruotis sistemoje (privalomi duomenys: vardas, pavardė, el. paštas, telefono numeris, slaptažodis).
 				\item Prisijungti prie sistemos (privalomi duomenys: el. paštas, slaptažodis).
 			\end{enumerate}}\\
 	\hline
@@ -311,7 +311,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\		
 	\hline
 		\multicolumn{1}{|c|}{VS 3.1}&
-		\multicolumn{1}{|p{12,9cm}|}{Pagrindinis meniu visuomet pasiekiamas paspaudus ant programėlės logotipo esančio kairiajame viršutiniame kampe.}& 
+		\multicolumn{1}{|p{12,9cm}|}{Pagrindinis meniu visuomet pasiekiamas paspaudus ant programėlės logotipo, esančio kairiajame viršutiniame kampe.}& 
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	\hline
 		\multicolumn{1}{|c|}{VS 3.2}&
@@ -360,7 +360,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
 		\multicolumn{1}{|c|}{VS 4.5}&
-		\multicolumn{1}{|p{12,5cm}|}{Pranešimas turi pateikti informaciją apie sėkmingai atliktą veiksmą arba informuoti apie klaidą.}& 
+		\multicolumn{1}{|p{12,5cm}|}{Pranešimas turi informuoti apie sėkmingai arba nesėkmingai atliktą veiksmą.}& 
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
 		\multicolumn{1}{|c|}{VS 4.6}&
@@ -462,7 +462,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 1.3}&
-		{Jeigu klientas turi rezervavęs staliuką - iš visų langų, išskyrus \newline prisijungimo, galima patekti į langą rodantį rezervacijos informaciją.}&
+		{Jeigu klientas turi rezervavęs staliuką - iš visų langų, išskyrus \newline prisijungimo, galima patekti į langą, rodantį rezervacijos informaciją.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
 		\multicolumn{1}{|c|}{FR 1.4}&
@@ -543,7 +543,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	\hline
 		\multicolumn{1}{|c|}{FR 2.5}&
-		{Slaptažodis privalo būti sudarytas bent iš 8 simbolių, turi bent vieną skaitmenį.
+		{Slaptažodis privalo būti sudarytas bent iš 8 simbolių, turėti bent vieną skaitmenį.
 }&
 		\multicolumn{1}{|c|}{BŪTINA}\\		
 	\hline
@@ -635,7 +635,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 4.1}&
-		{Klientui pateikiamas sąrašas arčiausiai jo esančių kavinių kartu su jų duomenimis (ne visais):
+		{Klientui pateikiamas arčiausiai jo esančių kavinių sąrašas kartu su jų duomenimis (ne visais):
 		\begin{itemize}
 			\item Pavadinimas.
 			\item Adresas.
@@ -666,7 +666,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 4.5}&
-		{Klientas, pasirinkęs kavinę (turinčią laisvų vietų), gali užsisakyti staliuką.}&
+		{Klientas pasirinkęs kavinę (turinčią laisvų vietų) gali užsisakyti staliuką.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	\hline
 	
@@ -714,7 +714,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 5.3}&
-		{Jei klientas nėra Premium ir kavinėje likęs tik vienas laisvas staliukas - klientas neturi galimybės jo rezervuoti, gauna pranešimą, kad neturi Premium privilegijų.}&
+		{Jei klientas nėra Premium ir kavinėje likęs tik vienas laisvas staliukas, tai jis negali to staliuko rezervuoti ir gauna pranešimą, kad neturi Premium privilegijų.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
@@ -728,7 +728,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 5.3}&
-		{Duomenų bazėje patikrinus ar staliukas vis dar laisvas į ją siunčiamas rezervacijos data ir laikas, kartu su užsisakiusio kliento vardu, paštu ir telefono numeriu (jei yra įvestas)}&
+		{Duomenų bazėje patikrinus, ar staliukas vis dar laisvas, į ją siunčiami rezervacijos data ir laikas kartu su užsisakiusio kliento vardu, paštu ir telefono numeriu (jei yra įvestas)}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
@@ -809,7 +809,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 7.1}&
-		{Kavinės valdytojui pažymėjus, kad prieš tai kliento rezervuotas staliukas atsilaisvino, klientas gauna langą, kuriame prašoma įvertinti kavinę.}&
+		{Kavinės valdytojui pažymėjus, kad prieš tai kliento rezervuotas staliukas atsilaisvino, klientui pateikiamas langas, kuriame prašoma įvertinti kavinę.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
@@ -819,7 +819,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 7.3}&
-		{Atsisakius įvertinti kavinę, automatiškai išeinama iš kavinės įvertinimo lango.}&
+		{Atsisakius įvertinti kavinę automatiškai išeinama iš kavinės įvertinimo lango.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
@@ -829,7 +829,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 7.5}&
-		{Įvertinus kavinę, rezultatas yra siunčiamas į duomenų bazę ir kavinės reitingas yra atnaujinamas. Išeinama iš kavinės vertinimo lango.}&
+		{Įvertinus kavinę rezultatas yra siunčiamas į duomenų bazę, o kavinės reitingas atnaujinamas. Išeinama iš kavinės vertinimo lango.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline	
 	
@@ -874,12 +874,12 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 8.2}&
-		{Nuvilkus stalą - paprašoma įvesti kiek žmonių gali susėsti prie to stalo.Po to nurodoma pridėti pakankamai kėdžių arba suolų sofų, kol patenkinamas vietų skaičius.}&
+		{Nuvilkus stalą prašoma įvesti, kiek žmonių gali susėsti prie to stalo. Tada siūloma pridėti kėdes, suolus arba sofas, kol užpildomas vietų skaičius.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
 		\multicolumn{1}{|c|}{FR 8.3}&
-		{Įvedus kiek žmonių gali sedėti prie stalo nurodoma kiek reikia pridėti kėdžių arba suolų sofų, kol patenkinamas vietų skaičius.}&
+		{Įvedus, kiek žmonių gali sedėti prie stalo nurodoma, kiek reikia pridėti kėdžių, suolų arba sofų, kol užpildomas vietų skaičius.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\				
 	\hline
 	
@@ -930,12 +930,12 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 
 	\hline
 		\multicolumn{1}{|c|}{FR 9.1}&
-		{Jeigu klientas dar nėra sukūręs nei vienos kavinės, pridėdamas naują kavinę, jis automatiškai tampa kavinės savininkas.}&
+		{Jeigu klientas dar nėra sukūręs nei vienos kavinės, tai pridėdamas naują kavinę jis automatiškai tampa kavinės savininku.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 
 	\hline
 		\multicolumn{1}{|c|}{FR 9.2}&
-		{Klientas arba kavinės savininkas gali pridėti naują kavinę, įvesdamas tam tikrus duomenis:
+		{Klientas arba kavinės savininkas gali pridėti naują kavinę įvesdamas tam tikrus duomenis:
 			\begin{itemize}
 				\item Privaloma įvesti kavinės pavadinimą.
 				\item Privaloma nurodyti kavinės adresą.
@@ -960,12 +960,12 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 
 	\hline
 		\multicolumn{1}{|c|}{FR 9.4}&
-		{Sėkmingai pridėjus kavinę pranešama informacija apie sėkmingai pridėtą kavinę.}&
+		{Apie sėkmingai pridėtą kavinę informuojama pranešime.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 
 	\hline
 		\multicolumn{1}{|c|}{FR 9.5}&
-		{Sėkmingai pridėjus kavinę, jos duomenys išsaugomi duomenų bazėje.}&
+		{Sėkmingai pridėjus kavinę jos duomenys išsaugomi duomenų bazėje.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 
 	\hline
@@ -975,7 +975,7 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 
 	\hline
 		\multicolumn{1}{|c|}{FR 9.7}&
-		{Sėkmingai atšaukus kavinės pridėjimą, automatiškai išeinama iš kavinės pridėjimo lango.}&
+		{Sėkmingai atšaukus kavinės pridėjimą automatiškai išeinama iš kavinės pridėjimo lango.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 
 	\hline
@@ -1005,12 +1005,12 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
 		\multicolumn{1}{|c|}{FR 10.1}&
-		{Tik kavinės savininkas turi galimybę pakeisti savo pridėtų kavinių informaciją.}&
+		{Tik kavinės savininkas gali pakeisti savo pridėtų kavinių informaciją.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	
 	\hline 	
 		\multicolumn{1}{|c|}{FR 10.2}&
-		{Kavinės duomenys, kuriuos gali kavinės savininkas pakeisti:
+		{Kavinės duomenys, kuriuos gali pakeisti jos savininkas:
 		\begin{itemize}
 			\item Kavinės pavadinimas.
 			\item Kavinės adresas.
@@ -1021,12 +1021,12 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 	
 	\hline 	
 		\multicolumn{1}{|c|}{FR 10.3}&
-		{Sėkmingai pakeitus kavinės informacija, pranešama apie sėkmingai išsaugotus kavinės duomenis.}&
+		{Apie sėkmingai pakeistą kavinės informaciją turi būti informuota pranešime.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	
 	\hline 	
 		\multicolumn{1}{|c|}{FR 10.4}&
-		{Sėkmingai pakeitus kavinės informacija, seni kavinės duomenys duomenų bazėje pakeičiami naujais.}&
+		{Sėkmingai pakeitus kavinės informaciją seni kavinės duomenys duomenų bazėje pakeičiami naujais.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 	
 	\hline  
@@ -1055,27 +1055,27 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
 		\multicolumn{1}{|c|}{FR 11.1}&
-		{Kiekvienas klientas turi galimybę užsisakyti Premium klientą.}&
+		{Kiekvienas klientas turi turėti galimybę užsisakyti Premium klientą.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 				
 	\hline 	
 		\multicolumn{1}{|c|}{FR 11.2}&
-		{Premium klientas turi greitas staliuko rezervavimą}&
+		{Premium klientas turi greitą staliuko rezervavimą.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 				
 	\hline 	
 		\multicolumn{1}{|c|}{FR 11.3}&
-		{Premium klientas parodomos arčiausiai esamos kavinės su laisvų staliukų skaičiais ir galima pasirinkti, kurioje kavinėje rezervuoti staliuką.}&
+		{Premium klientui parodomos arčiausiai esamos kavinės su laisvų staliukų skaičiais. Jam galima pasirinkti, kurioje kavinėje rezervuoti staliuką.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 				
 	\hline 	
 		\multicolumn{1}{|c|}{FR 11.4}&
-		{Premium klientas parodomos arčiausiai esamos kavinės su laisvų staliukų skaičiais ir galima pasirinkti, kurioje kavinėje rezervuoti staliuką.Jeigu šiuo metu nėra laisvų staliukų, apie tai pranešama.}&
+		{Premium klientui parodomos arčiausiai esamos kavinės su laisvų staliukų skaičiais. Jam galima pasirinkti, kurioje kavinėje rezervuoti staliuką. Jeigu šiuo metu nėra laisvų staliukų, apie tai pranešama.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 				
 	\hline 	
 		\multicolumn{1}{|c|}{FR 11.5}&
-		{Tik „Premium“ klientas gali rezervuoti paskutinį kavinės staliuką.}&
+		{Tik Premium klientas gali rezervuoti paskutinį kavinės staliuką.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\
 				
 	\hline
@@ -1090,9 +1090,9 @@ Dokumentas parengtas kaip programų sistemų inžinerijos kurso antrasis labo
 \pagebreak
 %NEFUNKCINIAI REIKALAVIMAI
 \section{Nefunkciniai reikalavimai}
-Šiame skyriuje pateikiami vidinių interfeisų, veikimo reikalavimai, ekonominiai ribojimai, aptarnavimo ir priežiūros, tiražuojamuumo, apsaugos ir juridiniai reikalavimai
+Šiame skyriuje pateikiami vidinių interfeisų, veikimo reikalavimai, ekonominiai ribojimai, aptarnavimo ir priežiūros, tiražuojamumo, apsaugos ir juridiniai reikalavimai
 \subsection{Vidiniu interfeisų reikalavimai}
-Šiame poskyrije pateikiami OS naudojimo, sąveikos su DB, dokumentų mainų sąveikos su kitomis programomis ir programavimo aplinkos reikalavimai.
+Šiame poskyryje pateikiami OS naudojimo, sąveikos su DB, dokumentų mainų sąveikos su kitomis programomis ir programavimo aplinkos reikalavimai.
 \subsubsection{OS naudojimo reikalavimai}
 
 \begin{center}
@@ -1265,7 +1265,7 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 \end{center}
 \pagebreak
 \subsection{Veikimo reikalavimai}
-Šiame poskyrije pateikiami vaizdavimo, skaičiavimo tikslumo, patikimimo, robatiškumo, našumo reikalavimai ir laikas, reikalingas atstatyti programos veikimą.
+Šiame poskyryje pateikiami vaizdavimo, skaičiavimo tikslumo, patikimimo, robastiškumo, našumo reikalavimai ir laikas, kurio reikia norint atstatyti programos veikimą.
 \subsubsection{Vaizdavimo reikalavimai}
 
 \begin{center}
@@ -1292,7 +1292,7 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 	
 	\hline 	
 		\multicolumn{1}{|c|}{NFR 2.1.3}&
-		{Kavinės pavadinimas – ne ilgiau nei 30 simbolių.}&
+		{Kavinės pavadinimas neturi būti ilgesnis nei 30 simbolių.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
 	\hline  	
@@ -1362,7 +1362,7 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 
 
 
-\subsubsection{Robatiškimo reikalavimai}
+\subsubsection{Robastiškimo reikalavimai}
 
 \begin{center}
 	\begin{table}[H]
@@ -1370,7 +1370,7 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 	\begin{tabular}{|p{2cm}|p{12,5cm}|p{3,5cm}|}
 	\hline
 	    \rowcolor{lightgray}
-		\multicolumn{3}{|c|}{Robatiškumo reikalavimai}\\
+		\multicolumn{3}{|c|}{Robastiškumo reikalavimai}\\
 		
 	\hline
 		\multicolumn{1}{|c|}{{\bfseries Kodas}}&
@@ -1396,7 +1396,7 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 	
 	\end{tabular}
 	
-	\label{table:Robatiškimoreikalavimai}
+	\label{table:Robastiškumoreikalavimai}
 	\end{table}
 
 \end{center}
@@ -1468,7 +1468,7 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 \pagebreak
 
 \subsection{Diegimo reikalavimai}
-Šiame poskyrije pateikiami ruošimo, instaliavimo, pradinio DB kaupimo ir sistemos įsisavinimo reikalavimai.
+Šiame poskyryje pateikiami ruošimo, instaliavimo, pradinio DB kaupimo ir sistemos įsisavinimo reikalavimai.
 \subsubsection{Ruošinio reikalavimai}
 \begin{center}
 	\begin{table}[H]
@@ -1547,7 +1547,7 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 		\multicolumn{1}{|c|}{NFR 3.3.1}&
 		{Sistemos duomenų bazė turi turėti:
 			\begin{itemize}
-				\item Kavinių lentelė turi bent 10 pradinių užpildytų eilučių su informacija apie Kavines. Juos įveda įgaliotas įmonės darbuotojas naudodamasis administratoriaus interfeisu.
+				\item Kavinių lentelė turi bent 10 pradinių užpildytų eilučių su informacija apie kavines. Juos įveda įgaliotas įmonės darbuotojas naudodamasis administratoriaus interfeisu.
 				\item Kavinių staliukų lentelė turi saugoti visų esančių staliukų sąrašą.
 				\item Klientų lentelė turi saugoti klientų sąrašą.
 				\item Administratorių lentelė turi turėti bent po vieną administratorių kiekvienai kavinei.
@@ -1648,12 +1648,12 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 	
 	\hline 	
 		\multicolumn{1}{|c|}{NFR 5.2}&
-		{Visi kliento atliekami veiksmai programėlėje turi būti sekami ir saugomi laikinojoje duomenų bazėje tam, kad jei klientas esamos prisijungimo sesijos metu atrastų tinklapio spragą, visi jo atlikti veiksmai, kurie galėjo tai sukelti, būtų išsiųsti kaip klaidos pranešimas ir darbuotojai, atsakingi už tinklapio sklandų veikimą galėtų išanalizuoti spragą ir ją panaikinti.}&
+		{Visi kliento atliekami veiksmai programėlėje turi būti sekami ir saugomi laikinojoje duomenų bazėje tam, kad jei klientas esamos prisijungimo sesijos metu atrastų tinklapio spragą, visi jo atlikti veiksmai, kurie galėjo tai sukelti, būtų išsiųsti kaip klaidos pranešimas ir darbuotojai, atsakingi už tinklapio sklandų veikimą, galėtų išanalizuoti spragą ir ją panaikinti.}&
 		\multicolumn{1}{|p{1.5cm}|}{PAGEIDAUTINA}\\
 	
 	\hline 	
 		\multicolumn{1}{|c|}{NFR 5.3}&
-		{Prieš praplečiant klientų galimybes būtina atlikti automatinius testus, kurie susimuliuoja klientą bandantį atlikti visas naujas jam pasiekiamas funkcijas tam, kad būtų išlaikytas programėlės funkcionalumas. Susidūrus su klaidomis, plėtimas turi būti atidėtas iki kol bus ištaisytos klaidos.}&
+		{Prieš praplečiant klientų galimybes būtina atlikti automatinius testus, kurie susimuliuoja klientą, bandantį atlikti visas naujas jam pasiekiamas funkcijas tam, kad būtų išlaikytas programėlės funkcionalumas. Susidūrus su klaidomis, plėtimas turi būti atidėtas iki tol, kol bus ištaisytos klaidos.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 		
 	\hline 	
@@ -1732,12 +1732,12 @@ Reikalavimus atitinkantis DB pavyzdys: žr.~\ref{fig:ER} pav. ir ~\ref{fig:lente
 		\multicolumn{1}{|c|}{{\bfseries Svarba}}\\
 	\hline 	
 		\multicolumn{1}{|c|}{NFR 8.1}&
-		{Aplikacija turi nepažeisti Lietuvos respublikos asmens duomenų teisinės apsaugos įstatymo.}&
+		{Aplikacija turi nepažeisti Lietuvos Respublikos asmens duomenų teisinės apsaugos įstatymo.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
 	\hline 	
 		\multicolumn{1}{|c|}{NFR 8.2}&
-		{Klientas registracijos metu turi susipažinti ir su tikti su aplikacijos naudojimo sąlygomis.}&
+		{Klientas registracijos metu turi susipažinti ir sutikti su aplikacijos naudojimo sąlygomis.}&
 		\multicolumn{1}{|c|}{BŪTINA}\\	
 	
 	\hline 	
