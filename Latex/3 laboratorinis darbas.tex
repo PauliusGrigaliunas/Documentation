@@ -116,10 +116,27 @@ Klientai  yra  agentai,  kurie  naudodamiesi  kavinės  teikiamomis
 paslaugomis  įgyvendina  užduotis - palydėti  atsisėda  prie  staliuko,  atlieka  užsakymus  ir  juos apmoka. \\
 Darbuotojas yra agentas, kuris atlieka tokias užduotis kaip palydėti klientą prie staliuko, 
 priimti užsakymą, jį paruošti ir priimti apmokėjimą.\\
-Tiekėjai yra agentai, kurių užduotis yra pristatyti reikalingas prekes ir produktus kavinei.
+Maisto tiekėjas yra agentai, kurių užduotis yra pristatyti reikalingas prekes ir produktus kavinei.\\
+Kavinės savininkas valdo kavinės išplanavimą ir staliukų išdėstymą kavinėje. Tik kavinės savininkas gali nuspręsti, kur kavinėje bus išdėstomi staliukai.\\
+
+
+	\begin {figure}[H]
+	\centering
+		\caption{Dalykinės srities užduočių diagrama}
+		\includegraphics[scale=0.9]{img/3lab/Diagrama2}
+		
+		\label{fig:ER}
+	\end{figure}
+
+
+Agentas(klientas) ateina į kavinę ir (turėdamas arba neturėdamas rezervacija) gali paprašyti pagalbos darbuotojo,kad padėtų jam rasti  staliuką. Klientas gali ir pats susirasti savo staliuką (klientas, neturėdamas rezervacijos, negali atsisėsti į rezervuotą staliuką). \\
+Darbuotojas esant poreikiui iš kliento, padeda jam susirasti norimą staliuką: jeigu klientas turi rezervaciją, tai darbuotojas suranda kliento rezervuotą staliuką, jeigu klientas neturi rezervacijos, tai darbuotojas suranda klientui staliuką, kuris nėra rezervuotas tuo metu.\\
 
 
 \subsection{Užduočių vykdymo scenarijai}
+
+
+
 
 \subsection{Dalykinės srities dinaminė struktūra}
 
