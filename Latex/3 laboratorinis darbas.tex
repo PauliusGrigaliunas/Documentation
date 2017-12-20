@@ -75,7 +75,7 @@
 
 \section{Vidinė proceso analizė}
 
-Šiame skyriuje atliekama vidinė verslo proceso analizė, siekiant nustatyti kavinės rezervavimo programėles stiprybes ar silpnybes, kylančias iš paties verslo proceso (ne jo aplinkos).\\\\
+Šiame skyriuje atliekama vidinė verslo proceso analizė, siekiant nustatyti kavinės rezervavimo programėles stiprybes ir silpnybes, kylančias iš paties verslo proceso (ne jo aplinkos).\\\\
 
 \subsection{Pagrindinės dalykinės srities esybės}
 \noindent \textbf{Kavinė} - maitinimo paskirties įstaiga.\\
@@ -96,11 +96,11 @@
 		\caption{Dalykinės srities statinė struktūra}
 		\includegraphics[scale=1]{img/3lab/Diagrama1}
 		
-		\label{fig:ER}
+		\label{fig:diagrama1}
 	\end{figure}
 \end{landscape}
 
-Kavinė negali egzistuoti be maisto tiekėjų (nebus iš ko ruošti maistą) ir be darbuotojų (nebus galima efektyviai aptarnauti klientų), tad šios esybės sudaro kompoziciją, nes viena negali veikti be kitos.\\
+Pavaizduota diagrama \ref{fig:diagrama1} pav. pavaizduoja kavinės statinę struktūrą. Kavinė negali egzistuoti be maisto tiekėjų (nebus iš ko ruošti maistą),be darbuotojų (nebus galima efektyviai aptarnauti klientų) ir be kavinės savininko, tad šios esybės sudaro kompoziciją, nes viena negali veikti be kitos.\\
 Kavinė gali vykti ir be patalpų, kadangi kavinės staliukai gali stovėti ir 
 lauke , todėl šie komponentai sudaro agregaciją.\\
 Prie  staliuko  neprivalo  sėdėti  klientas,  nes
@@ -118,6 +118,7 @@ Darbuotojas yra agentas, kuris atlieka tokias užduotis kaip palydėti klientą 
 priimti užsakymą, jį paruošti ir priimti apmokėjimą.\\
 Maisto tiekėjas yra agentas, kurio užduotis yra pristatyti reikalingas prekes ir produktus kavinei.\\
 Kavinės savininkas valdo kavinės išplanavimą ir staliukų išdėstymą kavinėje. Tik kavinės savininkas gali nuspręsti, kur kavinėje bus išdėstomi staliukai.\\
+Agentai ir jų užduotys yra pavaizduoti žemiau esančioje dalykinės srities užduočių diagramoje (žr. \ref{fig:diagrama2} pav).\\
 
 
 	\begin {figure}[H]
@@ -125,21 +126,50 @@ Kavinės savininkas valdo kavinės išplanavimą ir staliukų išdėstymą kavin
 		\caption{Dalykinės srities užduočių diagrama}
 		\includegraphics[scale=0.9]{img/3lab/Diagrama2}
 		
-		\label{fig:ER}
+		\label{fig:diagrama2}
 	\end{figure}
 
+\subsection{Užduočių vykdymo scenarijai}
+%Insert pauliaus diagram3 here
 
-Agentas(klientas) ateina į kavinę ir (turėdamas arba neturėdamas rezervacija) gali paprašyti pagalbos darbuotojo,kad padėtų jam rasti  staliuką. Klientas gali ir pats susirasti savo staliuką (klientas, neturėdamas rezervacijos, negali atsisėsti į rezervuotą staliuką). \\
+	\begin {figure}[H]
+	\centering
+		\caption{Kliento atėjimo į kavinę vykdymo scenarijai}
+		\includegraphics[scale=0.9]{img/3lab/Diagrama3}
+		
+		\label{fig:diagrama3}
+	\end{figure}
+
+Aukščiau pateiktoje užduočių diagramose (\ref{fig:diagrama3}) pavaizduoti kliento be ir su rezervacija užduočių scenarijai.\\ 
+Agentas (klientas) ateina į kavinę ir (turėdamas arba neturėdamas rezervacija) gali paprašyti pagalbos darbuotojo,kad padėtų jam rastų staliuką. Klientas gali ir pats susirasti savo staliuką (klientas, neturėdamas rezervacijos, negali atsisėsti į rezervuotą staliuką). \\
 Darbuotojas esant poreikiui iš kliento, padeda jam susirasti norimą staliuką: jeigu klientas turi rezervaciją, tai darbuotojas suranda kliento rezervuotą staliuką, jeigu klientas neturi rezervacijos, tai darbuotojas suranda klientui staliuką, kuris nėra rezervuotas tuo metu.\\
 
+%Insert pauliaus diagram4 here
 
-\subsection{Užduočių vykdymo scenarijai}
+	\begin {figure}[H]
+	\centering
+		\caption{Kliento atėjimo į kavinę vykdymo scenarijai}
+		\includegraphics[scale=0.9]{img/3lab/Diagrama4}
+		
+		\label{fig:diagrama4}
+	\end{figure}
 
+Agentas (darbuotojas) pateikia kitam agentui (klientui) meniu. Gavęs meniu, klientas pateikia 
+darbuotojui užsakymą ir šis jį priima. Po to, kai priima užsakymą, darbuotojas jį įvykdo ir tuomet klientas gauna įvykdytą užsakymą. \\
 
+%Insert pauliaus diagram5 here
 
+Agentas (klientas) paprašo sąskaitos, tada kitas agentas(darbuotojas) jam ją pateikia. Klientas gauna sąskaitą ir susimoka už jam suteiktas paslaugas. Darbuotojas šį apmokėjimą apdoroja, t.y. jį priima.
 
 \subsection{Dalykinės srities dinaminė struktūra}
 
+%Insert pauliaus diagram6 here
+Pradinė  staliuko  būsena  - neužimtas.  Iš  šios  būsenos  staliukas  gali  tapti  užimtas  arba nebenaudojamas. Iš būsenos užimtas staliukas gali pereiti tik į būseną užimtas. 
+
+
+%Insert pauliaus diagram7 here
+
+Pradinė užsakymo būsena - “pateiktas”, kadangi užsakymas pradeda egzistuoti, kai klientas jį pateikia darbuotojui. Darbuotojui užsirašius ir perdavus užsakymą virtuvei, jis pereina į būseną “priimtas”. Jei užsakymas neįvykdytas, jis nustoja galioti, kitu atveju užsakymas  tampa “paruoštas”. Paruoštas užsakymas yra pristatomas klientui ir keičia būseną į “pristatytas klientui”. Šis turi galimybę arba užsisakyti ką nors papildomai, arba apmokėti sąskaitą. Kai sąskaita apmokama, būsena pasikeičia į „apmokėtas“.\\
 \section{Analizės rezultatai}
 
 \section{Verslo proceso tobulinimo strategija}
