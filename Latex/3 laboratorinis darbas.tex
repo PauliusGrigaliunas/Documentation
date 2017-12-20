@@ -75,13 +75,49 @@
 
 \section{Vidinė proceso analizė}
 
-Šiame skyriuje atliekama vidinė verslo proceso analizė, siekiant nustatyti kavinės rezervavimo programėles stiprybes ar silpnybes, kylančias iš paties verslo proceso(ne jo aplinkos).
+Šiame skyriuje atliekama vidinė verslo proceso analizė, siekiant nustatyti kavinės rezervavimo programėles stiprybes ar silpnybes, kylančias iš paties verslo proceso (ne jo aplinkos).\\\\
 
 \subsection{Pagrindinės dalykinės srities esybės}
+\noindent \textbf{Kavinė} - maitinimo paskirties įstaiga.\\
+\textbf{Kavinės} savininkas -asmuo, kuriam priklauso kavinė.\\
+\textbf{Klientas} - asmuo, rezervavęs staliuką. \\
+\textbf{Maisto tiekėjas} - įmonė, iš kurios kavinė gauna reikalingas prekes ir produktus. \\
+\textbf{Rezervacija} - nutarimas, leidžiantis klientui iš anksto turėti konkretų staliuką tam tikru laiku. \\
+\textbf{Staliukas} - vieta, prie kurios klientas sėdi restorane.\\
+\textbf{Virtuvė} - vieta, kurioje yra ruošiamas užsakymas kavinėje.\\
+\textbf{Sąskaita} - kliento apmokėjimas už užsakymą.\\
+\textbf{Darbuotojas} - asmuo, kuris dirba kavinėje ir už tai gauna algą.\\
 
+\begin{landscape}
 \subsection{Dalykinės srities statinė struktūra}
 
+	\begin {figure}[H]
+	\centering
+		\caption{Dalykinės srities statinė struktūra}
+		\includegraphics[scale=1]{img/3lab/Diagrama1}
+		
+		\label{fig:ER}
+	\end{figure}
+\end{landscape}
+
+Kavinė negali egzistuoti be maisto tiekėjų (nebus iš ko ruošti maistą) ir be darbuotojų (nebus galima efektyviai aptarnauti klientų), tad šios esybės sudaro kompoziciją, nes viena negali veikti be kitos.\\
+Kavinė gali vykti ir be patalpų, kadangi kavinės staliukai gali stovėti ir 
+lauke , todėl šie komponentai sudaro agregaciją.\\
+Prie  staliuko  neprivalo  sėdėti  klientas,  nes
+staliukas  yra  tik  priemonė  aptarnauti ir jam patogiai jaustis restorane,
+klientą.Staliukas taip pat gali nebūti rezervuotas, todėl šios esybės sudaro agregaciją.\\
+Patalpose gali būti staliukai ir virtuvė, tačiau tai nėra būtina sąlyga, todėl tai sudaro 
+agregaciją.\\
+Užsakymas konkretizuoja esybę staliukas.\\
+Sąskaita seka po to, kai atliekamas užsakymas.\\
+
 \subsection{Užduočių diagrama}
+Klientai  yra  agentai,  kurie  naudodamiesi  kavinės  teikiamomis 
+paslaugomis  įgyvendina  užduotis - palydėti  atsisėda  prie  staliuko,  atlieka  užsakymus  ir  juos apmoka. \\
+Darbuotojas yra agentas, kuris atlieka tokias užduotis kaip palydėti klientą prie staliuko, 
+priimti užsakymą, jį paruošti ir priimti apmokėjimą.\\
+Tiekėjai yra agentai, kurių užduotis yra pristatyti reikalingas prekes ir produktus kavinei.
+
 
 \subsection{Užduočių vykdymo scenarijai}
 
