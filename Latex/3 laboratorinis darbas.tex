@@ -135,12 +135,12 @@ Agentai ir jų užduotys yra pavaizduoti žemiau esančioje dalykinės srities u
 	\begin {figure}[H]
 	\centering
 		\caption{Kliento atėjimo į kavinę vykdymo scenarijai}
-		\includegraphics[scale=0.9]{img/3lab/Diagrama3}
+		\includegraphics[scale=1]{img/3lab/Diagrama3}
 		
 		\label{fig:diagrama3}
 	\end{figure}
 
-Aukščiau pateiktoje užduočių diagramose (\ref{fig:diagrama3}) pavaizduoti kliento be ir su rezervacija užduočių scenarijai.\\ 
+Aukščiau pateiktoje užduočių diagramose (žr. \ref{fig:diagrama3} pav.) pavaizduoti kliento be ir su rezervacija užduočių scenarijai.\\ 
 Agentas (klientas) ateina į kavinę ir (turėdamas arba neturėdamas rezervacija) gali paprašyti pagalbos darbuotojo,kad padėtų jam rastų staliuką. Klientas gali ir pats susirasti savo staliuką (klientas, neturėdamas rezervacijos, negali atsisėsti į rezervuotą staliuką). \\
 Darbuotojas esant poreikiui iš kliento, padeda jam susirasti norimą staliuką: jeigu klientas turi rezervaciją, tai darbuotojas suranda kliento rezervuotą staliuką, jeigu klientas neturi rezervacijos, tai darbuotojas suranda klientui staliuką, kuris nėra rezervuotas tuo metu.\\
 
@@ -148,26 +148,52 @@ Darbuotojas esant poreikiui iš kliento, padeda jam susirasti norimą staliuką:
 
 	\begin {figure}[H]
 	\centering
-		\caption{Kliento atėjimo į kavinę vykdymo scenarijai}
-		\includegraphics[scale=0.9]{img/3lab/Diagrama4}
+		\caption{kliento aptarnavimo scenarijus}
+		\includegraphics[scale=1]{img/3lab/Diagrama4}
 		
 		\label{fig:diagrama4}
 	\end{figure}
-
+Aukšiau pateiktas kliento aptarnavimo vykdymo scenarijus (žr. \ref{fig:diagrama4} pav.). 
 Agentas (darbuotojas) pateikia kitam agentui (klientui) meniu. Gavęs meniu, klientas pateikia 
 darbuotojui užsakymą ir šis jį priima. Po to, kai priima užsakymą, darbuotojas jį įvykdo ir tuomet klientas gauna įvykdytą užsakymą. \\
 
 %Insert pauliaus diagram5 here
+	\begin {figure}[H]
+	\centering
+		\caption{kliento atsiskaitymo scenarijus}
+		\includegraphics[scale=1]{img/3lab/Diagrama5}
+		
+		\label{fig:diagrama5}
+	\end{figure}
+Aukšiau pateiktas kliento atsiskaitymo vykdymo scenarijus (žr. \ref{fig:diagrama5} pav.).
+Agentas (klientas) paprašo sąskaitos, tada kitas agentas (darbuotojas) jam ją pateikia. Klientas gauna sąskaitą ir susimoka už jam suteiktas paslaugas. Darbuotojas šį apmokėjimą apdoroja, t.y. jį priima.
 
-Agentas (klientas) paprašo sąskaitos, tada kitas agentas(darbuotojas) jam ją pateikia. Klientas gauna sąskaitą ir susimoka už jam suteiktas paslaugas. Darbuotojas šį apmokėjimą apdoroja, t.y. jį priima.
+%Insert pauliaus diagram 6 here
+	\begin {figure}[H]
+	\centering
+		\caption{Produktų tiekimo į kavinę scenarijus}
+		\includegraphics[scale=1]{img/3lab/Diagrama6}
+		
+		\label{fig:diagrama6}
+	\end{figure}
+Aukščiau pateiktas reikalingų produktų tiekimo į kavinę scenarijus (žr. \ref{fig:diagrama6} pav.). Agentas (klientas) atlieka kavinei reikiamų produktų užsakymą, tada 
+agentas(tiekėjas) jį priima ir pristato produktus. Darbuotojas pristatytus produktus priima. 
 
 \subsection{Dalykinės srities dinaminė struktūra}
 
-%Insert pauliaus diagram6 here
-Pradinė  staliuko  būsena  - neužimtas.  Iš  šios  būsenos  staliukas  gali  tapti  užimtas  arba nebenaudojamas. Iš būsenos užimtas staliukas gali pereiti tik į būseną užimtas. 
-
-
 %Insert pauliaus diagram7 here
+	\begin {figure}[H]
+	\centering
+		\caption{Staliuko būsenų diagrama}
+		\includegraphics[scale=0.9]{img/3lab/Diagrama7}
+		
+		\label{fig:diagrama7}
+	\end{figure}
+		
+Pradinė  staliuko  būsena(žr. \ref{fig:diagrama7} pav.)  - neužimtas.  Iš  šios  būsenos  staliukas  gali  tapti  užimtas  arba nebenaudojamas. Iš būsenos užimtas staliukas gali pereiti tik į būseną užimtas. 
+
+
+%Insert pauliaus diagram8 here
 
 Pradinė užsakymo būsena - “pateiktas”, kadangi užsakymas pradeda egzistuoti, kai klientas jį pateikia darbuotojui. Darbuotojui užsirašius ir perdavus užsakymą virtuvei, jis pereina į būseną “priimtas”. Jei užsakymas neįvykdytas, jis nustoja galioti, kitu atveju užsakymas  tampa “paruoštas”. Paruoštas užsakymas yra pristatomas klientui ir keičia būseną į “pristatytas klientui”. Šis turi galimybę arba užsisakyti ką nors papildomai, arba apmokėti sąskaitą. Kai sąskaita apmokama, būsena pasikeičia į „apmokėtas“.\\
 \section{Analizės rezultatai}
