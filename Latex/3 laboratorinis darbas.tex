@@ -68,10 +68,56 @@
 %ĮVADAS
 \sectionnonum{Įvadas}
 \noindent
+\textbf{Dalykinė sritis:}
+\\
+Kavinių ir restoranų staliukų rezervacija.
+\\
+\textbf{Probleminė sritis:}
+\\
+Staliukų rezervacija ir kavinių užimtumo nematymas.
+\\
+\textbf{Suinteresuoti asmenys:}
+\\
+Klientai, kurie neranda vietos kavinėse ir restoranuose.
+\\
+
 
 \section{Verslo proceso aprašas}
+Staliukų rezervavimas yra įprasta kavinių paslauga, teikiama daugumoje kavinių. Įprastas rezervacijos būdas yra rezervacija telefonu. Klientas norėdamas pakeisti rezervacijos laiką arba ją atšaukti turi vėl skambinti ir šnekėtis su personalu. Rezervacijos laikas dažnai užrašomas tiesiog užrašinėje - personalas pilnai atsakingas, kad staliukas būtų neužimtas, kai atkeliauja klientas, kuris užsisakė tą vietą. Neretai, pro šalį einantis, klientas sužino, kad visi staliukai užimti, tik užėjęs į kavinę. Iš šių duomenų peršasi išvada, kad kavinės užimtumo stebėjimas yra vienpusis (iš kavinės pusės), o staliuko rezervavimas yra primityvus ir nepatogus, tai sudaro sąlygas atsirasti naujam staliukų rezervacijos standartui rinkoje.\\
+
+\section{Srities apribojimas}
+“Klientu” vadinsime realų kavinės lankytoją, tuo metu “vartotojas” - potencialus kavinės klientas, kuris naudojasi mūsų aplikacija.\\
+Analizėje nagrinėsime konkrečiai mūsų aplikacijos teikiamas paslaugas ir jų patrauklumą kavinėms ir aplikacijos vartotojams:\\
+	1. Rezervacija.\\
+	2. Kavinės užimtumo stebėjimas/rodymas.\\
+Traktuosime, kad pagrindinis pelnas ateina iš šių sričių:\\
+	1. Vartotojams aplikacijoje rodomų reklamų.\\
+	2. Premium-vartotojų kurie sumoką tam tikrą sumą pinigų už papildomas paslaugas.\\
+Minėtas paslaugas ir pelno modelio sritis gana detaliai išanalizuosime išorinėje bei vidinėje analizėje, pateiksime galimybes ateičiai ir, jei rasime problemų, pabandysime joms rasti sprendimo būdų. Taip pat atsižvelgsime į netiesioginės konkurencijos teikiamas paslaugas ir kaip tai įtakoja mūsų verslą.
+
 
 \section{Išorinė analizė}
+Šiame skyriuje svarstysime ar verta kurti projektą dabartinėje rinkoje, ieškosime būdų kaip užtikrinti mūsų aplikacijos paplitimą. Taip pat nagrinėsime kuo mūsų produktas gali būti patrauklus įprastam vartotojui. Aptarsime grėsmes ir kaip jų stengtis išvengti.
+
+\subsection{Rinka}
+Šiuo metu Lietuvoje nėra jokios bendros aplikacijos rezervuoti staliukams kavinėse. Vienintelis paplitęs rezervavimo būdas - telefonu, tad vienintelė problema stabdanti mūsų aplikacijos naudojimo paplitimą yra įtikinti žmones naudotis modernesniu metodu t.y. naudotis mūsų aplikacija. Staliukų rezervavimas, kaip klientams siūloma paslauga, turi stabilią paklausą ir artimu metu neturėtų pranykti. Verta paminėti, kad daugelis smulkių kavinių siūlo galimybę maistą išsinešti; taip pat populiarėja maisto pristatymo į namus paslaugos ir aplikacijos. Tačiau anksčiau paminėtos tendencijos tiesiogiai neįtakoja mūsų verslo paklausos - stambesni verslai neiškeis savo kavinių į dideles virtuves, kurios tik gamins maistą - pasiūla ir paklausa jaukiai pavalgyti kavinėje išliks stabili. Staliukų rezervacija tampa ypač aktuali artėjant šventėms arba vykstant dideliems renginiams, kai klientų kiekis kavinėse sparčiai išauga.
+
+\subsection{Aplikacijos adaptacija ir reklama}
+Pirmas žingsnis yra pasiūlyti kavinėms nemokamą, modernesnią už užrašinę ir parkerį, staliukų rezervavimo sistemą. Kavinei pradėjus naudoti šią sistema, mes vartotojams iš karto galime siūlyti tos kavinės staliukų rezervaciją.\\
+Įstaigą, kuri naudojasi mūsų sistema, mes aprūpiname reklaminiais resursais (lipdukais, lentelėm ir pan.) kurie skelbia, kad klientai turi galimybę rezervuoti staliuką naudojantis mūsų aplikacija. Tokiu būdu susidaro bazinis vartotojų skaičius, kuris toliau plėstųsi rekomendacijos būdu ir po tam tikro laiko įsitvirtintu kaip naujas rezervavimo standartas.
+
+\subsection{Patrauklumas vartotojui}
+Mūsų rezervacijos sistema leis vartotojui daug mažiau jaudintis dėl apsilankymų kavinėje. Pirmiausia jam nereikia ieškoti savo mėgstamos kavinės numerio - jis tiesiog susirandą ją per paiešką ir pasirenka sau norimą staliuką. Toliau jis gali bet kada pakeisti rezervacijos laiką arba ją atšaukti.\\
+Net jei vartotojas niekada nesilankė vienoje iš kavinių jis gali apžvelgti interjerą ir pasirinkti sau patinkančią vietą, ko negalima padaryti telefonu.\\
+Savaitgaliais ir per šventes, kavinių užimtumas žymiai padidėja, tad neretai klientas gali užeiti į kavinę ir sužinoti, kad visos vietos užimtos. Mūsų aplikacija gali iš anksto parodyti kiek laisvų staliukų realiu laiku yra kavinėje, o jei kavinė pilna - apytiksliai po kiek laiko atsilaisvins vieta.
+
+\subsection{Grėsmės}
+\textbf{Kavinių nenoras naudotis mūsų sistema}\\
+Tai jau iš dalies sprendžiama siūlant sistemą įsidiegti nemokamai. Pati sistema nėra sudėtinga naudotis ir taip pat suteikia papildomos informacijos apie klientus.
+
+\textbf{Klientų nenoras naudotis mūsų aplikacija}\\
+Klientai gali būti įsitikinę, kad senesnis “skambučio” metodas yra geresnis, tačiau jei kavinės aktyviai rodys, jog siūlo rezervaciją per aplikaciją, mes tikimės, kad vartotojai susidomės aplikacija.
+
 
 \section{Vidinė proceso analizė}
 
