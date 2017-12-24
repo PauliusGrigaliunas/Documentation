@@ -1,0 +1,96 @@
+\BOOKMARK [1][-]{section*.1}{ANOTACIJA}{}% 1
+\BOOKMARK [1][-]{section*.3}{Įvadas}{}% 2
+\BOOKMARK [1][-]{section.1}{Verslo proceso aprašas}{}% 3
+\BOOKMARK [1][-]{section.2}{Srities apribojimas}{}% 4
+\BOOKMARK [1][-]{section.3}{Išorinė analizė}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Rinka}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Aplikacijos adaptacija ir reklama}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Patrauklumas vartotojui}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Grėsmės}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Vidinė proceso analizė}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Pagrindinės dalykinės srities esybės}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Dalykinės srities statinė struktūra}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Užduočių diagrama}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{Užduočių vykdymo scenarijai}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.5}{Dalykinės srities dinaminė struktūra}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Analizės rezultatai}{}% 16
+\BOOKMARK [1][-]{section.6}{Verslo proceso tobulinimo strategija}{}% 17
+\BOOKMARK [1][-]{section.7}{Sistemos naudojimo scenarijus}{}% 18
+\BOOKMARK [2][-]{subsection.7.1}{Naudojimo scenarijus}{section.7}% 19
+\BOOKMARK [2][-]{subsection.7.2}{Sistemos teikiama nauda}{section.7}% 20
+\BOOKMARK [2][-]{subsection.7.3}{Esama būklė}{section.7}% 21
+\BOOKMARK [2][-]{subsection.7.4}{Priemonės scenarijui įgyvendinti}{section.7}% 22
+\BOOKMARK [1][-]{section.8}{Įgyvendinamumo ir naudos analizė}{}% 23
+\BOOKMARK [2][-]{subsection.8.1}{Operacinis įgyvendinamumas}{section.8}% 24
+\BOOKMARK [2][-]{subsection.8.2}{Techninis įgyvendinamumas}{section.8}% 25
+\BOOKMARK [2][-]{subsection.8.3}{Ekonominis įgyvendinamumas}{section.8}% 26
+\BOOKMARK [2][-]{subsection.8.4}{Juridinis įgyvendinamumas}{section.8}% 27
+\BOOKMARK [1][-]{section.9}{Vartotojo sąsaja}{}% 28
+\BOOKMARK [2][-]{subsection.9.1}{Formuluojamos užduotys}{section.9}% 29
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Kliento užduotys}{subsection.9.1}% 30
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Kavinės savininko užduotys}{subsection.9.1}% 31
+\BOOKMARK [2][-]{subsection.9.2}{Užduočių formulavimo kalbos reikalavimai}{section.9}% 32
+\BOOKMARK [2][-]{subsection.9.3}{Užduočių formulavimo būdo\(protokolo\) reikalavimai}{section.9}% 33
+\BOOKMARK [2][-]{subsection.9.4}{Interfeiso darnos ir standartizavimo reikalavimai}{section.9}% 34
+\BOOKMARK [2][-]{subsection.9.5}{Pranešimų formulavimo reikalavimai}{section.9}% 35
+\BOOKMARK [2][-]{subsection.9.6}{Interfeiso individualizavimo reikalavimai}{section.9}% 36
+\BOOKMARK [1][-]{section.10}{Funkciniai reikalavimai}{}% 37
+\BOOKMARK [2][-]{subsection.10.1}{Aplikacijos langai}{section.10}% 38
+\BOOKMARK [2][-]{subsection.10.2}{Kliento registracija}{section.10}% 39
+\BOOKMARK [2][-]{subsection.10.3}{Kliento prisijungimas}{section.10}% 40
+\BOOKMARK [2][-]{subsection.10.4}{Kavinės pasirinkimas}{section.10}% 41
+\BOOKMARK [2][-]{subsection.10.5}{Staliuko užsakymas}{section.10}% 42
+\BOOKMARK [2][-]{subsection.10.6}{Rezervacijų peržiūra}{section.10}% 43
+\BOOKMARK [2][-]{subsection.10.7}{Kavinės įvertinimas}{section.10}% 44
+\BOOKMARK [2][-]{subsection.10.8}{Kavinės planavimas}{section.10}% 45
+\BOOKMARK [2][-]{subsection.10.9}{Kavinės pridėjimas}{section.10}% 46
+\BOOKMARK [2][-]{subsection.10.10}{Kavinės informacijos keitimas}{section.10}% 47
+\BOOKMARK [2][-]{subsection.10.11}{Premium kliento galimybės}{section.10}% 48
+\BOOKMARK [1][-]{section.11}{Nefunkciniai reikalavimai}{}% 49
+\BOOKMARK [2][-]{subsection.11.1}{Vidiniu interfeisų reikalavimai}{section.11}% 50
+\BOOKMARK [3][-]{subsubsection.11.1.1}{OS naudojimo reikalavimai}{subsection.11.1}% 51
+\BOOKMARK [3][-]{subsubsection.11.1.2}{Sąveikos su DB reikalavimai}{subsection.11.1}% 52
+\BOOKMARK [3][-]{subsubsection.11.1.3}{Dokumentų mainų reikalavimai}{subsection.11.1}% 53
+\BOOKMARK [3][-]{subsubsection.11.1.4}{Sąveikos su kitomis programomis reikalavimai}{subsection.11.1}% 54
+\BOOKMARK [3][-]{subsubsection.11.1.5}{Programavimo aplinkos reikalavimai}{subsection.11.1}% 55
+\BOOKMARK [2][-]{subsection.11.2}{Veikimo reikalavimai}{section.11}% 56
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Vaizdavimo reikalavimai}{subsection.11.2}% 57
+\BOOKMARK [3][-]{subsubsection.11.2.2}{Skaičiavimo tikslumo reikalavimai}{subsection.11.2}% 58
+\BOOKMARK [3][-]{subsubsection.11.2.3}{Patikimumo reikalavimai}{subsection.11.2}% 59
+\BOOKMARK [3][-]{subsubsection.11.2.4}{Robastiškimo reikalavimai}{subsection.11.2}% 60
+\BOOKMARK [3][-]{subsubsection.11.2.5}{Laikas, reikalingas atstatyti programos veikimą}{subsection.11.2}% 61
+\BOOKMARK [3][-]{subsubsection.11.2.6}{Našumo reikalavimai}{subsection.11.2}% 62
+\BOOKMARK [2][-]{subsection.11.3}{Diegimo reikalavimai}{section.11}% 63
+\BOOKMARK [3][-]{subsubsection.11.3.1}{Ruošinio reikalavimai}{subsection.11.3}% 64
+\BOOKMARK [3][-]{subsubsection.11.3.2}{Instaliavimo reikalavimai }{subsection.11.3}% 65
+\BOOKMARK [3][-]{subsubsection.11.3.3}{Pradinio DB kaupimo reikalavimai}{subsection.11.3}% 66
+\BOOKMARK [3][-]{subsubsection.11.3.4}{Sistemos įsisavinamumo reikalavimai}{subsection.11.3}% 67
+\BOOKMARK [2][-]{subsection.11.4}{Ekonominiai ribojimai}{section.11}% 68
+\BOOKMARK [2][-]{subsection.11.5}{Aptarnavimo ir priežiūros reikalavimai}{section.11}% 69
+\BOOKMARK [2][-]{subsection.11.6}{Tiražuojamumo reikalavimai}{section.11}% 70
+\BOOKMARK [2][-]{subsection.11.7}{Apsaugos reikalavimai}{section.11}% 71
+\BOOKMARK [2][-]{subsection.11.8}{Juridiniai reikalavimai}{section.11}% 72
+\BOOKMARK [1][-]{section.12}{Programų sistemos architektūra}{}% 73
+\BOOKMARK [2][-]{subsection.12.1}{Struktūrinis programų sistemos modelis \(angl. Logical view\)}{section.12}% 74
+\BOOKMARK [3][-]{subsubsection.12.1.1}{Klasių diagrama}{subsection.12.1}% 75
+\BOOKMARK [2][-]{subsection.12.2}{Užduotys ir jų vykdymo scenarijai \(angl. Use-cases\)}{section.12}% 76
+\BOOKMARK [3][-]{subsubsection.12.2.1}{Sistemos vykdomos užduotys}{subsection.12.2}% 77
+\BOOKMARK [3][-]{subsubsection.12.2.2}{Užduoties „Prisiregistruoti prie sistemos“ vykdymas}{subsection.12.2}% 78
+\BOOKMARK [3][-]{subsubsection.12.2.3}{Užduoties „Pridėti naują restoraną“ vykdymas}{subsection.12.2}% 79
+\BOOKMARK [3][-]{subsubsection.12.2.4}{Užduoties „Ieškoti restoranų“ vykdymas}{subsection.12.2}% 80
+\BOOKMARK [3][-]{subsubsection.12.2.5}{Užduoties „Pakeisti restorano informaciją“ vykdymo scenarijus}{subsection.12.2}% 81
+\BOOKMARK [2][-]{subsection.12.3}{Dinaminis programų sistemos modelis \(angl. Process view\)}{section.12}% 82
+\BOOKMARK [3][-]{subsubsection.12.3.1}{Veiklos diagramos}{subsection.12.3}% 83
+\BOOKMARK [2][-]{subsection.12.4}{Programų sistemos išskirstymas tinkle\(angl. Deployment view\)}{section.12}% 84
+\BOOKMARK [3][-]{subsubsection.12.4.1}{Komponentų ryšių su artefaktais diagrama}{subsection.12.4}% 85
+\BOOKMARK [3][-]{subsubsection.12.4.2}{Mazgų diagrama}{subsection.12.4}% 86
+\BOOKMARK [2][-]{subsection.12.5}{Programų sistemos kūrimo pjūvis \(angl. Developement view\)}{section.12}% 87
+\BOOKMARK [3][-]{subsubsection.12.5.1}{Konteksto diagrama}{subsection.12.5}% 88
+\BOOKMARK [3][-]{subsubsection.12.5.2}{Subsistemų dekompozicija}{subsection.12.5}% 89
+\BOOKMARK [4][-]{paragraph.12.5.2.1}{Vartotojo aplikacija \(angl. Customer Application\)}{subsubsection.12.5.2}% 90
+\BOOKMARK [4][-]{paragraph.12.5.2.2}{Kavinės valdymas \(angl. Cafe Management\)}{subsubsection.12.5.2}% 91
+\BOOKMARK [4][-]{paragraph.12.5.2.3}{Duomenų bazė \(angl. Databases\)}{subsubsection.12.5.2}% 92
+\BOOKMARK [1][-]{section*.69}{Išvados}{}% 93
+\BOOKMARK [1][-]{section*.70}{Terminų žodynas}{}% 94
+\BOOKMARK [1][-]{section*.71}{Literatūros sąrašas}{}% 95
+\BOOKMARK [1][-]{section.13}{Priedai}{}% 96
