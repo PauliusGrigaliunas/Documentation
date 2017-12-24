@@ -1,0 +1,195 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ANOTACIJA}{2}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Įvadas}{4}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.}Verslo proceso aprašas}{5}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.}Srities apribojimas}{6}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.}Išorinė analizė}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.}Rinka}{7}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.}Aplikacijos adaptacija ir reklama}{7}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.}Patrauklumas vartotojui}{7}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.}Grėsmės}{8}{subsection.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.}Vidinė proceso analizė}{9}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.}Pagrindinės dalykinės srities esybės}{9}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.}Dalykinės srities statinė struktūra}{10}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.}Užduočių diagrama}{11}{subsection.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.}Užduočių vykdymo scenarijai}{13}{subsection.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.}Dalykinės srities dinaminė struktūra}{17}{subsection.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.}Analizės rezultatai}{19}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.}Verslo proceso tobulinimo strategija}{20}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.}Sistemos naudojimo scenarijus}{21}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.}Naudojimo scenarijus}{21}{subsection.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.}Sistemos teikiama nauda}{22}{subsection.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.}Esama būklė}{22}{subsection.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.}Priemonės scenarijui įgyvendinti}{23}{subsection.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.}Įgyvendinamumo ir naudos analizė}{24}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.}Operacinis įgyvendinamumas}{24}{subsection.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.}Techninis įgyvendinamumas}{24}{subsection.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.}Ekonominis įgyvendinamumas}{24}{subsection.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.}Juridinis įgyvendinamumas}{25}{subsection.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.}Vartotojo sąsaja}{26}{section.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.}Formuluojamos užduotys}{26}{subsection.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {9.1.1.}Kliento užduotys}{26}{subsubsection.9.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {9.1.2.}Kavinės savininko užduotys}{27}{subsubsection.9.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.}Užduočių formulavimo kalbos reikalavimai}{27}{subsection.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.}Užduočių formulavimo būdo(protokolo) reikalavimai}{29}{subsection.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.4.}Interfeiso darnos ir standartizavimo reikalavimai}{31}{subsection.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.5.}Pranešimų formulavimo reikalavimai}{32}{subsection.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.6.}Interfeiso individualizavimo reikalavimai}{33}{subsection.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.}Funkciniai reikalavimai}{34}{section.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.}Aplikacijos langai}{34}{subsection.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.}Kliento registracija}{35}{subsection.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.}Kliento prisijungimas}{35}{subsection.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.4.}Kavinės pasirinkimas}{36}{subsection.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.}Staliuko užsakymas}{37}{subsection.10.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.}Rezervacijų peržiūra}{38}{subsection.10.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.7.}Kavinės įvertinimas}{38}{subsection.10.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.8.}Kavinės planavimas}{39}{subsection.10.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.9.}Kavinės pridėjimas}{40}{subsection.10.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.10.}Kavinės informacijos keitimas}{41}{subsection.10.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.11.}Premium kliento galimybės}{41}{subsection.10.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.}Nefunkciniai reikalavimai}{42}{section.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.1.}Vidiniu interfeisų reikalavimai}{42}{subsection.11.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.1.1.}OS naudojimo reikalavimai}{42}{subsubsection.11.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.1.2.}Sąveikos su DB reikalavimai}{42}{subsubsection.11.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.1.3.}Dokumentų mainų reikalavimai}{43}{subsubsection.11.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.1.4.}Sąveikos su kitomis programomis reikalavimai}{43}{subsubsection.11.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.1.5.}Programavimo aplinkos reikalavimai}{43}{subsubsection.11.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.}Veikimo reikalavimai}{44}{subsection.11.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.2.1.}Vaizdavimo reikalavimai}{44}{subsubsection.11.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.2.2.}Skaičiavimo tikslumo reikalavimai}{44}{subsubsection.11.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.2.3.}Patikimumo reikalavimai}{44}{subsubsection.11.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.2.4.}Robastiškimo reikalavimai}{45}{subsubsection.11.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.2.5.}Laikas, reikalingas atstatyti programos veikimą}{45}{subsubsection.11.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.2.6.}Našumo reikalavimai}{45}{subsubsection.11.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.3.}Diegimo reikalavimai}{46}{subsection.11.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.3.1.}Ruošinio reikalavimai}{46}{subsubsection.11.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.3.2.}Instaliavimo reikalavimai }{46}{subsubsection.11.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.3.3.}Pradinio DB kaupimo reikalavimai}{47}{subsubsection.11.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {11.3.4.}Sistemos įsisavinamumo reikalavimai}{47}{subsubsection.11.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4.}Ekonominiai ribojimai}{47}{subsection.11.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.5.}Aptarnavimo ir priežiūros reikalavimai}{48}{subsection.11.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.6.}Tiražuojamumo reikalavimai}{48}{subsection.11.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.7.}Apsaugos reikalavimai}{48}{subsection.11.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.8.}Juridiniai reikalavimai}{49}{subsection.11.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.}Programų sistemos architektūra}{50}{section.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.}Struktūrinis programų sistemos modelis (angl. Logical view)}{50}{subsection.12.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.1.1.}Klasių diagrama}{50}{subsubsection.12.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.}Užduotys ir jų vykdymo scenarijai (angl. Use-cases)}{54}{subsection.12.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.2.1.}Sistemos vykdomos užduotys}{54}{subsubsection.12.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.2.2.}Užduoties „Prisiregistruoti prie sistemos“ vykdymas}{54}{subsubsection.12.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.2.3.}Užduoties „Pridėti naują restoraną“ vykdymas}{55}{subsubsection.12.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.2.4.}Užduoties „Ieškoti restoranų“ vykdymas}{56}{subsubsection.12.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.2.5.}Užduoties „Pakeisti restorano informaciją“ vykdymo scenarijus}{57}{subsubsection.12.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3.}Dinaminis programų sistemos modelis (angl. Process view)}{58}{subsection.12.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.3.1.}Veiklos diagramos}{59}{subsubsection.12.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.4.}Programų sistemos išskirstymas tinkle(angl. Deployment view)}{61}{subsection.12.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.4.1.}Komponentų ryšių su artefaktais diagrama}{61}{subsubsection.12.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.4.2.}Mazgų diagrama}{63}{subsubsection.12.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.5.}Programų sistemos kūrimo pjūvis (angl. Developement view)}{63}{subsection.12.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.5.1.}Konteksto diagrama}{64}{subsubsection.12.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.5.2.}Subsistemų dekompozicija}{65}{subsubsection.12.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {12.5.2.1.}Vartotojo aplikacija (angl. Customer Application)}{66}{paragraph.12.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {12.5.2.2.}Kavinės valdymas (angl. Cafe Management)}{66}{paragraph.12.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {12.5.2.3.}Duomenų bazė (angl. Databases)}{67}{paragraph.12.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Išvados}{68}{section*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Terminų žodynas}{69}{section*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literatūros sąrašas}{70}{section*.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13.}Priedai}{71}{section.13}
